@@ -1,8 +1,8 @@
-# **sena-base-2021 v6.2.1**
+# **Herramientas informáticas en las organizaciones**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-bogota-dc.github.io/CF1_233108_TECNICO_SISTEMAS_TELEINFORMATICOS/](https://ecored-bogota-dc.github.io/CF1_233108_TECNICO_SISTEMAS_TELEINFORMATICOS/)
 
 #
 
