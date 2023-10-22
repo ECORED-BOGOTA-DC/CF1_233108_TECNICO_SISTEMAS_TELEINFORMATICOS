@@ -3,9 +3,8 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p Con el diagrama de actividades se termina la descripción de las tres técnicas usadas para la especificación y el análisis de requisitos, como se pudo analizar cada una de las técnicas nos brinda características para lograr representar gráficamente y de una forma clara, los requisitos que un usuario necesita poder cumplir satisfactoriamente con las solicitudes de los clientes y usuarios, por otro lado se pueden usar todas las técnicas en una especificación y análisis de requisitos si se ve la necesidad.
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
-
+    p El presente componente formativo da a conocer las principales herramientas informáticas que se requieren actualmente para el óptimo funcionamiento de una organización, pues es innegable que las tecnologías de la información han cambiado la forma de hacer las cosas, por ende, es necesario adquirir los conocimientos necesarios para poder aplicarlas de manera eficaz en cualquier contexto del ser humano. 
+    p.mb-5 Una breve revisión de los temas vistos, se encuentran en el siguiente esquema:
     .row.justify-content-center
       .col-lg-10.mb-5
         figure

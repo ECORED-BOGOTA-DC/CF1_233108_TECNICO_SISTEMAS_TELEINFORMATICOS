@@ -2,11 +2,11 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
       h1 Sistemas informáticos en una organización
-    .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-right")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema1/img1.png')})`}"
       )
@@ -23,22 +23,22 @@
             figure
               img(src='@/assets/curso/tema1/img1.svg', style="width: 30px", alt='').m-auto
           .col
-            p.mb-0 Por su parte, la tecnología de TI es aquella que impulsa o permite el almacenamiento, el procesamiento y el flujo de comunicación dentro de una organización. Todo lo relacionado con las computadoras, software, redes, intranets, sitios web, servidores, bases de datos y telecomunicaciones.
+            p.mb-0 Por su parte, la tecnología de TI es aquella que impulsa o permite el almacenamiento, el procesamiento y el flujo de comunicación dentro de una organización. Todo lo relacionado con las computadoras, #[i #[i software]], redes, intranets, sitios web, servidores, bases de datos y telecomunicaciones.
         .cajon.color-acento-botones.p-4.mb-3
           p.mb-0 La mayoría de las empresas actualmente dependen de sistemas informáticos para la gestión de sus operaciones, por ejemplo, el correo electrónico, las bases de datos, la administración de sitios web, entre otros, son fundamentales para el óptimo funcionamiento de los procesos organizacionales.
         p.mb-0 Por ejemplo, los hospitales cuentan con grandes bases de datos de pacientes para poder realizar un seguimiento eficiente de las historias clínicas. Las universidades cuentan con sistemas para la gestión de personal, estudiantes y pagos, así como redes en expansión para la administración del campus. Incluso una pequeña empresa de entrega de alimentos a domicilio necesita un sistema de gestión y seguimiento de pedidos.
-    p.mb-5 Si bien los sistemas de información pueden diferir en la forma en que se utilizan dentro de una organización, todos tienen los siguientes componentes:
-    .row.justify-content-center.mb-5
+    p.mb-5(data-aos="fade-right") Si bien los sistemas de información pueden diferir en la forma en que se utilizan dentro de una organización, todos tienen los siguientes componentes:
+    .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-10
         ImagenInfografica.color-secundario
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/tema1/img2.svg', alt='')
           .tarjeta.color-secundario.p-3(x="22.3%" y="36%" numero="+")
-            p #[b Hardware]
+            p #[b #[i Hardware]]
             p.mb-0 Conjunto de elementos físicos o materiales que constituyen una computadora o un sistema informático.
           .tarjeta.color-secundario.p-3(x="76%" y="64%" numero="+")
-            p #[b Software]
+            p #[b #[i #[i software]]]
             p.mb-0 Son los programas utilizados para la administración, procesamiento y análisis de la información.
           .tarjeta.color-secundario.p-3(x="65%" y="88%" numero="+")
             p #[b Red]
@@ -52,7 +52,7 @@
     .row.mb-4(data-aos="fade-right")
       .col-auto.px-4.py-3.bg-c3
         h3.mb-0 Tipos de sistemas de Información en las organizaciones
-    p.mb-5 Existen diferentes tipos de sistemas de información con funciones diferentes los cuales pueden ser utilizados según requerimientos organizacionales, a continuación, se presentan algunos:
+    p.mb-5(data-aos="fade-right") Existen diferentes tipos de sistemas de información con funciones diferentes los cuales pueden ser utilizados según requerimientos organizacionales, a continuación, se presentan algunos:
     .tarjeta.tarjeta--azul.p-4(data-aos="fade-left")
       SlyderA(tipo="b")
         .row.justify-content-center.m-1
@@ -63,7 +63,7 @@
                   img(src='@/assets/curso/tema1/img3.png', style="width: 300px", alt='').m-auto
               .col-lg-6
                 p #[b.txt-c1 Sistema de gestión de bases de datos (DBMS)]
-                p.mb-0 DataBase Management System, es una combinación de software que permite la administración y el análisis de datos. Su función principal es servir de interfaz entre la base de datos, el usuario y las distintas aplicaciones utilizadas.
+                p.mb-0 DataBase Management System, es una combinación de #[i #[i software]] que permite la administración y el análisis de datos. Su función principal es servir de interfaz entre la base de datos, el usuario y las distintas aplicaciones utilizadas.
         .row.justify-content-center.m-1
           .col-11.bg-c4.p-4
             .row.align-items-center.justify-content-center
@@ -99,7 +99,7 @@
                   img(src='@/assets/curso/tema1/img7.png', style="width: 300px", alt='').m-auto
               .col-lg-6
                 p #[b.txt-c1 Sistemas de soporte de decisiones (DSS)]
-                p.mb-0 Son aplicaciones de software utilizadas por la gerencia media y alta para recopilar información de una amplia gama de fuentes y procesos para respaldar la resolución de problemas y la toma de decisiones. Un DSS se utiliza principalmente para problemas de decisión no estructurados y semiestructurados.
+                p.mb-0 Son aplicaciones de #[i software] utilizadas por la gerencia media y alta para recopilar información de una amplia gama de fuentes y procesos para respaldar la resolución de problemas y la toma de decisiones. Un DSS se utiliza principalmente para problemas de decisión no estructurados y semiestructurados.
         .row.justify-content-center.m-1
           .col-11.bg-c4.p-4
             .row.align-items-center.justify-content-center
@@ -114,7 +114,7 @@
     .titulo-segundo.color-acento-botones
       h2 1.1 Herramientas informáticas para la organización
     .row.align-items-center.mb-5
-      .col-lg-7.mb-4.mb-lg-0
+      .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
         p Para comenzar a entender el tema de este componente formativo es importante aclarar lo siguiente: 
         ul.lista-ul--color.lista-ul--separador.mb-0
           li.d-flex
@@ -128,7 +128,7 @@
           li.d-flex
             i.fas.fa-check-circle(style="color: #4ADBD1")
             |
-            p.mb-0 Un sistema ERP es una aplicación de software con una base de datos centralizada que se implementa en toda la organización.
+            p.mb-0 Un sistema ERP es una aplicación de #[i software] con una base de datos centralizada que se implementa en toda la organización.
           li.d-flex
             i.fas.fa-check-circle(style="color: #4ADBD1")
             |
@@ -136,8 +136,8 @@
           li.d-flex
             i.fas.fa-check-circle(style="color: #4ADBD1")
             |
-            p.mb-0 El #[i software] se desarrolla a través de un proceso llamado programación, en el que un programador usa un lenguaje específico para ejecutarlo. Si bien la mayoría del software se desarrolla utilizando un modelo de código cerrado, el movimiento de código abierto está ganando más apoyo en la actualidad.
-      .col-lg-5
+            p.mb-0 El #[i software] se desarrolla a través de un proceso llamado programación, en el que un programador usa un lenguaje específico para ejecutarlo. Si bien la mayoría del #[i software] se desarrolla utilizando un modelo de código cerrado, el movimiento de código abierto está ganando más apoyo en la actualidad.
+      .col-lg-5(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/img4.svg', style="width: 470px", alt='').m-auto
     .row.justify-content-center.mb-5(data-aos="fade-left")
@@ -150,20 +150,20 @@
             figure.fig-p2
               img(src='@/assets/curso/tema1/img6.svg', style="width: 50px", alt='').m-auto
           .col-md-8.col-xl-7.bg-c5.p-4
-            p.text-white.mb-0 #[b Recuerde que el software] es el conjunto de instrucciones que le dicen al hardware qué hacer. El software se puede dividir ampliamente en dos categorías: sistemas operativos y software de aplicación. Los sistemas operativos administran el hardware y crean la interfaz entre el hardware y el usuario. El software de aplicación es la categoría de programas que hacen algo útil para el usuario.
+            p.text-white.mb-0 #[b Recuerde que el #[i software]] es el conjunto de instrucciones que le dicen al #[i hardware] qué hacer. El #[i software] se puede dividir ampliamente en dos categorías: sistemas operativos y #[i software] de aplicación. Los sistemas operativos administran el #[i hardware] y crean la interfaz entre el #[i hardware] y el usuario. El #[i software] de aplicación es la categoría de programas que hacen algo útil para el usuario.
     .row.mb-4(data-aos="fade-right")
       .col-auto.px-4.py-3.bg-c3
         h3.mb-0 Sistemas operativos
-    p.mb-5 El sistema operativo proporciona varias funciones esenciales, que incluyen:
+    p.mb-5(data-aos="fade-right") El sistema operativo proporciona varias funciones esenciales, que incluyen:
     .row.bg-c1.mb-5
       .col-12
         .px-5
-          .row.justify-content-center.mb-5
+          .row.justify-content-center.mb-5(data-aos="fade-right")
             .col-md-8.col-lg.bg-c6.shadow.m-2
               .p-4
                 figure.mb-4
                   img(src='@/assets/curso/tema1/img10.svg', style="width: 140px", alt='').m-auto
-                p.text-center.text-white.mb-0 #[b Administrar los recursos de hardware de la computadora.]
+                p.text-center.text-white.mb-0 #[b Administrar los recursos de #[i hardware] de la computadora.]
             .col-md-8.col-lg.bg-c7.shadow.m-2
               .p-4
                 figure.mb-4
@@ -173,15 +173,15 @@
               .p-4
                 figure.mb-4
                   img(src='@/assets/curso/tema1/img12.svg', style="width: 140px", alt='').m-auto
-                p.text-center.text-white.mb-0 #[b Proporcionar una plataforma para que los desarrolladores de software escriban aplicaciones.]
-          p.text-center.mb-5 #[b Para saber más sobre sistemas operativos revise con atención el siguiente recurso:]
+                p.text-center.text-white.mb-0 #[b Proporcionar una plataforma para que los desarrolladores de #[i software] escriban aplicaciones.]
+          p.text-center.mb-5(data-aos="fade-down") #[b Para saber más sobre sistemas operativos revise con atención el siguiente recurso:]
           figure(data-aos="fade-left")
             .video
               iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.mb-4(data-aos="fade-right")
       .col-auto.px-4.py-3.bg-c3
         h3.mb-0 Diferencia entre los sistemas operativos Mac vs. Windows
-    .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
+    .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5(data-aos="fade-left")
       .row.m-0.align-items-center.justify-content-between
         .col-lg-4.mb-4.mb-lg-0
           figure
@@ -190,15 +190,15 @@
           .bloque-texto-a__texto.p-4
             p ¿Eres un Mac? ¿Eres un PC? Desde su introducción en 1984, los usuarios de Apple Macintosh han sido bastante sesgados acerca de su preferencia por el sistema operativo Macintosh (ahora llamado OS X) sobre el de Microsoft. Cuando Microsoft introdujo Windows, Apple demandó a Microsoft, alegando que copian la “apariencia” del sistema operativo Macintosh. Al final, Microsoft se defendió con éxito.
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-auto.mb-4.mb-lg-0
+      .col-lg-auto.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema1/img14.svg', style="width: 750px", alt='En los últimos años, Microsoft y Apple han intercambiado críticas entre sí, cada uno afirmando tener un mejor sistema operativo y software. Si bien Microsoft siempre ha tenido la mayor participación de mercado, Apple ha sido el favorito de los artistas, músicos y la élite tecnológica. Apple también proporciona muchas computadoras a las escuelas primarias, ganando así seguidores entre la generación más joven.').m-auto
-      .col-lg-3
+      .col-lg-3(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/img15.svg', style="width: 450px", alt='').m-auto
     .row.mb-4(data-aos="fade-right")
       .col-auto.px-4.py-3.bg-c3
-        h3.mb-0 ¿Por qué el software de Microsoft es tan dominante en el mundo de los negocios?
+        h3.mb-0 ¿Por qué el #[i software] de Microsoft es tan dominante en el mundo de los negocios?
     figure(data-aos="fade-right")
       img(src='@/assets/curso/tema1/img9.png', style="width: 1200px", alt='').m-auto
     .row.justify-content-center.mb-5(data-aos="fade-down")
@@ -212,7 +212,7 @@
         p Casi todas las empresas usaban computadoras centrales IBM en las décadas de 1960 y 1970. Estas mismas empresas se alejaron de las computadoras personales hasta que IBM lanzó la PC en 1981. Cuando los ejecutivos tenían que tomar una decisión sobre la compra de computadoras personales para sus empleados, elegían la ruta segura y compraban IBM. El dicho entonces era: “Nunca despidieron a nadie por comprar IBM”. Entonces, durante la siguiente década, las empresas compraron computadoras personales IBM (o aquellas compatibles con ellas), que ejecutaban un sistema operativo llamado DOS. DOS fueron creados por Microsoft, por lo que cuando Microsoft lanzó Windows como la próxima iteración de DOS, las empresas tomaron la ruta segura y comenzaron a comprar Windows.
         .cajon.color-acento-botones.p-4
           p.mb-0 Microsoft pronto se encontró con el sistema operativo de computadora personal dominante para las empresas. 
-    .row.align-items-center.mb-5
+    .row.align-items-center.mb-5(data-aos="fade-down")
       .col-auto
         figure
           img(src='@/assets/curso/tema1/img1.svg', style="width: 30px", alt='').m-auto
@@ -220,10 +220,10 @@
         p.mb-0 A medida que la computadora personal en red comenzó a reemplazar a la computadora central como la forma principal de computación dentro de las empresas, se volvió esencial para Microsoft brindarles a las empresas la capacidad de administrar y proteger sus redes. Microsoft desarrolló productos de servidor de nivel comercial para acompañar sus productos de computadora personal, proporcionando así una solución comercial completa. Y ahora, dice el dicho: “Nadie fue despedido por comprar Microsoft”.
     .row.mb-4(data-aos="fade-right")
       .col-auto.px-4.py-3.bg-c3
-        h3.mb-0 Software de la aplicación
+        h3.mb-0 #[i software] de la aplicación
     .row.justify-content-end.bg-c9.mb-5
       .col-lg-6.bg-c10.shadow-sm.p-5.my-4(data-aos="fade-right")
-        p.mb-0 Este software permite al usuario lograr algún objetivo o propósito. Por ejemplo, si tiene que escribir un artículo, puede usar el programa de software de aplicación Microsoft Word. Si quieres escuchar música, puedes usar iTunes. Para navegar por la web, puedes usar Internet Explorer o Firefox. Incluso un juego de computadora podría considerarse software de aplicación.
+        p.mb-0 Este #[i software] permite al usuario lograr algún objetivo o propósito. Por ejemplo, si tiene que escribir un artículo, puede usar el programa de #[i software] de aplicación Microsoft Word. Si quieres escuchar música, puedes usar iTunes. Para navegar por la web, puedes usar Internet Explorer o Firefox. Incluso un juego de computadora podría considerarse #[i software] de aplicación.
     .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-lg-10
         .row.align-items-center
@@ -237,55 +237,55 @@
               img(src='@/assets/curso/tema1/img16.svg', style="width: 380px", alt='').m-auto
     .row.mb-4(data-aos="fade-right")
       .col-auto.px-4.py-3.bg-c3
-        h3.mb-0 Software de productividad
-    p.mb-5 Junto con la hoja de cálculo, varias otras aplicaciones de software se han convertido en herramientas estándar para el lugar de trabajo. Estas aplicaciones, denominadas software de productividad, permiten a los empleados de oficina completar su trabajo diario. Muchas veces, estas aplicaciones vienen empaquetadas juntas, como en el paquete Office de Microsoft. Aquí hay una lista de estas aplicaciones y sus funciones básicas:
-    TabsB.color-acento-contenido.mb-5
+        h3.mb-0 #[i software] de productividad
+    p.mb-5(data-aos="fade-right") Junto con la hoja de cálculo, varias otras aplicaciones de #[i software] se han convertido en herramientas estándar para el lugar de trabajo. Estas aplicaciones, denominadas #[i software] de productividad, permiten a los empleados de oficina completar su trabajo diario. Muchas veces, estas aplicaciones vienen empaquetadas juntas, como en el paquete Office de Microsoft. Aquí hay una lista de estas aplicaciones y sus funciones básicas:
+    TabsB.color-acento-contenido.mb-5(data-aos="fade-left")
       .py-4.py-md-5(titulo="Procesamiento de textos" :icono="require('@/assets/curso/tema1/img18.svg')")
         .row.align-items-center
           .col-lg-4.mb-4.mb-lg-0
             figure
               img(src='@/assets/curso/tema1/img12.png', style="width: 180px", alt='').m-auto
           .col-lg-8
-            p.mb-0 Esta clase de software permite la creación de documentos escritos. Las funciones incluyen la capacidad de escribir y editar texto, formatear fuentes y párrafos, y agregar, mover y eliminar texto en todo el documento. La mayoría de los programas de procesamiento de texto modernos también tienen la capacidad de agregar tablas, imágenes y varias funciones de diseño y formato al documento. Los procesadores de texto guardan sus documentos como archivos electrónicos en una variedad de formatos. Con diferencia, el paquete de procesamiento de textos más popular es Microsoft Word, que guarda sus archivos en formato DOCX. Este formato puede ser leído/escrito por muchos otros paquetes de procesadores de texto.
+            p.mb-0 Esta clase de #[i software] permite la creación de documentos escritos. Las funciones incluyen la capacidad de escribir y editar texto, formatear fuentes y párrafos, y agregar, mover y eliminar texto en todo el documento. La mayoría de los programas de procesamiento de texto modernos también tienen la capacidad de agregar tablas, imágenes y varias funciones de diseño y formato al documento. Los procesadores de texto guardan sus documentos como archivos electrónicos en una variedad de formatos. Con diferencia, el paquete de procesamiento de textos más popular es Microsoft Word, que guarda sus archivos en formato DOCX. Este formato puede ser leído/escrito por muchos otros paquetes de procesadores de texto.
       .py-4.py-md-5(titulo="Hoja de cálculo" :icono="require('@/assets/curso/tema1/img19.svg')")
         .row.align-items-center
           .col-lg-4.mb-4.mb-lg-0
             figure
               img(src='@/assets/curso/tema1/img23.svg', style="width: 220px", alt='').m-auto
           .col-lg-8
-            p.mb-0 Esta clase de software proporciona una forma de realizar cálculos y análisis numéricos. El área de trabajo se divide en filas y columnas, donde los usuarios pueden ingresar números, texto o fórmulas. Son las fórmulas las que hacen que una hoja de cálculo sea poderosa, lo que permite al usuario desarrollar cálculos complejos que pueden cambiar según los números ingresados. La mayoría de las hojas de cálculo también incluyen la capacidad de crear gráficos basados en los datos ingresados. El paquete de hojas de cálculo más popular es Microsoft Excel, que guarda sus archivos en formato XLSX. Al igual que con los procesadores de texto, muchos otros paquetes de hojas de cálculo pueden leer y escribir en este formato de archivo.
+            p.mb-0 Esta clase de #[i software] proporciona una forma de realizar cálculos y análisis numéricos. El área de trabajo se divide en filas y columnas, donde los usuarios pueden ingresar números, texto o fórmulas. Son las fórmulas las que hacen que una hoja de cálculo sea poderosa, lo que permite al usuario desarrollar cálculos complejos que pueden cambiar según los números ingresados. La mayoría de las hojas de cálculo también incluyen la capacidad de crear gráficos basados en los datos ingresados. El paquete de hojas de cálculo más popular es Microsoft Excel, que guarda sus archivos en formato XLSX. Al igual que con los procesadores de texto, muchos otros paquetes de hojas de cálculo pueden leer y escribir en este formato de archivo.
       .py-4.py-md-5(titulo="Presentación" :icono="require('@/assets/curso/tema1/img20.svg')")
         .row.align-items-center
           .col-lg-4.mb-4.mb-lg-0
             figure
               img(src='@/assets/curso/tema1/img24.svg', style="width: 270px", alt='').m-auto
           .col-lg-8
-            p.mb-0 Esta clase de software proporciona la creación de presentaciones de diapositivas. Remontándose a los días de los retroproyectores y las transparencias, el software de presentación permite a sus usuarios crear un conjunto de diapositivas que se pueden imprimir o proyectar en una pantalla. Los usuarios pueden agregar texto, imágenes y otros elementos multimedia a las diapositivas. PowerPoint de Microsoft es el software más popular en este momento, guardando sus archivos en formato PPTX.
+            p.mb-0 Esta clase de #[i software] proporciona la creación de presentaciones de diapositivas. Remontándose a los días de los retroproyectores y las transparencias, el #[i software] de presentación permite a sus usuarios crear un conjunto de diapositivas que se pueden imprimir o proyectar en una pantalla. Los usuarios pueden agregar texto, imágenes y otros elementos multimedia a las diapositivas. PowerPoint de Microsoft es el #[i software] más popular en este momento, guardando sus archivos en formato PPTX.
       .py-4.py-md-5(titulo="Suites ofimáticas" :icono="require('@/assets/curso/tema1/img21.svg')")
         .row.align-items-center
           .col-lg-4.mb-4.mb-lg-0
             figure
               img(src='@/assets/curso/tema1/img25.svg', style="width: 220px", alt='').m-auto
           .col-lg-8
-            p.mb-0 Algunas suites ofimáticas incluyen otros tipos de software. Por ejemplo, Microsoft Office incluye Outlook, su paquete de correo electrónico y OneNote, una herramienta de colaboración para recopilar información. La versión profesional de Office también incluye Microsoft Access, un paquete de base de datos.
-    p.mb-5 Microsoft popularizó la idea del paquete de productividad de software de oficina con el lanzamiento de Microsoft Office.
+            p.mb-0 Algunas suites ofimáticas incluyen otros tipos de #[i software]. Por ejemplo, Microsoft Office incluye Outlook, su paquete de correo electrónico y OneNote, una herramienta de colaboración para recopilar información. La versión profesional de Office también incluye Microsoft Access, un paquete de base de datos.
+    p.mb-5(data-aos="fade-right") Microsoft popularizó la idea del paquete de productividad de #[i software] de oficina con el lanzamiento de Microsoft Office.
     .row.align-items-center.mb-5
-      .col-lg-6.mb-4.mb-lg-0
+      .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema1/img26.svg', style="width: 500px", alt='').m-auto
-      .col-lg-6
-        p Este paquete continúa dominando el mercado y la mayoría de las empresas esperan que los empleados sepan cómo usar este software. Sin embargo, existen muchos competidores de Microsoft Office y son compatibles con los formatos de archivo utilizados por Microsoft. Recientemente, Microsoft ha comenzado a ofrecer una versión web de su paquete de Office.
+      .col-lg-6(data-aos="fade-left")
+        p Este paquete continúa dominando el mercado y la mayoría de las empresas esperan que los empleados sepan cómo usar este #[i software]. Sin embargo, existen muchos competidores de Microsoft Office y son compatibles con los formatos de archivo utilizados por Microsoft. Recientemente, Microsoft ha comenzado a ofrecer una versión web de su paquete de Office.
         .cajon.color-acento-botones.p-4
           p.mb-0 Similar a Google Drive, esta suite permite a los usuarios editar y compartir documentos en línea utilizando tecnología de computación en la nube.
     .row.mb-4(data-aos="fade-right")
       .col-auto.px-4.py-3.bg-c3
-        h3.mb-0 Software de utilidad y software de programación
-    .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-5
+        h3.mb-0 #[i software] de utilidad y #[i software] de programación
+    .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-left")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema1/img13.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Dos subcategorías de software de aplicación que vale la pena mencionar son el software de utilidad y el software de programación, revise a continuación como se define cada uno de ellos.
+        p.mb-0 Dos subcategorías de #[i software] de aplicación que vale la pena mencionar son el #[i software] de utilidad y el #[i software] de programación, revise a continuación como se define cada uno de ellos.
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-xl.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt
@@ -293,64 +293,64 @@
             figure
               img(src="@/assets/curso/tema1/img14.png", alt="alt")
           .crd_hover_txt--body
-            p.text-center #[b Software de Utilidad]
-            p.text-center.mb-0 Permite reparar o modificar una computadora, por ejemplo, los software antivirus.
+            p.text-center #[b #[i software] de Utilidad]
+            p.text-center.mb-0 Permite reparar o modificar una computadora, por ejemplo, los #[i software] antivirus.
       .col-xl.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/tema1/img15.png", alt="alt")
           .crd_hover_txt--body1
-            p.text-center.text-white #[b Software de programación]
+            p.text-center.text-white #[b #[i software] de programación]
             p.text-center.text-white.mb-0 Permiten llenar las deficiencias de los sistemas operativos.
     .row.mb-4(data-aos="fade-right")
       .col-auto.px-4.py-3.bg-c3
         h3.mb-0 PowerPoint como herramienta
-    p Este software de presentación ha ganado aceptación como el método principal para presentar información formalmente en un entorno empresarial, el arte de dar una presentación atractiva se está volviendo raro. Muchos presentadores ahora solo leen las viñetas en la presentación e inmediatamente aburren a los asistentes, quienes ya pueden leerlo por sí mismos.
+    p(data-aos="fade-right") Este #[i software] de presentación ha ganado aceptación como el método principal para presentar información formalmente en un entorno empresarial, el arte de dar una presentación atractiva se está volviendo raro. Muchos presentadores ahora solo leen las viñetas en la presentación e inmediatamente aburren a los asistentes, quienes ya pueden leerlo por sí mismos.
     .row.align-items-center.mb-5
-      .col-lg-7.mb-4.mb-lg-0
-        p El problema real no es tanto con PowerPoint como con la persona que crea y presenta, el software utilizado para ayudarlo a comunicarse no debe duplicar la presentación que desea dar, sino que debe respaldarla.
+      .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
+        p El problema real no es tanto con PowerPoint como con la persona que crea y presenta, el #[i software] utilizado para ayudarlo a comunicarse no debe duplicar la presentación que desea dar, sino que debe respaldarla.
         .cajon.color-acento-botones.p-4
-          p.mb-0 Los desarrolladores de software tienen claro este problema, por ende, se están desarrollando nuevas tecnologías de presentación digital. Una nueva e innovadora aplicación de presentación es Prezi la cual es una herramienta de presentación que permite a los presentadores colocar texto, imágenes y otros medios en un lienzo y luego navegar entre estos objetos a medida que presentan. Al igual que con PowerPoint, Prezi debe usarse para complementar la presentación, se debe recordar que a veces las mejores presentaciones se hacen sin herramientas digitales.
-      .col-lg-5
+          p.mb-0 Los desarrolladores de #[i software] tienen claro este problema, por ende, se están desarrollando nuevas tecnologías de presentación digital. Una nueva e innovadora aplicación de presentación es Prezi la cual es una herramienta de presentación que permite a los presentadores colocar texto, imágenes y otros medios en un lienzo y luego navegar entre estos objetos a medida que presentan. Al igual que con PowerPoint, Prezi debe usarse para complementar la presentación, se debe recordar que a veces las mejores presentaciones se hacen sin herramientas digitales.
+      .col-lg-5(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/img16.png', style="width: 450px", alt='').m-auto
     .row.mb-4(data-aos="fade-right")
       .col-auto.px-4.py-3.bg-c3
-        h3.mb-0 Barra lateral: Soy dueño de este software, ¿verdad? Bueno
-    .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
+        h3.mb-0 Barra lateral: Soy dueño de este #[i software], ¿verdad? Bueno
+    .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-right")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema1/img17.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Cuando compra software y lo instala en su computadora, ¿es usted el propietario de ese software? ¡Técnicamente, no! Cuando se instala software, en realidad solo se le otorga una licencia para usarlo. Cuando se instala por primera vez un paquete de software, se le pide que acepte los términos de servicio o el acuerdo de licencia. En ese acuerdo, encontrará que sus derechos de uso del software están limitados. Por ejemplo, en los términos de la licencia del software Microsoft Office Excel 2010, encontrará la siguiente declaración: “Este software tiene licencia, no se vende. Este acuerdo solo le otorga algunos derechos para usar las funciones incluidas en la edición de software que obtuvo con licencia”.
+        p.mb-0 Cuando compra #[i software] y lo instala en su computadora, ¿es usted el propietario de ese #[i software]? ¡Técnicamente, no! Cuando se instala #[i software], en realidad solo se le otorga una licencia para usarlo. Cuando se instala por primera vez un paquete de #[i software], se le pide que acepte los términos de servicio o el acuerdo de licencia. En ese acuerdo, encontrará que sus derechos de uso del #[i software] están limitados. Por ejemplo, en los términos de la licencia del #[i software] Microsoft Office Excel 2010, encontrará la siguiente declaración: “Este #[i software] tiene licencia, no se vende. Este acuerdo solo le otorga algunos derechos para usar las funciones incluidas en la edición de #[i software] que obtuvo con licencia”.
     .row.bg-c11.mb-5
       .col-lg-6.bg-c10.shadow-sm.p-5.my-4(data-aos="fade-right")
-        p.mb-0 En su mayor parte, estas restricciones son lo que esperaría: no puede hacer copias ilegales del software y no puede usarlo para hacer nada ilegal. Sin embargo, existen otros términos más inesperados en estos acuerdos de software. Por ejemplo, muchos acuerdos de software le piden que acepte un límite de responsabilidad. Nuevamente, de Microsoft: Limitación y exclusión de daños. Puede recuperar de Microsoft y sus proveedores solo los daños directos hasta el monto que pagó por el software. No puede recuperar ningún otro daño, incluidos daños consecuentes, pérdida de ganancias, daños especiales, indirectos o incidentales. Lo que esto significa es que, si un problema con el software causa daño a su empresa, no puede responsabilizar a Microsoft ni al proveedor por los daños.
+        p.mb-0 En su mayor parte, estas restricciones son lo que esperaría: no puede hacer copias ilegales del #[i software] y no puede usarlo para hacer nada ilegal. Sin embargo, existen otros términos más inesperados en estos acuerdos de #[i software]. Por ejemplo, muchos acuerdos de #[i software] le piden que acepte un límite de responsabilidad. Nuevamente, de Microsoft: Limitación y exclusión de daños. Puede recuperar de Microsoft y sus proveedores solo los daños directos hasta el monto que pagó por el #[i software]. No puede recuperar ningún otro daño, incluidos daños consecuentes, pérdida de ganancias, daños especiales, indirectos o incidentales. Lo que esto significa es que, si un problema con el #[i software] causa daño a su empresa, no puede responsabilizar a Microsoft ni al proveedor por los daños.
     .row.mb-4(data-aos="fade-right")
       .col-auto.px-4.py-3.bg-c3
         h3.mb-0 Aplicaciones para la Empresa
     .row.align-items-center.mb-5
-      .col-lg-3.mb-4.mb-lg-0
+      .col-lg-3.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema1/img27.svg', style="width: 350px", alt='').m-auto
-      .col-lg-9
+      .col-lg-9(data-aos="fade-left")
         .cajon.color-primario.p-4
           p.mb-0 A medida que la computadora personal proliferaba dentro de las organizaciones, el control sobre la información generada por la organización comenzó a fragmentarse. Digamos que el departamento de servicio al cliente crea una base de datos de clientes para realizar un seguimiento de las llamadas y los informes de problemas, y el departamento de ventas también crea una base de datos para realizar un seguimiento de la información del cliente. ¿Cuál debe utilizarse como lista maestra de clientes? Como otro ejemplo, alguien en ventas podría crear una hoja de cálculo para calcular los ingresos por ventas, mientras que alguien en finanzas crea una diferente que satisfaga las necesidades de su departamento. Sin embargo, es probable que las dos hojas de cálculo presenten diferentes totales de ingresos. ¿Cuál es el correcto? ¿Y quién gestiona toda esta información?
     .row.mb-4(data-aos="fade-right")
       .col-auto.px-4.py-3.bg-c3
         h3.mb-0 Planificación de recursos empresariales
     .row.align-items-center.mb-5
-      .col-lg-7.mb-4.mb-lg-0
-        p.mb-0 En la década de 1990, se hizo más evidente la necesidad de volver a poner la información de la organización bajo un control centralizado. El sistema de planificación de recursos empresariales (ERP) (a veces llamado simplemente software empresarial) se desarrolló para reunir a toda una organización en una aplicación de software. En pocas palabras, un sistema ERP es una aplicación de software que utiliza una base de datos central que se implementa en toda la organización. Echemos un vistazo más de cerca a esta definición:
-      .col-lg-5
+      .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
+        p.mb-0 En la década de 1990, se hizo más evidente la necesidad de volver a poner la información de la organización bajo un control centralizado. El sistema de planificación de recursos empresariales (ERP) (a veces llamado simplemente #[i software] empresarial) se desarrolló para reunir a toda una organización en una aplicación de #[i software]. En pocas palabras, un sistema ERP es una aplicación de #[i software] que utiliza una base de datos central que se implementa en toda la organización. Echemos un vistazo más de cerca a esta definición:
+      .col-lg-5(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/img19.png', style="width: 550px", alt='').m-auto
     .row.bg-c12
       .col-12
         .p-5
           .row.justify-content-center
-            .col-lg-10
+            .col-lg-10(data-aos="fade-down")
               PasosA.color-acento-contenido.mb-5(tipo="n")
                 .row.align-items-center
                   .col.mb-4.mb-lg-0
@@ -375,38 +375,38 @@
                     figure
                       img(src='@/assets/curso/tema1/img31.svg', style="width: 170px", alt='').m-auto
                   .col
-                    p.txt-c2 Para implementar efectivamente un sistema ERP, la organización debe estar lista para comprometerse por completo, pues todos los aspectos de la organización se ven afectados ya que los sistemas antiguos son reemplazados por el sistema ERP. En general, implementar un sistema ERP puede llevar de dos a tres años y varios millones de dólares. En la mayoría de los casos, el costo del software no es la parte más cara de la implementación: ¡es el costo de los consultores!
+                    p.txt-c2 Para implementar efectivamente un sistema ERP, la organización debe estar lista para comprometerse por completo, pues todos los aspectos de la organización se ven afectados ya que los sistemas antiguos son reemplazados por el sistema ERP. En general, implementar un sistema ERP puede llevar de dos a tres años y varios millones de dólares. En la mayoría de los casos, el costo del #[i software] no es la parte más cara de la implementación: ¡es el costo de los consultores!
                 .row.align-items-center
                   .col.mb-4.mb-lg-0
-                    p Un sistema ERP puede brindarle a una organización un buen retorno de su inversión. Al consolidar los sistemas de información en toda la empresa y usar el software para hacer cumplir las mejores prácticas, la mayoría de las organizaciones ven una mejora general después de implementar un ERP.
+                    p Un sistema ERP puede brindarle a una organización un buen retorno de su inversión. Al consolidar los sistemas de información en toda la empresa y usar el #[i software] para hacer cumplir las mejores prácticas, la mayoría de las organizaciones ven una mejora general después de implementar un ERP.
                   .col-lg-auto
                     figure
                       img(src='@/assets/curso/tema1/img32.svg', style="width: 170px", alt='').m-auto
     .row.justify-content-center.mb-5
-      .col-auto.bg-c13.fig-p3
+      .col-auto.bg-c13.fig-p3(data-aos="fade-right")
         .p-3
           p.fs-4.text-center.mb-0 #[b Gestión de la relación con el cliente ]
-      .col-lg-10.bg-c14
+      .col-lg-10.bg-c14(data-aos="fade-left")
         .row.justify-content-center
           .col-auto
             figure.fig-p4
               img(src='@/assets/curso/tema1/img34.svg', style="width: 550px", alt='').m-auto
-      .col-lg-8.bg-c15
+      .col-lg-8.bg-c15(data-aos="fade-down")
         .p-4
           p.mb-0.mt-4 Es el proceso que da entre diferentes eslabones de en un proceso de producción, proveedores instalaciones de fabricación, distribuidores de los productos, los cuales trabajan en pro de garantizar la satisfacción del cliente.
-    .cajon.color-primario.p-4.mb-5
+    .cajon.color-primario.p-4.mb-5(data-aos="fade-right")
       p.mb-0 Un sistema de gestión de la cadena de suministro (SCM) gestiona la interconexión entre estos eslabones, así como el inventario de los productos en sus distintas etapas de desarrollo.
     .row.mb-4(data-aos="fade-right")
       .col-auto.px-4.py-3.bg-c3
         h3.mb-0 Aplicaciones móviles
     .row.align-items-center.mb-5
-      .col-lg-3.mb-4.mb-lg-0
+      .col-lg-3.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema1/img35.svg', style="width: 170px", alt='').m-auto
-      .col-lg-9
+      .col-lg-9(data-aos="fade-left")
         .cajon.color-acento-contenido.p-4
-          p.mb-0 Al igual que la computadora personal, los dispositivos móviles como tabletas y teléfonos inteligentes también tienen sistemas operativos y software de aplicación. De hecho, estos dispositivos móviles son, en muchos sentidos, solo versiones más pequeñas de computadoras personales. Una aplicación móvil es una aplicación de software programada para ejecutarse específicamente en un dispositivo móvil.
-    .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-5
+          p.mb-0 Al igual que la computadora personal, los dispositivos móviles como tabletas y teléfonos inteligentes también tienen sistemas operativos y #[i software] de aplicación. De hecho, estos dispositivos móviles son, en muchos sentidos, solo versiones más pequeñas de computadoras personales. Una aplicación móvil es una aplicación de #[i software] programada para ejecutarse específicamente en un dispositivo móvil.
+    .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-left")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema1/img20.png')})`}"
       )
@@ -415,39 +415,39 @@
     .row.mb-4(data-aos="fade-right")
       .col-auto.px-4.py-3.bg-c3
         h3.mb-0 Computación en la nube
-    p Históricamente, para que un software funcionara se tenía que instalar una copia individual de este en la computadora, sin embargo, el concepto de computación en la “nube” cambia todo, “la nube” hace referencia a aplicaciones, servicios y almacenamiento de datos que están conectados a través de protocolos de Internet. La computación en la nube es el uso de estos servicios por parte de individuos y organizaciones.
+    p(data-aos="fade-right") Históricamente, para que un #[i software] funcionara se tenía que instalar una copia individual de este en la computadora, sin embargo, el concepto de computación en la “nube” cambia todo, “la nube” hace referencia a aplicaciones, servicios y almacenamiento de datos que están conectados a través de protocolos de Internet. La computación en la nube es el uso de estos servicios por parte de individuos y organizaciones.
     .row.align-items-start.mb-5
-      .col-lg-4.mb-4.mb-lg-0
+      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema1/img36.svg', style="width: 250px", alt='').m-auto
-      .col-lg-8
+      .col-lg-8(data-aos="fade-left")
         p.mb-0 Si se accede al correo electrónico a través de un navegador web, se está utilizando una forma de computación en la nube. Si se utilizan las aplicaciones de Google Drive, se está utilizando la computación en la nube. Si bien estas son versiones gratuitas de computación en la nube, existe un gran negocio al proporcionar aplicaciones y almacenamiento de datos a través de la web.
-    p.text-center.mb-5 #[b A continuación, se describen algunas ventajas y desventajas de la computación en la nube:]
-    figure.mb-5
+    p.text-center.mb-5(data-aos="fade-right") #[b A continuación, se describen algunas ventajas y desventajas de la computación en la nube:]
+    figure.mb-5(data-aos="fade-left")
       img(src='@/assets/curso/tema1/img37.svg', style="width: 1150px", alt='').m-auto
     .row.align-items-center.mb-5
-      .col-lg-4.mb-4.mb-lg-0
+      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema1/img21.png', style="width: 400px", alt='').m-auto
-      .col-lg-8
-        .row.mb-4(data-aos="fade-right")
+      .col-lg-8(data-aos="fade-left")
+        .row.mb-4
           .col-auto.px-4.py-3.bg-c3
             h3.mb-0 Uso de una nube privada
         p.mb-5 Es comprensible que muchas organizaciones estén nerviosas por ceder el control de sus datos y algunas de sus aplicaciones mediante el uso de la computación en la nube. Una solución a este problema radica en el concepto de nube privada en la cual proveedor de servicios en la nube brinda un espacio del servidor web para que determinada organización tenga gran control sobre ese espacio del servidor.
-        .row.mb-4(data-aos="fade-right")
+        .row.mb-4
           .col-auto.px-4.py-3.bg-c3
             h3.mb-0 Virtualización
-        p.mb-0 La virtualización es el proceso de usar software para simular una computadora o algún otro dispositivo. Por ejemplo, usando la virtualización, una sola computadora puede realizar las funciones de varias computadoras. Empresas como EMC proporcionan software de virtualización que permite a los proveedores de servicios en la nube proporcionar servidores web a sus clientes de manera rápida y eficiente. Las organizaciones también están implementando la virtualización para reducir la cantidad de servidores necesarios para brindar sus servicios.
+        p.mb-0 La virtualización es el proceso de usar #[i software] para simular una computadora o algún otro dispositivo. Por ejemplo, usando la virtualización, una sola computadora puede realizar las funciones de varias computadoras. Empresas como EMC proporcionan #[i software] de virtualización que permite a los proveedores de servicios en la nube proporcionar servidores web a sus clientes de manera rápida y eficiente. Las organizaciones también están implementando la virtualización para reducir la cantidad de servidores necesarios para brindar sus servicios.
     .row.mb-4(data-aos="fade-right")
       .col-auto.px-4.py-3.bg-c3
-        h3.mb-0 Creación de software
-    p ¿Cómo se crea el software? Si el software es el conjunto de instrucciones que le dice al hardware qué hacer, ¿cómo se escriben estas instrucciones? Si una computadora lee todo como unos y ceros, ¿tenemos que aprender a escribir software de esa manera?
+        h3.mb-0 Creación de #[i software]
+    p(data-aos="fade-down") ¿Cómo se crea el #[i software]? Si el #[i software] es el conjunto de instrucciones que le dice al #[i hardware] qué hacer, ¿cómo se escriben estas instrucciones? Si una computadora lee todo como unos y ceros, ¿tenemos que aprender a escribir #[i software] de esa manera?
     .row.align-items-center.mb-0.mb-lg-5
-      .col-lg-8.mb-4.mb-lg-0
+      .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
         .cajon.color-primario.p-4.mb-3
-          p.mb-0 Las aplicaciones de software modernas se escriben utilizando un lenguaje de programación el cual consta de un conjunto de comandos que se pueden organizar lógicamente para ejecutar funciones específicas.
+          p.mb-0 Las aplicaciones de #[i software] modernas se escriben utilizando un lenguaje de programación el cual consta de un conjunto de comandos que se pueden organizar lógicamente para ejecutar funciones específicas.
         p.mb-0 Este lenguaje generalmente consiste en un conjunto de palabras legibles combinadas con símbolos. Con este lenguaje, un programador escribe un programa (llamado código fuente) que luego se puede compilar en un formato legible por máquina, los unos y los ceros necesarios para que la CPU los ejecute. Los ejemplos de lenguajes de programación conocidos en la actualidad incluyen Java, PHP y varias versiones de C (Visual C, C++, C#). Se utilizan lenguajes como HTML y JavaScript para desarrollar páginas web. La mayoría de las veces, la programación se realiza dentro de un entorno de programación; cuando compra una copia de Visual Studio de Microsoft, le proporciona un editor, compilador.
-      .col-lg-4.d-none.d-lg-block
+      .col-lg-4.d-none.d-lg-block(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/img22.png', style="width: 400px", alt='').m-auto
     .row.justify-content-center.mb-5(data-aos="fade-left")
@@ -460,33 +460,33 @@
             figure.fig-p2
               img(src='@/assets/curso/tema1/img6.svg', style="width: 50px", alt='').m-auto
           .col-md-8.col-xl-7.bg-c5.p-4
-            p.text-white.mb-0 La programación de software era originalmente un proceso individual, con cada programador trabajando en un programa completo, o varios programadores trabajando cada uno en una parte de un programa más grande. Sin embargo, los métodos más nuevos de desarrollo de software incluyen un enfoque más colaborativo, con equipos de programadores que trabajan juntos en el código.
+            p.text-white.mb-0 La programación de #[i software] era originalmente un proceso individual, con cada programador trabajando en un programa completo, o varios programadores trabajando cada uno en una parte de un programa más grande. Sin embargo, los métodos más nuevos de desarrollo de #[i software] incluyen un enfoque más colaborativo, con equipos de programadores que trabajan juntos en el código.
     .row.mb-4(data-aos="fade-right")
       .col-auto.px-4.py-3.bg-c3
-        h3.mb-0 Software de código abierto
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
+        h3.mb-0 #[i software] de código abierto
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-left")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema1/img23.png')})`}"
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 Cuando se lanzó por primera vez la computadora personal, no cubría ninguna necesidad práctica. Las primeras computadoras eran difíciles de programar y requerían una gran atención a los detalles. Sin embargo, muchos entusiastas de las computadoras personales se unieron de inmediato para crear y compartir aplicaciones para resolver problemas.
     .row.align-items-center.mb-5
-      .col-lg-8.mb-4.mb-lg-0
+      .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
         .cajon.color-primario.p-4.mb-3
-          p.mb-0 Sin embargo, a medida que el software comenzó a convertirse en un negocio, esta idea de compartir todo cayó en desgracia, al menos entre algunos. Cuando un programa de software requiere cientos de horas de trabajo para desarrollarse, es comprensible que los programadores no quieran simplemente regalarlo. Esto condujo a un nuevo modelo comercial de licencias de software restrictivas, que requería el pago por el software, un modelo que todavía es dominante en la actualidad. Este modelo a veces se denomina fuente cerrada, ya que el código fuente no está disponible para otros.
-        p.mb-0 Sin embargo, hay muchos que sienten que el software no debería estar restringido. Al igual que aquellos primeros aficionados en la década de 1970, sienten que la innovación y el progreso pueden lograrse mucho más rápidamente si compartimos lo que aprendemos. En la década de 1990, con el acceso a Internet conectando a más y más personas, el movimiento de código abierto cobró fuerza.
-      .col-lg-4
+          p.mb-0 Sin embargo, a medida que el #[i software] comenzó a convertirse en un negocio, esta idea de compartir todo cayó en desgracia, al menos entre algunos. Cuando un programa de #[i software] requiere cientos de horas de trabajo para desarrollarse, es comprensible que los programadores no quieran simplemente regalarlo. Esto condujo a un nuevo modelo comercial de licencias de #[i software] restrictivas, que requería el pago por el #[i software], un modelo que todavía es dominante en la actualidad. Este modelo a veces se denomina fuente cerrada, ya que el código fuente no está disponible para otros.
+        p.mb-0 Sin embargo, hay muchos que sienten que el #[i software] no debería estar restringido. Al igual que aquellos primeros aficionados en la década de 1970, sienten que la innovación y el progreso pueden lograrse mucho más rápidamente si compartimos lo que aprendemos. En la década de 1990, con el acceso a Internet conectando a más y más personas, el movimiento de código abierto cobró fuerza.
+      .col-lg-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/img24.png', style="width: 380px", alt='').m-auto
     .row.mb-4(data-aos="fade-right")
       .col-auto.px-4.py-3.bg-c3
-        h3.mb-0 Pero ¿Qué es el software de código abierto?
-    p.mb-5 Es un software que hace que el código fuente esté disponible para que cualquiera pueda copiarlo y usarlo. Este puede estar disponible en un formato compilado que simplemente se puede descargar e instalar
-    figure.mb-5
+        h3.mb-0 Pero ¿Qué es el #[i software] de código abierto?
+    p.mb-5(data-aos="fade-right") Es un #[i software] que hace que el código fuente esté disponible para que cualquiera pueda copiarlo y usarlo. Este puede estar disponible en un formato compilado que simplemente se puede descargar e instalar
+    figure.mb-5(data-aos="fade-left")
       img(src='@/assets/curso/tema1/img25.png', style="width: 1150px", alt='').m-auto
-    p.mb-5 El movimiento de código abierto ha llevado al desarrollo del software más utilizado en el mundo, incluido el navegador Firefox, el sistema operativo Linux y el servidor web Apache.
+    p.mb-5(data-aos="fade-right") El movimiento de código abierto ha llevado al desarrollo del #[i software] más utilizado en el mundo, incluido el navegador Firefox, el sistema operativo Linux y el servidor web Apache.
     .row
-      .col-lg.m-2
+      .col-lg.m-2(data-aos="fade-right")
         .row
           .col-12.px-0
             figure
@@ -499,16 +499,16 @@
                 li.d-flex
                   i.fas.fa-check-circle
                   |
-                  p.text-white.mb-0 El software está disponible de forma gratuita.
+                  p.text-white.mb-0 El #[i software] está disponible de forma gratuita.
                 li.d-flex
                   i.fas.fa-check-circle
                   |
-                  p.text-white.mb-0 El código fuente del software está disponible; se puede examinar y revisar antes de instalarlo.
+                  p.text-white.mb-0 El código fuente del #[i software] está disponible; se puede examinar y revisar antes de instalarlo.
                 li.d-flex
                   i.fas.fa-check-circle
                   |
                   p.text-white.mb-0 La gran comunidad de programadores que trabajan en proyectos de código abierto conduce a una rápida corrección de errores y adiciones de funciones.
-      .col-lg.m-2
+      .col-lg.m-2(data-aos="fade-left")
         .row
           .col-12.px-0
             figure
@@ -521,11 +521,11 @@
                 li.d-flex
                   i.fas.fa-check-circle
                   |
-                  p.mb-0 Al proporcionar un incentivo financiero para el desarrollo de software, algunas de las mentes más brillantes han elegido el desarrollo de software como carrera.
+                  p.mb-0 Al proporcionar un incentivo financiero para el desarrollo de #[i software], algunas de las mentes más brillantes han elegido el desarrollo de #[i software] como carrera.
                 li.d-flex
                   i.fas.fa-check-circle
                   |
-                  p.mb-0 Soporte técnico de la empresa que desarrolló el software.
+                  p.mb-0 Soporte técnico de la empresa que desarrolló el #[i software].
     Separador
     #t_1_2
     .titulo-segundo.color-acento-botones
@@ -538,7 +538,7 @@
           .row.justify-content-center.mb-5(data-aos="fade-down")
             .col-lg-10.bg-c2.shadow-sm.p-4
               p.mb-0 Casi todas las empresas utilizan computadoras para llevar a cabo sus funciones. Desde la generación de informes hasta la comunicación con los clientes, las computadoras hacen mucho por la eficiencia con la que se ejecuta un negocio.
-          .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
+          .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-down")
             .bloque-texto-g__img(
               :style="{'background-image': `url(${require('@/assets/curso/tema1/img29.png')})`}"
             )
@@ -557,7 +557,7 @@
                   .row
                     .col-lg-8.mb-4.mb-lg-0
                       p.txt-c1.fs-5 #[b Para la comunicación]
-                      p Cuando se trata de establecer contacto con los clientes, las computadoras son una herramienta vital; también son fundamentales a la hora de mantener ese contacto. Este proceso de comunicación se da a través de correo electrónico, mensajería instantánea, Skype, software de colaboración, entre otras. 
+                      p Cuando se trata de establecer contacto con los clientes, las computadoras son una herramienta vital; también son fundamentales a la hora de mantener ese contacto. Este proceso de comunicación se da a través de correo electrónico, mensajería instantánea, Skype, #[i software] de colaboración, entre otras. 
                       p.mb-0 Además, una empresa necesita comunicarse con sus empleados, y las computadoras juegan un papel importante. En lugar de tener reuniones individuales, se puede enviar un correo electrónico o un mensaje en cualquier otra plataforma de comunicación aceptable. Esto ahorra tiempo y también mejora la comunicación interna de la empresa.
                     .col-lg-4
                       figure
@@ -573,7 +573,7 @@
                   .row
                     .col-lg-8.mb-4.mb-lg-0
                       p.txt-c1.fs-5 #[b Para la contabilidad]
-                      p La contabilidad es una función en la que la precisión es de suma importancia. Cuando realiza funciones contables, y no tiene nada más que lápiz y papel, y confía únicamente en el poder del cerebro, se expone a errores. El software de contabilidad ayuda a evitar que eso suceda, pues este permite que una empresa obtenga de forma rápida y precisa imágenes a gran y pequeña escala de la situación financiera de la empresa.
+                      p La contabilidad es una función en la que la precisión es de suma importancia. Cuando realiza funciones contables, y no tiene nada más que lápiz y papel, y confía únicamente en el poder del cerebro, se expone a errores. El #[i software] de contabilidad ayuda a evitar que eso suceda, pues este permite que una empresa obtenga de forma rápida y precisa imágenes a gran y pequeña escala de la situación financiera de la empresa.
                       p.mb-0  Las computadoras también son fundamentales para tareas como facturar a los clientes; mantenimiento de datos sobre deudores y acreedores; cálculo de nómina, cálculo y presentación de formularios de impuestos, así como para muchas otras funciones.
                     .col-lg-4
                       figure
@@ -588,15 +588,15 @@
                   .row
                     .col-lg-8.mb-4.mb-lg-0
                       p.txt-c1.fs-5 #[b Para producir documentos]
-                      p La mayoría de las empresas necesitan manejar gran cantidad de documentos. Las computadoras proporcionan procesadores de texto y software de hoja de cálculo para ayudar con esto. Con aplicaciones de hojas de cálculo, una empresa tiene el poder de manipular datos alfanuméricos y organizarlos en tablas, gráficos e informes. Otro tipo de software que utilizan las empresas es el software de presentación con el que pueden apoyar sus exposiciones. 
-                      p.mb-0 En general, una computadora tiene muchos softwares utilizados para facilitar las funciones de la empresa, haciéndola más rápida y eficiente de lo que era hace 20 o 30 años.
+                      p La mayoría de las empresas necesitan manejar gran cantidad de documentos. Las computadoras proporcionan procesadores de texto y #[i software] de hoja de cálculo para ayudar con esto. Con aplicaciones de hojas de cálculo, una empresa tiene el poder de manipular datos alfanuméricos y organizarlos en tablas, gráficos e informes. Otro tipo de #[i software] que utilizan las empresas es el #[i software] de presentación con el que pueden apoyar sus exposiciones. 
+                      p.mb-0 En general, una computadora tiene muchos #[i software]s utilizados para facilitar las funciones de la empresa, haciéndola más rápida y eficiente de lo que era hace 20 o 30 años.
                     .col-lg-4
                       figure
                         img(src='@/assets/curso/tema1/img44.svg', style="width: 450px", alt='').m-auto
                   .row
                     .col-lg-8.mb-4.mb-lg-0
                       p.txt-c1.fs-5 #[b Con fines educativos]
-                      p.mb-0 Una empresa puede usar una computadora para educar a los empleados sobre cosas como la política de la empresa, el uso del software, así como los procedimientos estándar y la seguridad. En lugar de contratar maestros para enseñar a sus empleados, una empresa puede permitir que los empleados aprendan lo que necesitan, aprendiendo a su propio ritmo a través de seminarios web y sesiones de preguntas y respuestas en vivo. Con Internet, se tiene la posibilidad de acceder a un mundo de información a través de diferentes medios, como videos, texto e incluso juegos, lo que les permite comprender mejor el tema.
+                      p.mb-0 Una empresa puede usar una computadora para educar a los empleados sobre cosas como la política de la empresa, el uso del #[i software], así como los procedimientos estándar y la seguridad. En lugar de contratar maestros para enseñar a sus empleados, una empresa puede permitir que los empleados aprendan lo que necesitan, aprendiendo a su propio ritmo a través de seminarios web y sesiones de preguntas y respuestas en vivo. Con Internet, se tiene la posibilidad de acceder a un mundo de información a través de diferentes medios, como videos, texto e incluso juegos, lo que les permite comprender mejor el tema.
                     .col-lg-4
                       figure
                         img(src='@/assets/curso/tema1/img45.svg', style="width: 450px", alt='').m-auto
@@ -634,9 +634,9 @@
       .col-auto.px-4.py-3.bg-c3
         h3.mb-0 Funciones TI en una organización
     .row.align-items-center.mb-5
-      .col-lg-7.mb-4.mb-lg-0
+      .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
         p.mb-0 Con las computadoras y las redes informáticas, las personas han podido lograr en el lapso de unas pocas décadas lo que de otro modo nos hubiera llevado muchos siglos lograr. La gente ha democratizado Internet, ha mejorado enormemente la comunicación, ha aumentado la capacidad de diseñar e inventar por múltiples y ha hecho la vida más fácil en general. Ahora las personas llevan pequeños dispositivos informáticos en sus bolsillos que brindan asistencia en casi todos los aspectos de la vida, ya sea para despertarlos por la mañana, recordarles eventos importantes o ayudarnos a pensar y aprender nueva información.
-      .col-lg-5
+      .col-lg-5(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/img30.png', style="width: 450px", alt='').m-auto
     .row.justify-content-center.mb-5(data-aos="fade-left")
@@ -650,9 +650,9 @@
               img(src='@/assets/curso/tema1/img6.svg', style="width: 50px", alt='').m-auto
           .col-md-8.col-xl-7.bg-c5.p-4
             p.text-white.mb-0 Se puede decir que los pequeños dispositivos informáticos que la gente lleva consigo se han convertido de alguna manera en parte de nosotros. Se han convertido en órganos adicionales en nuestros cuerpos, como brazos o piernas. Tal vez podamos pensar en ellos como una especie de mejora en nuestro cerebro, permitiéndonos lograr cosas que antes nunca imaginamos posibles. De la misma manera, TI se ha convertido en un órgano adicional en el cuerpo de cualquier negocio, lo que le permite lograr cosas mucho más grandes de lo que podría sin la ayuda de TI.
-    p.mb-5 El departamento de TI es un departamento importante dentro de una organización, que complementa a los demás de muchas maneras, en el siguiente documento, se presenta sus funciones más importantes:
+    p.mb-5(data-aos="fade-down") El departamento de TI es un departamento importante dentro de una organización, que complementa a los demás de muchas maneras, en el siguiente documento, se presenta sus funciones más importantes:
     .row.justify-content-center.mb-5
-      .col-lg-8
+      .col-lg-8(data-aos="fade-left")
         .tarjeta.color-primario.p-3
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-1
@@ -669,16 +669,16 @@
       .col-auto.px-4.py-3.bg-c3
         h3.mb-0 Tecnología de la información y sus usos en la gestión empresarial
     .row.align-items-center.mb-5
-      .col-lg-8.mb-4.mb-lg-0
+      .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
         .cajon.color-primario.p-4.mb-3
           p.mb-0 Con más innovación en tecnología, se crean nuevos negocios, con más negocios, la tecnología viene al rescate facilitando las cosas. Los dos existen en una especie de relación simbiótica que asegura que siempre coexistirán. El negocio ha existido desde tiempos prehistóricos. Puede haber comenzado con nada más que el comercio de trueque, si hay que creer en los libros de historia, pero desde entonces se ha transformado en algo mucho más complejo, y nada de eso habría sido posible sin la tecnología.
         p Las principales industrias del mundo colapsarían si la existencia y el uso de la tecnología de la información fueran arrebatados repentinamente a las empresas. Esto se debe a que la mayoría de las transacciones y operaciones comerciales no se pueden realizar en el siglo XXI sin tecnología. 
         p.mb-0 Revise puntualmente la función de la tecnología en las organizaciones:
-      .col-lg-4
+      .col-lg-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/img31.png', style="width: 450px", alt='').m-auto
     .row.bg-c12
-      .col-12
+      .col-12(data-aos="fade-down")
         .p-5
           ImagenInfografica.color-secundario
             template(v-slot:imagen)
@@ -705,20 +705,20 @@
                 .col-lg-auto
                   figure
                     img(src='@/assets/curso/tema1/img55.svg', style="width: 80px", alt='').m-auto
-    .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-right")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema1/img32.png')})`}"
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 La Revolución Industrial cambió las cosas en el mundo de los negocios, haciendo que muchos procesos fueran más eficientes y aumentando la productividad cien veces. Sin embargo, el mundo de los negocios permaneció algo estancado durante un siglo después. Sin embargo, con la revolución tecnológica y el uso de la tecnología en los negocios, las cosas cambiaron de manera aún más disruptiva que durante la Revolución Industrial y sería seguro decir que las cosas nunca volverán a ser las mismas. La velocidad a la que la tecnología está evolucionando y adaptándose es exponencial hasta el punto en que todas las empresas están siendo barridas por la ola, ya sea que estén listas para ello o no. Puede parecer que no hemos progresado tanto, pero incluso hace solo 5 años, las redes sociales no tenían ningún consumismo, los teléfonos móviles no se usaban para los negocios, las soluciones basadas en la nube no existían.
     .row.align-items-center.mb-5
-      .col-auto
+      .col-auto(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema1/img1.svg', style="width: 30px", alt='').m-auto
-      .col
+      .col(data-aos="fade-left")
         p.mb-0 La tecnología ha cambiado todos los aspectos de los negocios de manera acelerada y esto nunca había sucedido en la historia. Para ser más específicos, aquí hay algunas formas en que la tecnología de la información ha afectado a los negocios:
     .row.align-items-center.mb-5
-      .col-lg-8.mb-4.mb-lg-0
+      .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul1")
           .row(titulo="El advenimiento de las soluciones móviles")
             .col-lg-5.mb-4.mb-lg-0
@@ -749,7 +749,7 @@
               figure
                 img(src='@/assets/curso/tema1/img61.svg', style="width: 230px", alt='').m-auto
             .col-lg-7
-              p.mb-0 El "mercado de compradores" se ha hecho posible gracias a la asequibilidad del hardware y software, y al aumento de empresarios expertos en tecnología. Las soluciones ofrecidas más fácilmente han facilitado el desarrollo del negocio sin grandes inversiones.
+              p.mb-0 El "mercado de compradores" se ha hecho posible gracias a la asequibilidad del #[i hardware] y #[i software], y al aumento de empresarios expertos en tecnología. Las soluciones ofrecidas más fácilmente han facilitado el desarrollo del negocio sin grandes inversiones.
           .row(titulo="Mayor consideración por el impacto social de los negocios")
             .col-lg-5.mb-4.mb-lg-0
               figure
@@ -762,12 +762,12 @@
                 img(src='@/assets/curso/tema1/img63.svg', style="width: 230px", alt='').m-auto
             .col-lg-7
               p.mb-0 Esto es en realidad un efecto negativo de la tecnología. Con una mayor conectividad, las personas tienen cada vez menos tiempo para sí mismas. Las vacaciones parecen haberse convertido en algo del pasado, Siempre se puede acceder a los correos electrónicos, mensajes de texto y redes sociales a través de los teléfonos y computadoras, cada vez es más difícil desconectarse.
-      .col-lg-4
+      .col-lg-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/img56.svg', style="width: 430px", alt='').m-auto
-    p.mb-5 Puede ser un poco difícil comprender la importancia de la tecnología de la información para una organización si no es un profesional de TI. Sin embargo, existen numerosas formas en las que la tecnología de la información es crucial para una organización, revíselas a continuación:
+    p.mb-5(data-aos="fade-right") Puede ser un poco difícil comprender la importancia de la tecnología de la información para una organización si no es un profesional de TI. Sin embargo, existen numerosas formas en las que la tecnología de la información es crucial para una organización, revíselas a continuación:
     .row.bg-c12.mb-5
-      .col-12
+      .col-12(data-aos="fade-right")
         .p-5
           ImagenInfografica.color-secundario
             template(v-slot:imagen)
@@ -793,13 +793,13 @@
               .row
                 .col-12
                   p.mb-0 Con un número cada vez mayor de transacciones en línea, es importante que las instituciones financieras y de seguridad trabajen juntas para hacer de Internet un lugar seguro. A medida que se realicen más transacciones en Internet, se necesitarán más redes y mayor seguridad, lo que hará posible que los bancos mantengan seguras las compras y las ventas.
-    p.mb-5 Como propietario de un negocio, probablemente se esté preguntando cómo puede utilizar la tecnología en su máximo potencial para su negocio, a continuación, algunos consejos:
+    p.mb-5(data-aos="fade-down") Como propietario de un negocio, probablemente se esté preguntando cómo puede utilizar la tecnología en su máximo potencial para su negocio, a continuación, algunos consejos:
     .row.bg-c20.mb-5
-      .col-12
+      .col-12(data-aos="fade-left")
         .p-5
           figure
             img(src='@/assets/curso/tema1/img66.svg', alt='').m-auto
-    .tarjeta.tarjeta--azul2.mb-5
+    .tarjeta.tarjeta--azul2.mb-5(data-aos="fade-right")
       .p-4
         SlyderA(tipo="b")
           .row.align-items-center.justify-content-center
@@ -837,12 +837,12 @@
             .col-lg-5
               figure
                 img(src='@/assets/curso/tema1/img37.png', style="width: 430px", alt='').m-auto
-    p.mb-5 La tecnología ha alterado la vida moderna de muchas maneras, especialmente en el lugar de trabajo. La invención de las computadoras, la miniaturización de la electrónica y el desarrollo de la comunicación inalámbrica han alterado el mundo de los negocios. La comunicación empresarial, en particular, ha experimentado algunos de los mayores avances debido a:
+    p.mb-5(data-aos="fade-right") La tecnología ha alterado la vida moderna de muchas maneras, especialmente en el lugar de trabajo. La invención de las computadoras, la miniaturización de la electrónica y el desarrollo de la comunicación inalámbrica han alterado el mundo de los negocios. La comunicación empresarial, en particular, ha experimentado algunos de los mayores avances debido a:
     .row.align-items-center.mb-5
-      .col-lg-4.mb-4.mb-lg-0
+      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema1/img68.svg', style="width: 430px", alt='').m-auto
-      .col-lg-8
+      .col-lg-8(data-aos="fade-left")
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul1")
           .row(titulo="Desarrollo teléfono celular")
             .col-12
@@ -862,9 +862,9 @@
     .row.mb-4(data-aos="fade-right")
       .col-auto.px-4.py-3.bg-c3
         h3.mb-0 ¿cómo usar las herramientas informáticas de manera adecuada?
-    p.mb-5 Usar correctamente, las herramientas informáticas pueden ayudar a la empresa a ser más organizada y mucho más eficiente, a continuación, algunas estrategias:
+    p.mb-5(data-aos="fade-right") Usar correctamente, las herramientas informáticas pueden ayudar a la empresa a ser más organizada y mucho más eficiente, a continuación, algunas estrategias:
     .row.justify-content-center
-      .col-lg-8
+      .col-lg-8(data-aos="fade-left")
         .tarjeta.color-primario.p-3
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-1
