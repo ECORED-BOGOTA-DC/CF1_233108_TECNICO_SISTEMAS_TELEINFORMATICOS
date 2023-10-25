@@ -24,14 +24,14 @@
         SlyderA(tipo="b")
           .row.align-items-center.justify-content-center
             .col-lg-6.mb-4.mb-lg-0
-              p #[b #[i hardware] de la computadora]
+              p #[b #[i Hardware] de la computadora]
               p.mb-0 Esta es la tecnología física que trabaja con la información. El #[i hardware] puede ser tan pequeño como un teléfono inteligente que cabe en un bolsillo o tan grande como una supercomputadora que llena un edificio. El #[i hardware] también incluye los dispositivos periféricos que funcionan con computadoras, como teclados, unidades de disco externas y enrutadores. Con el auge del Internet de las cosas, en el que cualquier cosa, desde electrodomésticos hasta automóviles y ropa, podrá recibir y transmitir datos, los sensores que interactúan con las computadoras están impregnando el entorno humano. Por tanto, es aquel equipo físico utilizado para la entrada, salida y procesamiento. La estructura del #[i hardware] depende del tipo y tamaño de la organización. Consiste en un dispositivo de entrada y salida, sistema operativo, procesador y dispositivos de medios. Esto también incluye dispositivos periféricos de computadora.
             .col-lg-5
               figure
                 img(src='@/assets/curso/tema2/img2.png', style="width: 470px", alt='').m-auto
           .row.align-items-center.justify-content-center
             .col-lg-6.mb-4.mb-lg-0
-              p #[b #[i software] de ordenador]
+              p #[b #[i Software] de ordenador]
               p.mb-0 El #[i hardware] necesita saber qué hacer, y ese es el papel del #[i software]. El #[i software] se puede dividir en dos tipos: #[i software] de sistema y #[i software] de aplicación. La pieza principal del #[i software] del sistema es el sistema operativo, como Windows o iOS, que administra el funcionamiento del #[i hardware]. El #[i software] de aplicación está diseñado para tareas específicas, como manejar una hoja de cálculo, crear un documento o diseñar una página web. Los programas de aplicación utilizados para controlar y coordinar los componentes de #[i hardware]. Se utiliza para el análisis y procesamiento de los datos. Estos programas incluyen un conjunto de instrucciones utilizadas para procesar información.
             .col-lg-5
               figure
@@ -61,7 +61,7 @@
           .row.align-items-center.justify-content-center
             .col-lg-6.mb-4.mb-lg-0
               p #[b Recursos humanos y procedimientos]
-              p.mb-0 Está asociado con la mano de obra requerida para operar y administrar el sistema. Las personas son el usuario final del sistema de información, el usuario final utiliza la información producida para sus propios fines, el objetivo principal del sistema de información es beneficiar a las personas.  El usuario final puede ser contadores, ingenieros, vendedores, clientes, empleados o gerentes, etc. Las personas también son responsables de desarrollar y operar los sistemas de información. Incluyen analistas de sistemas, operadores de computadoras, programadores y otro personal administrativo de SÍ y técnicas gerenciales.
+              p.mb-0 Está asociado con la mano de obra requerida para operar y administrar el sistema. Las personas son el usuario final del sistema de información, el usuario final utiliza la información producida para sus propios fines, el objetivo principal del sistema de información es beneficiar a las personas. los usuarios finales pueden ser contadores, ingenieros, vendedores, clientes, empleados o gerentes, etc. Las personas también son responsables de desarrollar y operar los sistemas de información. Incluyen analistas de sistemas, operadores de computadoras, programadores y otro personal administrativo de SÍ y técnicas gerenciales.
             .col-lg-5
               figure
                 img(src='@/assets/curso/tema2/img7.png', style="width: 470px", alt='').m-auto
@@ -86,16 +86,16 @@
                   figure
                     img(src="@/assets/curso/tema2/img8.png", alt="alt")
                 .crd_hover_txt--body1
-                  p.text-center #[b #[i software] de sistemas]
-                  p.text-center.mb-0 son programas que administran los recursos del sistema informático y simplifican la programación de aplicaciones. Incluyen #[i software] como el sistema operativo, sistemas de administración de bases de datos, #[i software] de red, traductores y utilidades de #[i software].
+                  p.text-center #[b #[i Software] de sistemas]
+                  p.text-center.mb-0 Son programas que administran los recursos del sistema informático y simplifican la programación de aplicaciones. Incluyen #[i software] como el sistema operativo, sistemas de administración de bases de datos, #[i software] de red, traductores y utilidades de #[i software].
             .col-xl-5.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
               .crd_hover_txt
                 .crd_hover_txt--img
                   figure
                     img(src="@/assets/curso/tema2/img9.png", alt="alt")
                 .crd_hover_txt--body
-                  p.text-center.text-white #[b #[i software] de aplicación]
-                  p.text-center.text-white.mb-0 son programas que dirigen el desempeño de un uso o aplicación particular de las computadoras para satisfacer las necesidades de procesamiento de información de los usuarios finales.
+                  p.text-center.text-white #[b #[i Software] de aplicación]
+                  p.text-center.text-white.mb-0 Son programas que dirigen el desempeño de un uso o aplicación particular de las computadoras para satisfacer las necesidades de procesamiento de información de los usuarios finales.
     p.mb-5(data-aos="fade-right") Las tendencias de #[i software] se han alejado de los programas exclusivos diseñados a medida desarrollados por programadores profesionales o usuarios finales de una organización hacia el uso de paquetes de #[i software] estándar adquiridos por los usuarios finales de los proveedores de #[i software].
     .row.justify-content-center.mb-4(data-aos="fade-right")
       .col-lg-auto.bg-c21.shadow
@@ -113,7 +113,7 @@
           figure.mb-4
             img(src='@/assets/curso/tema2/img4.svg', style="width: 170px", alt='').m-auto
           p.text-center.text-white #[b Paquetes horizontales]
-          p.text-center.text-white pueden realizar una determinada función general, como contabilidad o automatización de oficinas, para una variedad de negocios.
+          p.text-center.text-white Pueden realizar una determinada función general, como contabilidad o automatización de oficinas, para una variedad de negocios.
     .row.mb-4(data-aos="fade-right")
       .col-auto.px-4.py-3.bg-c3
         h3.mb-0 Sistemas operativos
@@ -318,7 +318,7 @@
             img(src='@/assets/curso/tema2/img8.svg', style="width: 1150px", alt='').m-auto
     .row.mb-4(data-aos="fade-right")
       .col-auto.px-4.py-3.bg-c3
-        h3.mb-0 #[i software] de productividad personal
+        h3.mb-0 #[i Software] de productividad personal
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-down")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema2/img18.png')})`}"
@@ -368,14 +368,14 @@
               figure
                 img(src='@/assets/curso/tema2/img22.png', style="width: 350px", alt='').m-auto
             .col-lg-6
-              p #[b #[i software] de presentación]
+              p #[b #[i Software] de presentación]
               p El objetivo de los gráficos de presentación es proporcionar información en forma gráfica que ayude a los usuarios finales y gerentes a comprender las propuestas comerciales y el rendimiento y tomar mejores decisiones al respecto. Es importante tener en cuenta que los gráficos de presentación no reemplazan los informes y las pantallas de números y material de texto.
           .row.align-items-center.justify-content-center
             .col-lg-3.mb-4.mb-lg-0
               figure
                 img(src='@/assets/curso/tema2/img23.png', style="width: 350px", alt='').m-auto
             .col-lg-6
-              p #[b #[i software] de autoría multimedia]
+              p #[b #[i Software] de autoría multimedia]
               p Permite a sus usuarios diseñar presentaciones multimedia. Con estos paquetes, puede desarrollar cursos atractivos de capacitación basada en computadora (CBT) o presentaciones para clientes. Este #[i software] tiene imágenes gráficas superiores, animación por computadora y video en movimiento que se pueden combinar con sonido de alta fidelidad en combinación con el texto.
           .row.align-items-center.justify-content-center
             .col-lg-3.mb-4.mb-lg-0
@@ -394,7 +394,7 @@
       .col(data-aos="fade-left")
         p.mb-0 Los paquetes de gestión de información personal (PIM) son herramientas que ayudan a los trabajadores del conocimiento a realizar un seguimiento de tareas, personas, proyectos, compromisos e ideas. Estos paquetes ayudan a los usuarios finales a almacenar, organizar y recuperar texto y datos numéricos en forma de notas, listas, recortes, tablas, memorandos, cartas, informes, etc.
     TabsB.color-acento-contenido(data-aos="fade-right")
-      .py-4.py-md-5(titulo="#[i software] de comunicaciones y navegador web" :icono="require('@/assets/curso/tema1/img20.svg')")
+      .py-4.py-md-5(titulo="<i>Software</i> de comunicaciones y navegador web" :icono="require('@/assets/curso/tema1/img20.svg')")
         .row.align-items-center
           .col-lg-8.mb-4.mb-lg-0
             p Permite al usuario conectarse a una red de telecomunicaciones para intercambiar información con otros usuarios o sistemas. El #[i software] proporciona las siguientes capacidades:
@@ -454,7 +454,7 @@
                     .col.mb-3.mb-sm-0
                       p.text-white.mb-0 #[b Anexo]. Lenguajes de programación.
                     .col-sm-auto
-                      a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                      a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/lenguajes_de_programacion.pdf')" target="_blank")
                         span(style="color:#000 !important") Descargar
                         i.fas.fa-file-download(style="color:#000 !important")
           .col-lg-4
@@ -495,6 +495,12 @@
               i.fas.fa-check-circle(style="color: #4ADBD1")
               |
               p.text-white.mb-0 Son posibles 4 formas de procesamiento de la información: consulta, organización, actualización y  creación de nueva información.
+    
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-5
+        .tarjeta-naranja-borde.p-2.justify-content-center.mb-4
+          h5.mb-0.text-center Esta información puede provenir de dos fuentes distintas:
+
     .row.bg-c22.mb-5(data-aos="fade-right")
       .col-12
         .px-5
@@ -506,7 +512,7 @@
                     img(src="@/assets/curso/tema2/img26.png", alt="alt")
                 .crd_hover_txt--body
                   p.text-center #[b Fuente interna]
-                  p.text-center.mb-0 sEs el flujo de información que generan las entidades internas de la organización (suministros, producción, gestión de empleados, contabilidad, ventas, etc.), por su funcionamiento (procesos, métodos), pero también el flujo de información informal (clima social, bienestar de los empleados, saber hacer, etc.) menos sencilla de destacar, pero decisiva, etc.
+                  p.text-center.mb-0 Es el flujo de información que generan las entidades internas de la organización (suministros, producción, gestión de empleados, contabilidad, ventas, etc.), por su funcionamiento (procesos, métodos), pero también el flujo de información informal (clima social, bienestar de los empleados, saber hacer, etc.) menos sencilla de destacar, pero decisiva, etc.
             .col-xl-5.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
               .crd_hover_txt
                 .crd_hover_txt--img
@@ -533,7 +539,7 @@
           img(src='@/assets/curso/tema2/img29.png', style="width: 350px", alt='').m-auto
       .col-lg-9(data-aos="fade-left")
         .cajon.color-primario.p-4
-          p.mb-0 Por lo tanto, la información se recopila y almacena en archivos o en lo que se denomina una base de datos (o BDD). El archivo es una colección, un conjunto de datos reunidos bajo el mismo nombre. Técnicamente es información digital compuesta por una secuencia de bytes, es decir, una secuencia de números. La base de datos (BDD) es una estructura de almacenamiento de información que toma la forma de grandes tablas, como una tabla de Excel. Cada columna se utiliza para ordenar un tipo de datos y cada fila representa un registro y, por ende, puede encontrar en la columna el número del contacto, su nombre, su nombre, su función y su número de teléfono. Cada línea representa un registro.
+          p.mb-0 Por lo tanto, la información se recopila y almacena en archivos o en lo que se denomina una base de datos (o BDD). El archivo es una colección, un conjunto de datos reunidos bajo el mismo nombre. Técnicamente, es información digital compuesta por una secuencia de bytes, es decir, una secuencia de números. La base de datos (BDD) es una estructura de almacenamiento de información que toma la forma de grandes tablas, como una tabla de Excel. Cada columna se utiliza para ordenar un tipo de datos y cada fila representa un registro y, por ende, puede encontrar en la columna el número del contacto, su nombre, su nombre, su función y su número de teléfono. Cada línea representa un registro.
     .row.mb-4(data-aos="fade-right")
       .col-auto.px-4.py-3.bg-c3
         h3.mb-0 Zona de almacenamiento
@@ -717,6 +723,9 @@
     .row.mb-5(data-aos="fade-right")
       .col-auto.px-4.py-3.bg-c3
         h3.mb-0 Lista de verificación de gestión de cambios
+
+    p.mb-5 Un plan de gestión del cambio comienza con la definición clara del proyecto y la visión de cuáles deberían ser los resultados.
+
     .row.bg-c34(data-aos="fade-left")
       .col-12
         .px-5
@@ -730,7 +739,7 @@
                         p.fs-4.mb-0 #[b 01]
                 .col.bg-c36
                   .p-4
-                    p.mb-0 #[b Gestión del ciclo de vida de la nube]. Es el ejercicio del control administrativo sobre las nubes públicas, privadas e híbridas.
+                    p.mb-0 #[b Gestión del ciclo de vida de la nube:] Es el ejercicio del control administrativo sobre las nubes públicas, privadas e híbridas.
             .col-lg-9.mb-4
               .row
                 .col-auto.bg-c25.px-0
@@ -740,7 +749,7 @@
                         p.fs-4.mb-0 #[b 02]
                 .col.bg-c36
                   .p-4
-                    p.mb-0 #[b Gestión de cumplimiento]. Esto asegura que una organización se adhiera a las regulaciones gubernamentales y de la industria como se especifica en su marco de cumplimiento.
+                    p.mb-0 #[b Gestión de cumplimiento:] Esto asegura que una organización se adhiera a las regulaciones gubernamentales y de la industria como se especifica en su marco de cumplimiento.
             .col-lg-9.mb-4
               .row
                 .col-auto.bg-c35.px-0
@@ -750,7 +759,7 @@
                         p.fs-4.mb-0 #[b 03]
                 .col.bg-c36
                   .p-4
-                    p.mb-0 #[b Gestión de la configuración]. Esto abarca los procesos utilizados para monitorear, controlar y actualizar los recursos y servicios de TI en toda una empresa. La gestión de la configuración le permite a una empresa saber cómo están configurados sus activos tecnológicos y cómo se relacionan entre sí.
+                    p.mb-0 #[b Gestión de la configuración:] Esto abarca los procesos utilizados para monitorear, controlar y actualizar los recursos y servicios de TI en toda una empresa. La gestión de la configuración le permite a una empresa saber cómo están configurados sus activos tecnológicos y cómo se relacionan entre sí.
             .col-lg-9.mb-4
               .row
                 .col-auto.bg-c25.px-0
@@ -760,7 +769,7 @@
                         p.fs-4.mb-0 #[b 04]
                 .col.bg-c36
                   .p-4
-                    p.mb-0 #[b Manejo de costos]. Esta es la planificación y el control de los gastos de TI. La gestión de costos permite buenas prácticas presupuestarias y reduce la posibilidad de sobrepasar el presupuesto.
+                    p.mb-0 #[b Manejo de costos:] Esta es la planificación y el control de los gastos de TI. La gestión de costos permite buenas prácticas presupuestarias y reduce la posibilidad de sobrepasar el presupuesto.
             .col-lg-9
               .row
                 .col-auto.bg-c35.px-0
@@ -770,7 +779,7 @@
                         p.fs-4.mb-0 #[b 05]
                 .col.bg-c36
                   .p-4
-                    p.mb-0 Gestión de datos. Esto determina cómo se crean, recuperan, actualizan y almacenan los datos en una organización. La gestión de datos también puede incluir copia de seguridad de datos y recuperación ante desastres.
+                    p.mb-0 #[b Gestión de datos:] Esto determina cómo se crean, recuperan, actualizan y almacenan los datos en una organización. La gestión de datos también puede incluir copia de seguridad de datos y recuperación ante desastres.
           .row.mb-4(data-aos="fade-right")
             .col-auto.px-4.py-3.bg-c3
               h3.mb-0 El proceso del ciclo de vida de los datos
@@ -843,38 +852,22 @@
             figure
               img(src='@/assets/curso/tema2/img40.png', alt='')
           .tarjeta.color-secundario.p-3(x="5%" y="14%" numero="+")
-            p #[b Costos]
             p.mb-0 La administración de sistemas cuesta dinero, se debe invertir en el personal de TI, las herramientas de administración de sistemas y la capacitación necesaria para usar dichas herramientas.
           .tarjeta.color-secundario.p-3(x="5%" y="33%" numero="+")
-            p #[b Recuperación de desastres]
             p.mb-0 La administración de sistemas es una parte clave de cualquier plan de recuperación ante desastres. Cuando ocurren desastres, los datos y los sistemas deben volver a estar en línea lo más rápido posible.
           .tarjeta.color-secundario.p-3(x="5%" y="52%" numero="+")
-            p #[b Seguridad]
             p.mb-0 Proteger los sistemas de TI se vuelve más desafiante a medida que la infraestructura se vuelve más compleja. Mantener la seguridad del #[i software] de administración de sistemas es particularmente importante. #[i software] afecta sistemas TI, riesgo para seguridad de red.
           .tarjeta.color-secundario.p-3(x="95%" y="14%" numero="+")
-            p #[b Interoperabilidad]
             p.mb-0 Uno de los mayores desafíos es lograr que todos los subsistemas trabajen juntos en un entorno de TI que cambia constantemente. Puede ser difícil integrar el #[i software] de administración de sistemas con varios #[i hardware] y otro #[i software].
           .tarjeta.color-secundario.p-3(x="95%" y="33%" numero="+")
-            p #[b Actualizaciones de #[i software]]
             p.mb-0 A medida que los sistemas cambian y se vuelven más complejos, es difícil garantizar que el #[i software] de todos los subsistemas esté actualizado. Las actualizaciones de #[i software] pueden causar problemas de compatibilidad y las actualizaciones perdidas pueden crear vulnerabilidades de seguridad.
           .tarjeta.color-secundario.p-3(x="95%" y="52%" numero="+")
-            p #[b Capacitación]
             p.mb-0 El personal de TI y los administradores de sistemas deben comprender cómo las herramientas de administración de sistemas se integran entre sí y con la infraestructura existente. Capacitar al personal para hacer esto requiere tiempo y recursos.
     p.mb-5(data-aos="fade-down") En resumen, las organizaciones deben planificar, coordinar y dirigir sus actividades haciendo usos de las TI, esto permitirá cumplir con los objetivos establecidos, por lo tanto, es necesario que:
     .row.bg-c22(data-aos="fade-right")
       .col-12
         .px-5
           SlyderF(columnas="col-lg-6 col-xl-4")
-            .tarjeta.color-acento-botones1.p-4
-              .row.justify-content-center.mb-3
-                .col-8
-                  img(src='@/assets/curso/tema2/img23.svg' alt='AvatarTop')
-              p.text-white Aplicar habilidades de pensamiento crítico y análisis lógico para diseñar, implementar y evaluar soluciones basadas en computación para problemas comerciales complejos.
-            .tarjeta.color-acento-botones2.p-4
-              .row.justify-content-center.mb-3
-                .col-8
-                  img(src='@/assets/curso/tema2/img24.svg' alt='AvatarTop')
-              p Poseer certificaciones de la industria en áreas funcionales de informática, sistemas de información de gestión o gestión de proyectos.
             .tarjeta.color-acento-botones1.p-4
               .row.justify-content-center.mb-3
                 .col-8
@@ -890,6 +883,18 @@
                 .col-8
                   img(src='@/assets/curso/tema2/img27.svg' alt='AvatarTop')
               p.text-white Aplicar los conocimientos para tomar decisiones éticas, profesionales, legales y sociales responsables relacionadas con el manejo de sistemas informáticos.
+            .tarjeta.color-acento-botones2.p-4
+              .row.justify-content-center.mb-3
+                .col-8
+                  img(src='@/assets/curso/tema2/img23.svg' alt='AvatarTop')
+              p.text-white Aplicar habilidades de pensamiento crítico y análisis lógico para diseñar, implementar y evaluar soluciones basadas en computación para problemas comerciales complejos.
+            .tarjeta.color-acento-botones1.p-4
+              .row.justify-content-center.mb-3
+                .col-8
+                  img(src='@/assets/curso/tema2/img24.svg' alt='AvatarTop')
+              p Poseer certificaciones de la industria en áreas funcionales de informática, sistemas de información de gestión o gestión de proyectos.
+
+
 
 </template>
 

@@ -17,7 +17,7 @@
               p.mb-0 Bienvenido a este componente formativo denominado “Herramientas informáticas para las organizaciones” para comenzar el recorrido por el mismo, revise la información que se presenta a continuación:
           figure(data-aos="fade-left")
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/jV9Fyg1F_gI" title="Herramientas informáticas en las organizaciones" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
 </template>
 

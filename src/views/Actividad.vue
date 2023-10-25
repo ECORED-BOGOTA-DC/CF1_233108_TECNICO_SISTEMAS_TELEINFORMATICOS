@@ -9,7 +9,7 @@
           figure
             img(src="@/assets/template/seleccion_Multiple.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
-        .titulo-segundo
+        .titulo-segundo.color-acento-botones
           h2 Comprendiendo los sistemas informáticos
         p.mb-4 Reforzar los elementos conceptuales respecto a los sistemas informáticos tomando como base las necesidades y los requerimientos del entorno.
         .tarjeta.actividad.p-3

@@ -38,7 +38,7 @@
             p #[b #[i Hardware]]
             p.mb-0 Conjunto de elementos físicos o materiales que constituyen una computadora o un sistema informático.
           .tarjeta.color-secundario.p-3(x="76%" y="64%" numero="+")
-            p #[b #[i #[i software]]]
+            p #[b #[i #[i Software]]]
             p.mb-0 Son los programas utilizados para la administración, procesamiento y análisis de la información.
           .tarjeta.color-secundario.p-3(x="65%" y="88%" numero="+")
             p #[b Red]
@@ -177,7 +177,7 @@
           p.text-center.mb-5(data-aos="fade-down") #[b Para saber más sobre sistemas operativos revise con atención el siguiente recurso:]
           figure(data-aos="fade-left")
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/eNG_O4A2Yhs" title="Sistemas operativos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.mb-4(data-aos="fade-right")
       .col-auto.px-4.py-3.bg-c3
         h3.mb-0 Diferencia entre los sistemas operativos Mac vs. Windows
@@ -294,7 +294,7 @@
               img(src="@/assets/curso/tema1/img14.png", alt="alt")
           .crd_hover_txt--body
             p.text-center #[b #[i software] de Utilidad]
-            p.text-center.mb-0 Permite reparar o modificar una computadora, por ejemplo, los #[i software] antivirus.
+            p.text-center.mb-0 Permite reparar o modificar una computadora, por ejemplo, los #[i software] antivirus y #[i software] de desfragmentación de disco. Permiten llenar las deficiencias de los sistemas operativos
       .col-xl.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt
           .crd_hover_txt--img
@@ -302,7 +302,7 @@
               img(src="@/assets/curso/tema1/img15.png", alt="alt")
           .crd_hover_txt--body1
             p.text-center.text-white #[b #[i software] de programación]
-            p.text-center.text-white.mb-0 Permiten llenar las deficiencias de los sistemas operativos.
+            p.text-center.text-white.mb-0 Su propósito es hacer más #[i software]. La mayoría de estos programas brindan a los programadores un entorno en el que pueden escribir el código, probarlo y convertirlo al formato que luego se puede ejecutar en una computadora.
     .row.mb-4(data-aos="fade-right")
       .col-auto.px-4.py-3.bg-c3
         h3.mb-0 PowerPoint como herramienta
@@ -393,7 +393,14 @@
               img(src='@/assets/curso/tema1/img34.svg', style="width: 550px", alt='').m-auto
       .col-lg-8.bg-c15(data-aos="fade-down")
         .p-4
-          p.mb-0.mt-4 Es el proceso que da entre diferentes eslabones de en un proceso de producción, proveedores instalaciones de fabricación, distribuidores de los productos, los cuales trabajan en pro de garantizar la satisfacción del cliente.
+          p.mb-0.mt-4 Un sistema de gestión de relaciones con los clientes (CRM) es una aplicación de software diseñada para gestionar los clientes de una organización. En el entorno actual, es importante desarrollar relaciones con sus clientes, y el uso de un CRM bien diseñado puede permitir que una empresa personalice su relación con cada uno de sus clientes. Algunos sistemas de software ERP incluyen módulos CRM. Un ejemplo de un paquete de CRM muy conocido es <i>Salesforce</i>.
+
+    .row.mb-4(data-aos="fade-right")
+      .col-auto.px-4.py-3.bg-c3
+        h3.mb-0 Gestión de la cadena de suministro
+
+    p.mb-5 Muchas organizaciones deben afrontar la compleja tarea de gestionar sus cadenas de suministro, aclaremos un poco dicho termino :
+
     .cajon.color-primario.p-4.mb-5(data-aos="fade-right")
       p.mb-0 Un sistema de gestión de la cadena de suministro (SCM) gestiona la interconexión entre estos eslabones, así como el inventario de los productos en sus distintas etapas de desarrollo.
     .row.mb-4(data-aos="fade-right")
@@ -662,7 +669,7 @@
                 .col.mb-3.mb-sm-0
                   p.text-white.mb-0 #[b Anexo]. Funciones departamento TI en una organización.
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/funciones_TI_en_una_organizacion.pdf')" target="_blank")
                     span(style="color:#000 !important") Descargar
                     i.fas.fa-file-download(style="color:#000 !important")
     .row.mb-4(data-aos="fade-right")
@@ -737,13 +744,13 @@
               figure
                 img(src='@/assets/curso/tema1/img59.svg', style="width: 230px", alt='').m-auto
             .col-lg-7
-              p.mb-0 Gracias al análisis de datos se puede obtener una visión más amplia de las necesidades de los clientes. Algo tan simple como tener una cuenta de Google permite a una empresa saber de dónde es un usuario, el tipo de navegador que está usando, qué hace en ese sitio web, sus requerimientos etc.
+              p.mb-0 Gracias al análisis de datos se puede obtener una visión más amplia de las necesidades de los clientes. Algo tan simple como tener una cuenta de Google permite a una empresa saber de dónde es un usuario, el tipo de navegador que está usando, qué hace en ese sitio web, sus requerimientos, etc.
           .row(titulo="Mayor conectividad")
             .col-lg-5.mb-4.mb-lg-0
               figure
                 img(src='@/assets/curso/tema1/img60.svg', style="width: 230px", alt='').m-auto
             .col-lg-7
-              p.mb-0 La tecnología ha facilitado que las personas se mantengan en contacto. Ya sea que esté buscando comunicarse con sus empleados y colegas a través de video chat o enviando correos electrónicos masivos a clientes potenciales, la tecnología móvil y la innovación constante que tiene lugar dentro del espacio han hecho posible que la comunicación adquiera un nuevo nivel de hiperrealismo.
+              p.mb-0 La tecnología ha facilitado que las personas se mantengan en contacto. Ya sea que esté buscando comunicarse con sus empleados y colegas a través de videochat o enviando correos electrónicos masivos a clientes potenciales, la tecnología móvil y la innovación constante que tiene lugar dentro del espacio han hecho posible que la comunicación adquiera un nuevo nivel de hiperrealismo.
           .row(titulo="Costos decrecientes y utilidad creciente")
             .col-lg-5.mb-4.mb-lg-0
               figure
@@ -799,6 +806,18 @@
         .p-5
           figure
             img(src='@/assets/curso/tema1/img66.svg', alt='').m-auto
+
+    .row.mb-4(data-aos="fade-right")
+      .col-auto.px-4.py-3.bg-c3
+        h3.mb-0 Formas efectivas de comunicación organizacional
+
+    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-right")
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/tema1/img69.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 Las diferentes situaciones comerciales y las diferentes necesidades de los empleados exigen el uso de múltiples canales de comunicación para llevar los mensajes a casa de manera efectiva. Una comprensión de los beneficios de varios tipos de comunicación organizacional puede ayudar a los empresarios a comunicarse de manera más efectiva, revíselos a continuación:
+
     .tarjeta.tarjeta--azul2.mb-5(data-aos="fade-right")
       .p-4
         SlyderA(tipo="b")
@@ -849,7 +868,7 @@
               p.mb-0 Uno de los mayores avances en la comunicación ha sido el desarrollo del teléfono celular. En el pasado, su única oportunidad de comunicarse con los empleados era cuando estaban en sus escritorios, lo que provocaba interminables juegos de "etiquetas telefónicas" cuando las personas intentaban conectarse durante los días de trabajo ocupados. Ahora, se puede contactar a los trabajadores sin importar dónde se encuentren, e incluso fuera del horario laboral. El desarrollo de los teléfonos inteligentes también ha ampliado en gran medida los tipos de actividades comerciales que puede realizar cuando está fuera de la oficina, aumentando la productividad y extendiendo la jornada laboral.
           .row(titulo="Dispositivos de comunicación")
             .col-12
-              p.mb-0 Dispositivos de comunicación	Por supuesto, los teléfonos no son los únicos dispositivos de comunicación de alta tecnología. Las computadoras vienen en una amplia variedad de configuraciones en estos días, incluidas tabletas, computadoras portátiles pequeñas pero potentes, dispositivos 2 en 1 que sirven como computadora portátil o tableta, y otras variaciones. Todos estos dispositivos tienen capacidades inalámbricas incorporadas y también se pueden configurar con comunicaciones móviles, lo que los convierte, en esencia, en teléfonos celulares grandes. Cualquiera que sea el dispositivo que lleve una persona de negocios, facilita las comunicaciones verbales, de texto y de imágenes.
+              p.mb-0 Por supuesto, los teléfonos no son los únicos dispositivos de comunicación de alta tecnología. Las computadoras vienen en una amplia variedad de configuraciones en estos días, incluidas tabletas, computadoras portátiles pequeñas pero potentes, dispositivos 2 en 1 que sirven como computadora portátil o tableta, y otras variaciones. Todos estos dispositivos tienen capacidades inalámbricas incorporadas y también se pueden configurar con comunicaciones móviles, lo que los convierte, en esencia, en teléfonos celulares grandes. Cualquiera que sea el dispositivo que lleve una persona de negocios, facilita las comunicaciones verbales, de texto y de imágenes.
           .row(titulo="Teleconferencia")
             .col-12
               p.mb-0 Las conexiones de datos de alta velocidad permiten el uso de teleconferencias, reuniones virtuales realizadas a través de enlaces de audio y video. Las teleconferencias pueden ahorrar cantidades sustanciales de dinero que de otro modo se gastarían en viajes al conectar a empleados importantes en sucursales remotas para compartir ideas e información. El uso de pizarras virtuales, plataformas comunitarias de intercambio de datos donde los usuarios remotos pueden interactuar como si estuvieran alrededor de la misma mesa, aumenta aún más las posibilidades del lugar de trabajo virtual.
@@ -874,7 +893,7 @@
                 .col.mb-3.mb-sm-0
                   p.text-white.mb-0 #[b Anexo]. Estrategias para implementar de manera adecuada las herramientas informáticas.
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/estrategias_para_implementar.pdf')" target="_blank")
                     span(style="color:#000 !important") Descargar
                     i.fas.fa-file-download(style="color:#000 !important")
       
