@@ -739,7 +739,7 @@
                         p.fs-4.mb-0 #[b 01]
                 .col.bg-c36
                   .p-4
-                    p.mb-0 #[b Gestión del ciclo de vida de la nube:] Es el ejercicio del control administrativo sobre las nubes públicas, privadas e híbridas.
+                    p.mb-0 #[b Gestión del ciclo de vida de la nube:] es el ejercicio del control administrativo sobre las nubes públicas, privadas e híbridas.
             .col-lg-9.mb-4
               .row
                 .col-auto.bg-c25.px-0
@@ -749,7 +749,7 @@
                         p.fs-4.mb-0 #[b 02]
                 .col.bg-c36
                   .p-4
-                    p.mb-0 #[b Gestión de cumplimiento:] Esto asegura que una organización se adhiera a las regulaciones gubernamentales y de la industria como se especifica en su marco de cumplimiento.
+                    p.mb-0 #[b Gestión de cumplimiento:] esto asegura que una organización se adhiera a las regulaciones gubernamentales y de la industria como se especifica en su marco de cumplimiento.
             .col-lg-9.mb-4
               .row
                 .col-auto.bg-c35.px-0
@@ -759,7 +759,7 @@
                         p.fs-4.mb-0 #[b 03]
                 .col.bg-c36
                   .p-4
-                    p.mb-0 #[b Gestión de la configuración:] Esto abarca los procesos utilizados para monitorear, controlar y actualizar los recursos y servicios de TI en toda una empresa. La gestión de la configuración le permite a una empresa saber cómo están configurados sus activos tecnológicos y cómo se relacionan entre sí.
+                    p.mb-0 #[b Gestión de la configuración:] esto abarca los procesos utilizados para monitorear, controlar y actualizar los recursos y servicios de TI en toda una empresa. La gestión de la configuración le permite a una empresa saber cómo están configurados sus activos tecnológicos y cómo se relacionan entre sí.
             .col-lg-9.mb-4
               .row
                 .col-auto.bg-c25.px-0
@@ -769,7 +769,7 @@
                         p.fs-4.mb-0 #[b 04]
                 .col.bg-c36
                   .p-4
-                    p.mb-0 #[b Manejo de costos:] Esta es la planificación y el control de los gastos de TI. La gestión de costos permite buenas prácticas presupuestarias y reduce la posibilidad de sobrepasar el presupuesto.
+                    p.mb-0 #[b Manejo de costos:] esta es la planificación y el control de los gastos de TI. La gestión de costos permite buenas prácticas presupuestarias y reduce la posibilidad de sobrepasar el presupuesto.
             .col-lg-9
               .row
                 .col-auto.bg-c35.px-0
@@ -779,7 +779,7 @@
                         p.fs-4.mb-0 #[b 05]
                 .col.bg-c36
                   .p-4
-                    p.mb-0 #[b Gestión de datos:] Esto determina cómo se crean, recuperan, actualizan y almacenan los datos en una organización. La gestión de datos también puede incluir copia de seguridad de datos y recuperación ante desastres.
+                    p.mb-0 #[b Gestión de datos:] esto determina cómo se crean, recuperan, actualizan y almacenan los datos en una organización. La gestión de datos también puede incluir copia de seguridad de datos y recuperación ante desastres.
           .row.mb-4(data-aos="fade-right")
             .col-auto.px-4.py-3.bg-c3
               h3.mb-0 El proceso del ciclo de vida de los datos

@@ -399,7 +399,20 @@
       .col-auto.px-4.py-3.bg-c3
         h3.mb-0 Gestión de la cadena de suministro
 
-    p.mb-5 Muchas organizaciones deben afrontar la compleja tarea de gestionar sus cadenas de suministro, aclaremos un poco dicho termino :
+    p.mb-5 Muchas organizaciones deben afrontar la compleja tarea de gestionar sus cadenas de suministro, aclaremos un poco dicho termino:
+
+    .row.justify-content-center.mb-5(data-aos="fade-left")
+      .col-lg-10
+        .row.justify-content-center.align-items-center
+          .col-xl-4 
+            figure
+              img(src='@/assets/curso/tema1/img34-2.svg', style="width: 380px", alt='').m-auto
+          .col-xl-auto
+            figure.fig-p2
+              img(src='@/assets/curso/tema1/img6.svg', style="width: 50px", alt='').m-auto
+          .col-md-8.col-xl-7.bg-c5.p-5
+            p.text-white.mb-0 Es el proceso que da entre diferentes eslabones de en un proceso de producción, proveedores instalaciones de fabricación, distribuidores de los productos, los cuales trabajan en pro de garantizar la satisfacción del cliente.
+
 
     .cajon.color-primario.p-4.mb-5(data-aos="fade-right")
       p.mb-0 Un sistema de gestión de la cadena de suministro (SCM) gestiona la interconexión entre estos eslabones, así como el inventario de los productos en sus distintas etapas de desarrollo.
