@@ -15,13 +15,13 @@
     .row.align-items-center.mb-3
       .col-lg-4.mb-3.mb-lg-0(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/tema1/img2.png', style="width: 370px", alt='').m-auto
+          img(src='@/assets/curso/tema1/img2.png', style="width: 370px", alt='Imágen decorativa').m-auto
       .col-lg-8(data-aos="fade-left")
         p El propósito de un SI es convertir los recursos en bruto en información útil que pueda usarse de manera estratégica en los procesos empresariales.
         .row.align-items-center.mb-3
           .col-auto
             figure
-              img(src='@/assets/curso/tema1/img1.svg', style="width: 30px", alt='').m-auto
+              img(src='@/assets/curso/tema1/img1.svg', style="width: 30px", alt='Imágen decorativa').m-auto
           .col
             p.mb-0 Por su parte, la tecnología de TI es aquella que impulsa o permite el almacenamiento, el procesamiento y el flujo de comunicación dentro de una organización. Todo lo relacionado con las computadoras, #[i #[i software]], redes, intranets, sitios web, servidores, bases de datos y telecomunicaciones.
         .cajon.color-acento-botones.p-4.mb-3
@@ -33,7 +33,7 @@
         ImagenInfografica.color-secundario
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/tema1/img2.svg', alt='')
+              img(src='@/assets/curso/tema1/img2.svg', alt='Imágen decorativa')
           .tarjeta.color-secundario.p-3(x="22.3%" y="36%" numero="+")
             p #[b #[i Hardware]]
             p.mb-0 Conjunto de elementos físicos o materiales que constituyen una computadora o un sistema informático.
@@ -60,7 +60,7 @@
             .row.align-items-center.justify-content-center
               .col-lg-4.mb-4.mb-lg-0
                 figure
-                  img(src='@/assets/curso/tema1/img3.png', style="width: 300px", alt='').m-auto
+                  img(src='@/assets/curso/tema1/img3.png', style="width: 300px", alt='Imágen decorativa').m-auto
               .col-lg-6
                 p #[b.txt-c1 Sistema de gestión de bases de datos (DBMS)]
                 p.mb-0 DataBase Management System, es una combinación de #[i #[i software]] que permite la administración y el análisis de datos. Su función principal es servir de interfaz entre la base de datos, el usuario y las distintas aplicaciones utilizadas.
@@ -69,7 +69,7 @@
             .row.align-items-center.justify-content-center
               .col-lg-4.mb-4.mb-lg-0
                 figure
-                  img(src='@/assets/curso/tema1/img4.png', style="width: 300px", alt='').m-auto
+                  img(src='@/assets/curso/tema1/img4.png', style="width: 300px", alt='Imágen decorativa').m-auto
               .col-lg-6
                 p #[b.txt-c1 Hoja de cálculo]
                 p.mb-0 Es una herramienta para el análisis básico; se basa en fórmulas que definen relaciones entre recursos. Se puede usar para calcular promedios para un conjunto de valores o para ver cómo cambia un valor con el tiempo.
@@ -78,7 +78,7 @@
             .row.align-items-center.justify-content-center
               .col-lg-4.mb-4.mb-lg-0
                 figure
-                  img(src='@/assets/curso/tema1/img5.png', style="width: 300px", alt='').m-auto
+                  img(src='@/assets/curso/tema1/img5.png', style="width: 300px", alt='Imágen decorativa').m-auto
               .col-lg-6
                 p #[b.txt-c1 Enterprise Resource Planning (ERP)]
                 p.mb-0 Sistema especializado que ha sido diseñado específicamente para dar soporte a un determinado proceso dentro de una organización o para realizar tareas de análisis muy concreta, este sistema se utiliza para integrar la gestión de todo el proceso interno y la cadena de suministro externa a lo largo de una organización.
@@ -87,7 +87,7 @@
             .row.align-items-center.justify-content-center
               .col-lg-4.mb-4.mb-lg-0
                 figure
-                  img(src='@/assets/curso/tema1/img6.png', style="width: 300px", alt='').m-auto
+                  img(src='@/assets/curso/tema1/img6.png', style="width: 300px", alt='Imágen decorativa').m-auto
               .col-lg-6
                 p #[b.txt-c1 Sistema de Información Geográfica (SIG)]
                 p.mb-0 También  citado como GIS por sus siglas en inglés Geographical Information System, es un conjunto de herramientas que integra y relaciona diversos componentes que permiten la organización, almacenamiento, manipulación, análisis y modelización de grandes cantidades de datos procedentes del entorno que están vinculados a una referencia espacial, facilitando la incorporación de aspectos sociales-culturales, económicos y ambientales que permiten la  toma de decisiones de una manera más eficaz.
@@ -96,7 +96,7 @@
             .row.align-items-center.justify-content-center
               .col-lg-4.mb-4.mb-lg-0
                 figure
-                  img(src='@/assets/curso/tema1/img7.png', style="width: 300px", alt='').m-auto
+                  img(src='@/assets/curso/tema1/img7.png', style="width: 300px", alt='Imágen decorativa').m-auto
               .col-lg-6
                 p #[b.txt-c1 Sistemas de soporte de decisiones (DSS)]
                 p.mb-0 Son aplicaciones de #[i software] utilizadas por la gerencia media y alta para recopilar información de una amplia gama de fuentes y procesos para respaldar la resolución de problemas y la toma de decisiones. Un DSS se utiliza principalmente para problemas de decisión no estructurados y semiestructurados.
@@ -105,7 +105,7 @@
             .row.align-items-center.justify-content-center
               .col-lg-4.mb-4.mb-lg-0
                 figure
-                  img(src='@/assets/curso/tema1/img8.png', style="width: 300px", alt='').m-auto
+                  img(src='@/assets/curso/tema1/img8.png', style="width: 300px", alt='Imágen decorativa').m-auto
               .col-lg-6
                 p #[b.txt-c1 Sistemas de Información Ejecutiva (EIS)]
                 p.mb-0 Son herramientas de informes que brindan acceso rápido a informes y procesos resumidos, provenientes de todos los niveles y departamentos de la empresa, como contabilidad, recursos humanos y operaciones.
@@ -139,16 +139,16 @@
             p.mb-0 El #[i software] se desarrolla a través de un proceso llamado programación, en el que un programador usa un lenguaje específico para ejecutarlo. Si bien la mayoría del #[i software] se desarrolla utilizando un modelo de código cerrado, el movimiento de código abierto está ganando más apoyo en la actualidad.
       .col-lg-5(data-aos="fade-left")
         figure
-          img(src='@/assets/curso/tema1/img4.svg', style="width: 470px", alt='').m-auto
+          img(src='@/assets/curso/tema1/img4.svg', style="width: 470px", alt='Imágen decorativa').m-auto
     .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-lg-10
         .row.justify-content-center.align-items-center
           .col-xl-4 
             figure
-              img(src='@/assets/curso/tema1/img5.svg', style="width: 380px", alt='').m-auto
+              img(src='@/assets/curso/tema1/img5.svg', style="width: 380px", alt='Imágen decorativa').m-auto
           .col-xl-auto
             figure.fig-p2
-              img(src='@/assets/curso/tema1/img6.svg', style="width: 50px", alt='').m-auto
+              img(src='@/assets/curso/tema1/img6.svg', style="width: 50px", alt='Imágen decorativa').m-auto
           .col-md-8.col-xl-7.bg-c5.p-4
             p.text-white.mb-0 #[b Recuerde que el #[i software]] es el conjunto de instrucciones que le dicen al #[i hardware] qué hacer. El #[i software] se puede dividir ampliamente en dos categorías: sistemas operativos y #[i software] de aplicación. Los sistemas operativos administran el #[i hardware] y crean la interfaz entre el #[i hardware] y el usuario. El #[i software] de aplicación es la categoría de programas que hacen algo útil para el usuario.
     .row.mb-4(data-aos="fade-right")
@@ -162,17 +162,17 @@
             .col-md-8.col-lg.bg-c6.shadow.m-2
               .p-4
                 figure.mb-4
-                  img(src='@/assets/curso/tema1/img10.svg', style="width: 140px", alt='').m-auto
+                  img(src='@/assets/curso/tema1/img10.svg', style="width: 140px", alt='Imágen decorativa').m-auto
                 p.text-center.text-white.mb-0 #[b Administrar los recursos de #[i hardware] de la computadora.]
             .col-md-8.col-lg.bg-c7.shadow.m-2
               .p-4
                 figure.mb-4
-                  img(src='@/assets/curso/tema1/img11.svg', style="width: 140px", alt='').m-auto
+                  img(src='@/assets/curso/tema1/img11.svg', style="width: 140px", alt='Imágen decorativa').m-auto
                 p.text-center.mb-0 #[b Proporcionar los componentes de la interfaz de usuario.]
             .col-md-8.col-lg.bg-c8.shadow.m-2
               .p-4
                 figure.mb-4
-                  img(src='@/assets/curso/tema1/img12.svg', style="width: 140px", alt='').m-auto
+                  img(src='@/assets/curso/tema1/img12.svg', style="width: 140px", alt='Imágen decorativa').m-auto
                 p.text-center.text-white.mb-0 #[b Proporcionar una plataforma para que los desarrolladores de #[i software] escriban aplicaciones.]
           p.text-center.mb-5(data-aos="fade-down") #[b Para saber más sobre sistemas operativos revise con atención el siguiente recurso:]
           figure(data-aos="fade-left")
@@ -185,7 +185,7 @@
       .row.m-0.align-items-center.justify-content-between
         .col-lg-4.mb-4.mb-lg-0
           figure
-            img(src='@/assets/curso/tema1/img13.svg', style="width: 280px", alt='').m-auto
+            img(src='@/assets/curso/tema1/img13.svg', style="width: 280px", alt='Imágen decorativa').m-auto
         .col-lg-8
           .bloque-texto-a__texto.p-4
             p ¿Eres un Mac? ¿Eres un PC? Desde su introducción en 1984, los usuarios de Apple Macintosh han sido bastante sesgados acerca de su preferencia por el sistema operativo Macintosh (ahora llamado OS X) sobre el de Microsoft. Cuando Microsoft introdujo Windows, Apple demandó a Microsoft, alegando que copian la “apariencia” del sistema operativo Macintosh. Al final, Microsoft se defendió con éxito.
@@ -195,19 +195,19 @@
           img(src='@/assets/curso/tema1/img14.svg', style="width: 750px", alt='En los últimos años, Microsoft y Apple han intercambiado críticas entre sí, cada uno afirmando tener un mejor sistema operativo y software. Si bien Microsoft siempre ha tenido la mayor participación de mercado, Apple ha sido el favorito de los artistas, músicos y la élite tecnológica. Apple también proporciona muchas computadoras a las escuelas primarias, ganando así seguidores entre la generación más joven.').m-auto
       .col-lg-3(data-aos="fade-left")
         figure
-          img(src='@/assets/curso/tema1/img15.svg', style="width: 450px", alt='').m-auto
+          img(src='@/assets/curso/tema1/img15.svg', style="width: 450px", alt='Imágen decorativa').m-auto
     .row.mb-4(data-aos="fade-right")
       .col-auto.px-4.py-3.bg-c3
         h3.mb-0 ¿Por qué el #[i software] de Microsoft es tan dominante en el mundo de los negocios?
     figure(data-aos="fade-right")
-      img(src='@/assets/curso/tema1/img9.png', style="width: 1200px", alt='').m-auto
+      img(src='@/assets/curso/tema1/img9.png', style="width: 1200px", alt='Imágen decorativa').m-auto
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-10.bg-c2.shadow-sm.p-4
         p.mb-0 Si han trabajado en el mundo de los negocios, se habrán dado cuenta de que casi todas las computadoras ejecutan una versión del sistema operativo Windows de Microsoft. ¿Por qué es esto? En casi todos los campus universitarios, se ve una preponderancia de computadoras portátiles Apple Macintosh. En las escuelas primarias, Apple también reina. ¿Por qué esto no se ha extendido al mundo de los negocios?
     .row.align-items-center.mb-3
       .col-lg-4.mb-3.mb-lg-0(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/tema1/img10.png', style="width: 370px", alt='').m-auto
+          img(src='@/assets/curso/tema1/img10.png', style="width: 370px", alt='Imágen decorativa').m-auto
       .col-lg-8(data-aos="fade-left")
         p Casi todas las empresas usaban computadoras centrales IBM en las décadas de 1960 y 1970. Estas mismas empresas se alejaron de las computadoras personales hasta que IBM lanzó la PC en 1981. Cuando los ejecutivos tenían que tomar una decisión sobre la compra de computadoras personales para sus empleados, elegían la ruta segura y compraban IBM. El dicho entonces era: “Nunca despidieron a nadie por comprar IBM”. Entonces, durante la siguiente década, las empresas compraron computadoras personales IBM (o aquellas compatibles con ellas), que ejecutaban un sistema operativo llamado DOS. DOS fueron creados por Microsoft, por lo que cuando Microsoft lanzó Windows como la próxima iteración de DOS, las empresas tomaron la ruta segura y comenzaron a comprar Windows.
         .cajon.color-acento-botones.p-4
@@ -215,7 +215,7 @@
     .row.align-items-center.mb-5(data-aos="fade-down")
       .col-auto
         figure
-          img(src='@/assets/curso/tema1/img1.svg', style="width: 30px", alt='').m-auto
+          img(src='@/assets/curso/tema1/img1.svg', style="width: 30px", alt='Imágen decorativa').m-auto
       .col
         p.mb-0 A medida que la computadora personal en red comenzó a reemplazar a la computadora central como la forma principal de computación dentro de las empresas, se volvió esencial para Microsoft brindarles a las empresas la capacidad de administrar y proteger sus redes. Microsoft desarrolló productos de servidor de nivel comercial para acompañar sus productos de computadora personal, proporcionando así una solución comercial completa. Y ahora, dice el dicho: “Nadie fue despedido por comprar Microsoft”.
     .row.mb-4(data-aos="fade-right")
@@ -231,10 +231,10 @@
             p.text-white.mb-0 Sabía que una aplicación “asesina” es aquella que se vuelve tan esencial que un gran número de personas comprará un dispositivo solo para ejecutar esa aplicación. Para la computadora personal, la aplicación asesina fue la hoja de cálculo. En 1979, se presentó VisiCalc, el primer paquete de hoja de cálculo para computadora personal. Fue un éxito e impulsó las ventas del Apple II. También solidificó el valor de la computadora personal más allá del círculo relativamente pequeño de fanáticos de la tecnología. Cuando se lanzó la PC de IBM, otro programa de hoja de cálculo, Lotus 1-2-3, fue la aplicación definitiva para los usuarios comerciales.
           .col-xl-auto
             figure.fig-p1
-              img(src='@/assets/curso/tema1/img17.svg', style="width: 50px", alt='').m-auto
+              img(src='@/assets/curso/tema1/img17.svg', style="width: 50px", alt='Imágen decorativa').m-auto
           .col-xl-4 
             figure
-              img(src='@/assets/curso/tema1/img16.svg', style="width: 380px", alt='').m-auto
+              img(src='@/assets/curso/tema1/img16.svg', style="width: 380px", alt='Imágen decorativa').m-auto
     .row.mb-4(data-aos="fade-right")
       .col-auto.px-4.py-3.bg-c3
         h3.mb-0 #[i software] de productividad
@@ -244,35 +244,35 @@
         .row.align-items-center
           .col-lg-4.mb-4.mb-lg-0
             figure
-              img(src='@/assets/curso/tema1/img12.png', style="width: 180px", alt='').m-auto
+              img(src='@/assets/curso/tema1/img12.png', style="width: 180px", alt='Imágen decorativa').m-auto
           .col-lg-8
             p.mb-0 Esta clase de #[i software] permite la creación de documentos escritos. Las funciones incluyen la capacidad de escribir y editar texto, formatear fuentes y párrafos, y agregar, mover y eliminar texto en todo el documento. La mayoría de los programas de procesamiento de texto modernos también tienen la capacidad de agregar tablas, imágenes y varias funciones de diseño y formato al documento. Los procesadores de texto guardan sus documentos como archivos electrónicos en una variedad de formatos. Con diferencia, el paquete de procesamiento de textos más popular es Microsoft Word, que guarda sus archivos en formato DOCX. Este formato puede ser leído/escrito por muchos otros paquetes de procesadores de texto.
       .py-4.py-md-5(titulo="Hoja de cálculo" :icono="require('@/assets/curso/tema1/img19.svg')")
         .row.align-items-center
           .col-lg-4.mb-4.mb-lg-0
             figure
-              img(src='@/assets/curso/tema1/img23.svg', style="width: 220px", alt='').m-auto
+              img(src='@/assets/curso/tema1/img23.svg', style="width: 220px", alt='Imágen decorativa').m-auto
           .col-lg-8
             p.mb-0 Esta clase de #[i software] proporciona una forma de realizar cálculos y análisis numéricos. El área de trabajo se divide en filas y columnas, donde los usuarios pueden ingresar números, texto o fórmulas. Son las fórmulas las que hacen que una hoja de cálculo sea poderosa, lo que permite al usuario desarrollar cálculos complejos que pueden cambiar según los números ingresados. La mayoría de las hojas de cálculo también incluyen la capacidad de crear gráficos basados en los datos ingresados. El paquete de hojas de cálculo más popular es Microsoft Excel, que guarda sus archivos en formato XLSX. Al igual que con los procesadores de texto, muchos otros paquetes de hojas de cálculo pueden leer y escribir en este formato de archivo.
       .py-4.py-md-5(titulo="Presentación" :icono="require('@/assets/curso/tema1/img20.svg')")
         .row.align-items-center
           .col-lg-4.mb-4.mb-lg-0
             figure
-              img(src='@/assets/curso/tema1/img24.svg', style="width: 270px", alt='').m-auto
+              img(src='@/assets/curso/tema1/img24.svg', style="width: 270px", alt='Imágen decorativa').m-auto
           .col-lg-8
             p.mb-0 Esta clase de #[i software] proporciona la creación de presentaciones de diapositivas. Remontándose a los días de los retroproyectores y las transparencias, el #[i software] de presentación permite a sus usuarios crear un conjunto de diapositivas que se pueden imprimir o proyectar en una pantalla. Los usuarios pueden agregar texto, imágenes y otros elementos multimedia a las diapositivas. PowerPoint de Microsoft es el #[i software] más popular en este momento, guardando sus archivos en formato PPTX.
       .py-4.py-md-5(titulo="Suites ofimáticas" :icono="require('@/assets/curso/tema1/img21.svg')")
         .row.align-items-center
           .col-lg-4.mb-4.mb-lg-0
             figure
-              img(src='@/assets/curso/tema1/img25.svg', style="width: 220px", alt='').m-auto
+              img(src='@/assets/curso/tema1/img25.svg', style="width: 220px", alt='Imágen decorativa').m-auto
           .col-lg-8
             p.mb-0 Algunas suites ofimáticas incluyen otros tipos de #[i software]. Por ejemplo, Microsoft Office incluye Outlook, su paquete de correo electrónico y OneNote, una herramienta de colaboración para recopilar información. La versión profesional de Office también incluye Microsoft Access, un paquete de base de datos.
     p.mb-5(data-aos="fade-right") Microsoft popularizó la idea del paquete de productividad de #[i software] de oficina con el lanzamiento de Microsoft Office.
     .row.align-items-center.mb-5
       .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/tema1/img26.svg', style="width: 500px", alt='').m-auto
+          img(src='@/assets/curso/tema1/img26.svg', style="width: 500px", alt='Imágen decorativa').m-auto
       .col-lg-6(data-aos="fade-left")
         p Este paquete continúa dominando el mercado y la mayoría de las empresas esperan que los empleados sepan cómo usar este #[i software]. Sin embargo, existen muchos competidores de Microsoft Office y son compatibles con los formatos de archivo utilizados por Microsoft. Recientemente, Microsoft ha comenzado a ofrecer una versión web de su paquete de Office.
         .cajon.color-acento-botones.p-4
@@ -314,7 +314,7 @@
           p.mb-0 Los desarrolladores de #[i software] tienen claro este problema, por ende, se están desarrollando nuevas tecnologías de presentación digital. Una nueva e innovadora aplicación de presentación es Prezi la cual es una herramienta de presentación que permite a los presentadores colocar texto, imágenes y otros medios en un lienzo y luego navegar entre estos objetos a medida que presentan. Al igual que con PowerPoint, Prezi debe usarse para complementar la presentación, se debe recordar que a veces las mejores presentaciones se hacen sin herramientas digitales.
       .col-lg-5(data-aos="fade-left")
         figure
-          img(src='@/assets/curso/tema1/img16.png', style="width: 450px", alt='').m-auto
+          img(src='@/assets/curso/tema1/img16.png', style="width: 450px", alt='Imágen decorativa').m-auto
     .row.mb-4(data-aos="fade-right")
       .col-auto.px-4.py-3.bg-c3
         h3.mb-0 Barra lateral: Soy dueño de este #[i software], ¿verdad? Bueno
@@ -333,7 +333,7 @@
     .row.align-items-center.mb-5
       .col-lg-3.mb-4.mb-lg-0(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/tema1/img27.svg', style="width: 350px", alt='').m-auto
+          img(src='@/assets/curso/tema1/img27.svg', style="width: 350px", alt='Imágen decorativa').m-auto
       .col-lg-9(data-aos="fade-left")
         .cajon.color-primario.p-4
           p.mb-0 A medida que la computadora personal proliferaba dentro de las organizaciones, el control sobre la información generada por la organización comenzó a fragmentarse. Digamos que el departamento de servicio al cliente crea una base de datos de clientes para realizar un seguimiento de las llamadas y los informes de problemas, y el departamento de ventas también crea una base de datos para realizar un seguimiento de la información del cliente. ¿Cuál debe utilizarse como lista maestra de clientes? Como otro ejemplo, alguien en ventas podría crear una hoja de cálculo para calcular los ingresos por ventas, mientras que alguien en finanzas crea una diferente que satisfaga las necesidades de su departamento. Sin embargo, es probable que las dos hojas de cálculo presenten diferentes totales de ingresos. ¿Cuál es el correcto? ¿Y quién gestiona toda esta información?
@@ -345,7 +345,7 @@
         p.mb-0 En la década de 1990, se hizo más evidente la necesidad de volver a poner la información de la organización bajo un control centralizado. El sistema de planificación de recursos empresariales (ERP) (a veces llamado simplemente #[i software] empresarial) se desarrolló para reunir a toda una organización en una aplicación de #[i software]. En pocas palabras, un sistema ERP es una aplicación de #[i software] que utiliza una base de datos central que se implementa en toda la organización. Echemos un vistazo más de cerca a esta definición:
       .col-lg-5(data-aos="fade-left")
         figure
-          img(src='@/assets/curso/tema1/img19.png', style="width: 550px", alt='').m-auto
+          img(src='@/assets/curso/tema1/img19.png', style="width: 550px", alt='Imágen decorativa').m-auto
     .row.bg-c12
       .col-12
         .p-5
@@ -357,11 +357,11 @@
                     p Un ERP es una aplicación que utilizan muchos de los empleados de una organización. “utilizando una base de datos central”: Todos los usuarios del ERP editan y guardan su información de la fuente de datos. Lo que esto significa en la práctica es que solo hay una base de datos de clientes, solo hay un cálculo de ingresos, etc.
                   .col-lg-auto
                     figure
-                      img(src='@/assets/curso/tema1/img28.svg', style="width: 170px", alt='').m-auto
+                      img(src='@/assets/curso/tema1/img28.svg', style="width: 170px", alt='Imágen decorativa').m-auto
                 .row.align-items-center
                   .col-lg-auto.mb-4.mb-lg-0
                     figure
-                      img(src='@/assets/curso/tema1/img29.svg', style="width: 170px", alt='').m-auto
+                      img(src='@/assets/curso/tema1/img29.svg', style="width: 170px", alt='Imágen decorativa').m-auto
                   .col
                     p.txt-c2 Los sistemas ERP incluyen una funcionalidad que cubre todos los componentes esenciales de un negocio. Además, una organización puede adquirir módulos para su sistema ERP que satisfagan necesidades específicas, como la fabricación o la planificación.
                 .row.align-items-center
@@ -369,11 +369,11 @@
                     p Los sistemas ERP se comercializaron originalmente para grandes corporaciones. Sin embargo, a medida que más y más empresas grandes comenzaron a instalarlos, los proveedores de ERP comenzaron a apuntar a empresas medianas e incluso más pequeñas. Algunos de los sistemas ERP más conocidos incluyen los de SAP, Oracle y Microsoft.
                   .col-lg-auto
                     figure
-                      img(src='@/assets/curso/tema1/img30.svg', style="width: 170px", alt='').m-auto
+                      img(src='@/assets/curso/tema1/img30.svg', style="width: 170px", alt='Imágen decorativa').m-auto
                 .row.align-items-center
                   .col-lg-auto.mb-4.mb-lg-0
                     figure
-                      img(src='@/assets/curso/tema1/img31.svg', style="width: 170px", alt='').m-auto
+                      img(src='@/assets/curso/tema1/img31.svg', style="width: 170px", alt='Imágen decorativa').m-auto
                   .col
                     p.txt-c2 Para implementar efectivamente un sistema ERP, la organización debe estar lista para comprometerse por completo, pues todos los aspectos de la organización se ven afectados ya que los sistemas antiguos son reemplazados por el sistema ERP. En general, implementar un sistema ERP puede llevar de dos a tres años y varios millones de dólares. En la mayoría de los casos, el costo del #[i software] no es la parte más cara de la implementación: ¡es el costo de los consultores!
                 .row.align-items-center
@@ -381,7 +381,7 @@
                     p Un sistema ERP puede brindarle a una organización un buen retorno de su inversión. Al consolidar los sistemas de información en toda la empresa y usar el #[i software] para hacer cumplir las mejores prácticas, la mayoría de las organizaciones ven una mejora general después de implementar un ERP.
                   .col-lg-auto
                     figure
-                      img(src='@/assets/curso/tema1/img32.svg', style="width: 170px", alt='').m-auto
+                      img(src='@/assets/curso/tema1/img32.svg', style="width: 170px", alt='Imágen decorativa').m-auto
     .row.justify-content-center.mb-5
       .col-auto.bg-c13.fig-p3(data-aos="fade-right")
         .p-3
@@ -390,7 +390,7 @@
         .row.justify-content-center
           .col-auto
             figure.fig-p4
-              img(src='@/assets/curso/tema1/img34.svg', style="width: 550px", alt='').m-auto
+              img(src='@/assets/curso/tema1/img34.svg', style="width: 550px", alt='Imágen decorativa').m-auto
       .col-lg-8.bg-c15(data-aos="fade-down")
         .p-4
           p.mb-0.mt-4 Un sistema de gestión de relaciones con los clientes (CRM) es una aplicación de software diseñada para gestionar los clientes de una organización. En el entorno actual, es importante desarrollar relaciones con sus clientes, y el uso de un CRM bien diseñado puede permitir que una empresa personalice su relación con cada uno de sus clientes. Algunos sistemas de software ERP incluyen módulos CRM. Un ejemplo de un paquete de CRM muy conocido es <i>Salesforce</i>.
@@ -406,10 +406,10 @@
         .row.justify-content-center.align-items-center
           .col-xl-4 
             figure
-              img(src='@/assets/curso/tema1/img34-2.svg', style="width: 380px", alt='').m-auto
+              img(src='@/assets/curso/tema1/img34-2.svg', style="width: 380px", alt='Imágen decorativa').m-auto
           .col-xl-auto
             figure.fig-p2
-              img(src='@/assets/curso/tema1/img6.svg', style="width: 50px", alt='').m-auto
+              img(src='@/assets/curso/tema1/img6.svg', style="width: 50px", alt='Imágen decorativa').m-auto
           .col-md-8.col-xl-7.bg-c5.p-5
             p.text-white.mb-0 Es el proceso que da entre diferentes eslabones de en un proceso de producción, proveedores instalaciones de fabricación, distribuidores de los productos, los cuales trabajan en pro de garantizar la satisfacción del cliente.
 
@@ -422,7 +422,7 @@
     .row.align-items-center.mb-5
       .col-lg-3.mb-4.mb-lg-0(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/tema1/img35.svg', style="width: 170px", alt='').m-auto
+          img(src='@/assets/curso/tema1/img35.svg', style="width: 170px", alt='Imágen decorativa').m-auto
       .col-lg-9(data-aos="fade-left")
         .cajon.color-acento-contenido.p-4
           p.mb-0 Al igual que la computadora personal, los dispositivos móviles como tabletas y teléfonos inteligentes también tienen sistemas operativos y #[i software] de aplicación. De hecho, estos dispositivos móviles son, en muchos sentidos, solo versiones más pequeñas de computadoras personales. Una aplicación móvil es una aplicación de #[i software] programada para ejecutarse específicamente en un dispositivo móvil.
@@ -439,16 +439,16 @@
     .row.align-items-start.mb-5
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/tema1/img36.svg', style="width: 250px", alt='').m-auto
+          img(src='@/assets/curso/tema1/img36.svg', style="width: 250px", alt='Imágen decorativa').m-auto
       .col-lg-8(data-aos="fade-left")
         p.mb-0 Si se accede al correo electrónico a través de un navegador web, se está utilizando una forma de computación en la nube. Si se utilizan las aplicaciones de Google Drive, se está utilizando la computación en la nube. Si bien estas son versiones gratuitas de computación en la nube, existe un gran negocio al proporcionar aplicaciones y almacenamiento de datos a través de la web.
     p.text-center.mb-5(data-aos="fade-right") #[b A continuación, se describen algunas ventajas y desventajas de la computación en la nube:]
     figure.mb-5(data-aos="fade-left")
-      img(src='@/assets/curso/tema1/img37.svg', style="width: 1150px", alt='').m-auto
+      img(src='@/assets/curso/tema1/img37.svg', style="width: 1150px", alt='Imágen decorativa').m-auto
     .row.align-items-center.mb-5
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/tema1/img21.png', style="width: 400px", alt='').m-auto
+          img(src='@/assets/curso/tema1/img21.png', style="width: 400px", alt='Imágen decorativa').m-auto
       .col-lg-8(data-aos="fade-left")
         .row.mb-4
           .col-auto.px-4.py-3.bg-c3
@@ -469,16 +469,16 @@
         p.mb-0 Este lenguaje generalmente consiste en un conjunto de palabras legibles combinadas con símbolos. Con este lenguaje, un programador escribe un programa (llamado código fuente) que luego se puede compilar en un formato legible por máquina, los unos y los ceros necesarios para que la CPU los ejecute. Los ejemplos de lenguajes de programación conocidos en la actualidad incluyen Java, PHP y varias versiones de C (Visual C, C++, C#). Se utilizan lenguajes como HTML y JavaScript para desarrollar páginas web. La mayoría de las veces, la programación se realiza dentro de un entorno de programación; cuando compra una copia de Visual Studio de Microsoft, le proporciona un editor, compilador.
       .col-lg-4.d-none.d-lg-block(data-aos="fade-left")
         figure
-          img(src='@/assets/curso/tema1/img22.png', style="width: 400px", alt='').m-auto
+          img(src='@/assets/curso/tema1/img22.png', style="width: 400px", alt='Imágen decorativa').m-auto
     .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-lg-10
         .row.justify-content-center.align-items-center
           .col-xl-4 
             figure
-              img(src='@/assets/curso/tema1/img38.svg', style="width: 380px", alt='').m-auto
+              img(src='@/assets/curso/tema1/img38.svg', style="width: 380px", alt='Imágen decorativa').m-auto
           .col-xl-auto
             figure.fig-p2
-              img(src='@/assets/curso/tema1/img6.svg', style="width: 50px", alt='').m-auto
+              img(src='@/assets/curso/tema1/img6.svg', style="width: 50px", alt='Imágen decorativa').m-auto
           .col-md-8.col-xl-7.bg-c5.p-4
             p.text-white.mb-0 La programación de #[i software] era originalmente un proceso individual, con cada programador trabajando en un programa completo, o varios programadores trabajando cada uno en una parte de un programa más grande. Sin embargo, los métodos más nuevos de desarrollo de #[i software] incluyen un enfoque más colaborativo, con equipos de programadores que trabajan juntos en el código.
     .row.mb-4(data-aos="fade-right")
@@ -497,20 +497,20 @@
         p.mb-0 Sin embargo, hay muchos que sienten que el #[i software] no debería estar restringido. Al igual que aquellos primeros aficionados en la década de 1970, sienten que la innovación y el progreso pueden lograrse mucho más rápidamente si compartimos lo que aprendemos. En la década de 1990, con el acceso a Internet conectando a más y más personas, el movimiento de código abierto cobró fuerza.
       .col-lg-4(data-aos="fade-left")
         figure
-          img(src='@/assets/curso/tema1/img24.png', style="width: 380px", alt='').m-auto
+          img(src='@/assets/curso/tema1/img24.png', style="width: 380px", alt='Imágen decorativa').m-auto
     .row.mb-4(data-aos="fade-right")
       .col-auto.px-4.py-3.bg-c3
         h3.mb-0 Pero ¿Qué es el #[i software] de código abierto?
     p.mb-5(data-aos="fade-right") Es un #[i software] que hace que el código fuente esté disponible para que cualquiera pueda copiarlo y usarlo. Este puede estar disponible en un formato compilado que simplemente se puede descargar e instalar
     figure.mb-5(data-aos="fade-left")
-      img(src='@/assets/curso/tema1/img25.png', style="width: 1150px", alt='').m-auto
+      img(src='@/assets/curso/tema1/img25.png', style="width: 1150px", alt='Imágen decorativa').m-auto
     p.mb-5(data-aos="fade-right") El movimiento de código abierto ha llevado al desarrollo del #[i software] más utilizado en el mundo, incluido el navegador Firefox, el sistema operativo Linux y el servidor web Apache.
     .row
       .col-lg.m-2(data-aos="fade-right")
         .row
           .col-12.px-0
             figure
-              img(src='@/assets/curso/tema1/img26.png', style="width: 650px", alt='').m-auto
+              img(src='@/assets/curso/tema1/img26.png', style="width: 650px", alt='Imágen decorativa').m-auto
         .row
           .col.bg-c16
             .p-4
@@ -532,7 +532,7 @@
         .row
           .col-12.px-0
             figure
-              img(src='@/assets/curso/tema1/img27.png', style="width: 650px", alt='').m-auto
+              img(src='@/assets/curso/tema1/img27.png', style="width: 650px", alt='Imágen decorativa').m-auto
         .row
           .col.bg-c17
             .p-4
@@ -554,7 +554,7 @@
       .col-12
         .px-5
           figure(data-aos="fade-right")
-            img(src='@/assets/curso/tema1/img28.png', style="width: 1200px", alt='').m-auto
+            img(src='@/assets/curso/tema1/img28.png', style="width: 1200px", alt='Imágen decorativa').m-auto
           .row.justify-content-center.mb-5(data-aos="fade-down")
             .col-lg-10.bg-c2.shadow-sm.p-4
               p.mb-0 Casi todas las empresas utilizan computadoras para llevar a cabo sus funciones. Desde la generación de informes hasta la comunicación con los clientes, las computadoras hacen mucho por la eficiencia con la que se ejecuta un negocio.
@@ -581,7 +581,7 @@
                       p.mb-0 Además, una empresa necesita comunicarse con sus empleados, y las computadoras juegan un papel importante. En lugar de tener reuniones individuales, se puede enviar un correo electrónico o un mensaje en cualquier otra plataforma de comunicación aceptable. Esto ahorra tiempo y también mejora la comunicación interna de la empresa.
                     .col-lg-4
                       figure
-                        img(src='@/assets/curso/tema1/img40.svg', style="width: 450px", alt='').m-auto
+                        img(src='@/assets/curso/tema1/img40.svg', style="width: 450px", alt='Imágen decorativa').m-auto
                   .row
                     .col-lg-8.mb-4.mb-lg-0
                       p.txt-c1.fs-5 #[b Para la comercialización]
@@ -589,7 +589,7 @@
                       p.mb-0 Con una computadora, una empresa puede crear, ejecutar o adquirir campañas de marketing completas que abarcan todas las plataformas de redes sociales en Internet, ¡La computadora es probablemente el mejor dispositivo de marketing jamás construido!
                     .col-lg-4
                       figure
-                        img(src='@/assets/curso/tema1/img41.svg', style="width: 450px", alt='').m-auto
+                        img(src='@/assets/curso/tema1/img41.svg', style="width: 450px", alt='Imágen decorativa').m-auto
                   .row
                     .col-lg-8.mb-4.mb-lg-0
                       p.txt-c1.fs-5 #[b Para la contabilidad]
@@ -597,14 +597,14 @@
                       p.mb-0  Las computadoras también son fundamentales para tareas como facturar a los clientes; mantenimiento de datos sobre deudores y acreedores; cálculo de nómina, cálculo y presentación de formularios de impuestos, así como para muchas otras funciones.
                     .col-lg-4
                       figure
-                        img(src='@/assets/curso/tema1/img42.svg', style="width: 450px", alt='').m-auto
+                        img(src='@/assets/curso/tema1/img42.svg', style="width: 450px", alt='Imágen decorativa').m-auto
                   .row
                     .col-lg-8.mb-4.mb-lg-0
                       p.txt-c1.fs-5 #[b Para el almacenamiento]
                       p.mb-0 Las empresas pueden almacenar y clasificar millones de archivos con computadoras y servidores, lo que les permite acceder a ellos en cualquier momento. Pueden optar por almacenar los datos de diferentes maneras: centralizados, permitiendo a otras computadoras en la red acceder a ellos con permisos adecuados, o localmente en computadoras individuales. El almacenamiento digital ofrece mayor capacidad y eficiencia que el almacenamiento físico, gracias a la clasificación de archivos. Además, proporciona mayor seguridad al ser más difícil perder archivos en bases de datos bien protegidas.
                     .col-lg-4
                       figure
-                        img(src='@/assets/curso/tema1/img43.svg', style="width: 450px", alt='').m-auto
+                        img(src='@/assets/curso/tema1/img43.svg', style="width: 450px", alt='Imágen decorativa').m-auto
                   .row
                     .col-lg-8.mb-4.mb-lg-0
                       p.txt-c1.fs-5 #[b Para producir documentos]
@@ -612,28 +612,28 @@
                       p.mb-0 En general, una computadora tiene muchos #[i software]s utilizados para facilitar las funciones de la empresa, haciéndola más rápida y eficiente de lo que era hace 20 o 30 años.
                     .col-lg-4
                       figure
-                        img(src='@/assets/curso/tema1/img44.svg', style="width: 450px", alt='').m-auto
+                        img(src='@/assets/curso/tema1/img44.svg', style="width: 450px", alt='Imágen decorativa').m-auto
                   .row
                     .col-lg-8.mb-4.mb-lg-0
                       p.txt-c1.fs-5 #[b Con fines educativos]
                       p.mb-0 Una empresa puede usar una computadora para educar a los empleados sobre cosas como la política de la empresa, el uso del #[i software], así como los procedimientos estándar y la seguridad. En lugar de contratar maestros para enseñar a sus empleados, una empresa puede permitir que los empleados aprendan lo que necesitan, aprendiendo a su propio ritmo a través de seminarios web y sesiones de preguntas y respuestas en vivo. Con Internet, se tiene la posibilidad de acceder a un mundo de información a través de diferentes medios, como videos, texto e incluso juegos, lo que les permite comprender mejor el tema.
                     .col-lg-4
                       figure
-                        img(src='@/assets/curso/tema1/img45.svg', style="width: 450px", alt='').m-auto
+                        img(src='@/assets/curso/tema1/img45.svg', style="width: 450px", alt='Imágen decorativa').m-auto
                   .row
                     .col-lg-8.mb-4.mb-lg-0
                       p.txt-c1.fs-5 #[b Para la investigación empresarial]
                       p.mb-0 Las computadoras permiten que una empresa haga una variedad de cosas, incluida la investigación sobre la competencia, así como sobre lo que quieren los clientes. Con técnicas modernas de minería de datos, una empresa puede adquirir información importante para la toma de decisiones, incluidos foros, motores de búsqueda, sitios web específicos de la industria e incluso de las redes sociales.
                     .col-lg-4
                       figure
-                        img(src='@/assets/curso/tema1/img46.svg', style="width: 450px", alt='').m-auto
+                        img(src='@/assets/curso/tema1/img46.svg', style="width: 450px", alt='Imágen decorativa').m-auto
                   .row
                     .col-lg-8.mb-4.mb-lg-0
                       p.txt-c1.fs-5 #[b Para hacer negocios]
                       p.mb-0 La tecnología cambia la definición de la frase "hacer negocios". Con las computadoras, puede producir más documentos de los que una máquina de escribir y un mimeógrafo podrían producir. Las computadoras simplifican las transacciones comerciales y permiten que los productos y servicios se vendan en todo el mundo En una oficina totalmente equipada con una red informática, tiene la capacidad de comunicarse a través de la intranet de la empresa, así como a través de Internet. Una intranet es extremadamente valiosa; puede manejar información delicada o confidencial dentro de los límites de la red de su empresa sin preocuparse de que usuarios no autorizados accedan a la red privada de su organización. Las computadoras también son necesarias para las organizaciones con empleados que trabajan a distancia o están ubicados de forma remota.
                     .col-lg-4
                       figure
-                        img(src='@/assets/curso/tema1/img47.svg', style="width: 450px", alt='').m-auto
+                        img(src='@/assets/curso/tema1/img47.svg', style="width: 450px", alt='Imágen decorativa').m-auto
                   .row
                     .col-lg-8.mb-4.mb-lg-0
                       p.txt-c1.fs-5 #[b Para Recursos Humanos]
@@ -641,7 +641,7 @@
                       p.mb-0 Los sistemas HRIS recopilan datos para informes, directos, oficiales, federales, estatales y locales, como formularios de igualdad de oportunidades de empleo que algunas empresas deben enviar a las agencias gubernamentales. Los sistemas HRIS también clasifican los datos de empleo, procesan nómina, calculan beneficios de los empleados, realizan auditorías de recursos humanos, analizan tasas de rotación y recopilan las respuestas de los empleados a las encuestas de opinión y las entrevistas de salida.
                     .col-lg-4
                       figure
-                        img(src='@/assets/curso/tema1/img48.svg', style="width: 450px", alt='').m-auto
+                        img(src='@/assets/curso/tema1/img48.svg', style="width: 450px", alt='Imágen decorativa').m-auto
                   .row
                     .col-lg-8.mb-4.mb-lg-0
                       p.txt-c1.fs-5 #[b Para expandir el alcance comercial]
@@ -649,7 +649,7 @@
                       p.mb-0 Sin el beneficio de las computadoras en el lugar de trabajo, seleccionar datos demográficos para identificar y acercarse a su mercado consumiría una enorme cantidad de tiempo y energía del personal. Las computadoras proporcionan funciones rentables para la producción, las ventas y el envío.
                     .col-lg-4
                       figure
-                        img(src='@/assets/curso/tema1/img49.svg', style="width: 450px", alt='').m-auto
+                        img(src='@/assets/curso/tema1/img49.svg', style="width: 450px", alt='Imágen decorativa').m-auto
     .row.mb-4(data-aos="fade-right")
       .col-auto.px-4.py-3.bg-c3
         h3.mb-0 Funciones TI en una organización
@@ -658,16 +658,16 @@
         p.mb-0 Con las computadoras y las redes informáticas, las personas han podido lograr en el lapso de unas pocas décadas lo que de otro modo nos hubiera llevado muchos siglos lograr. La gente ha democratizado Internet, ha mejorado enormemente la comunicación, ha aumentado la capacidad de diseñar e inventar por múltiples y ha hecho la vida más fácil en general. Ahora las personas llevan pequeños dispositivos informáticos en sus bolsillos que brindan asistencia en casi todos los aspectos de la vida, ya sea para despertarlos por la mañana, recordarles eventos importantes o ayudarnos a pensar y aprender nueva información.
       .col-lg-5(data-aos="fade-left")
         figure
-          img(src='@/assets/curso/tema1/img30.png', style="width: 450px", alt='').m-auto
+          img(src='@/assets/curso/tema1/img30.png', style="width: 450px", alt='Imágen decorativa').m-auto
     .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-lg-10
         .row.justify-content-center.align-items-center
           .col-xl-4 
             figure
-              img(src='@/assets/curso/tema1/img50.svg', style="width: 380px", alt='').m-auto
+              img(src='@/assets/curso/tema1/img50.svg', style="width: 380px", alt='Imágen decorativa').m-auto
           .col-xl-auto
             figure.fig-p2
-              img(src='@/assets/curso/tema1/img6.svg', style="width: 50px", alt='').m-auto
+              img(src='@/assets/curso/tema1/img6.svg', style="width: 50px", alt='Imágen decorativa').m-auto
           .col-md-8.col-xl-7.bg-c5.p-4
             p.text-white.mb-0 Se puede decir que los pequeños dispositivos informáticos que la gente lleva consigo se han convertido de alguna manera en parte de nosotros. Se han convertido en órganos adicionales en nuestros cuerpos, como brazos o piernas. Tal vez podamos pensar en ellos como una especie de mejora en nuestro cerebro, permitiéndonos lograr cosas que antes nunca imaginamos posibles. De la misma manera, TI se ha convertido en un órgano adicional en el cuerpo de cualquier negocio, lo que le permite lograr cosas mucho más grandes de lo que podría sin la ayuda de TI.
     p.mb-5(data-aos="fade-down") El departamento de TI es un departamento importante dentro de una organización, que complementa a los demás de muchas maneras, en el siguiente documento, se presenta sus funciones más importantes:
@@ -696,35 +696,35 @@
         p.mb-0 Revise puntualmente la función de la tecnología en las organizaciones:
       .col-lg-4(data-aos="fade-left")
         figure
-          img(src='@/assets/curso/tema1/img31.png', style="width: 450px", alt='').m-auto
+          img(src='@/assets/curso/tema1/img31.png', style="width: 450px", alt='Imágen decorativa').m-auto
     .row.bg-c12
       .col-12(data-aos="fade-down")
         .p-5
           ImagenInfografica.color-secundario
             template(v-slot:imagen)
               figure
-                img(src='@/assets/curso/tema1/img52.svg', alt='')
+                img(src='@/assets/curso/tema1/img52.svg', alt='Funciones de la tecnología en las organizaciones, verificar su descripción abajo de la imagen.')
             .tarjeta.color-acento-contenido.p-3(x="13%" y="45%" numero="+")
               .row.align-items-center
                 .col-lg.mb-4.mb-lg-0
                   p.mb-0 Con los años, debido a la tecnología, se revolucionaron muchos modelos comerciales tradicionales. La tecnología abrió la oportunidad de ver las cosas desde una nueva perspectiva pues ha permitido una mayor eficiencia a la hora de  hacer negocios y el uso de las TIC ha influenciado los procesos de gestión, los sistemas de contabilidad y otros aspectos complejos de las actividades comerciales cotidianas.
                 .col-lg-auto
                   figure
-                    img(src='@/assets/curso/tema1/img53.svg', style="width: 80px", alt='').m-auto
+                    img(src='@/assets/curso/tema1/img53.svg', style="width: 80px", alt='Imágen decorativa').m-auto
             .tarjeta.color-acento-contenido.p-3(x="90%" y="30%" numero="+")
               .row.align-items-center
                 .col-lg.mb-4.mb-lg-0
                   p.mb-0 La tecnología permite automatizar numerosos procesos, aumentando la productividad. La tecnología facilita el almacenamiento y garantiza la   integridad y confidencialidad de la información, gracias a ella una empresa puede almacenar sus datos de manera segura y tenerla a la mano en cualquier momento para tomar decisiones asertivas que la beneficien y la posicionan frente a la competencia.  
                 .col-lg-auto
                   figure
-                    img(src='@/assets/curso/tema1/img54.svg', style="width: 80px", alt='').m-auto
+                    img(src='@/assets/curso/tema1/img54.svg', style="width: 80px", alt='Imágen decorativa').m-auto
             .tarjeta.color-acento-contenido.p-3(x="60%" y="40%" numero="+")
               .row.align-items-center
                 .col-lg.mb-4.mb-lg-0
                   p.mb-0 Con la tecnología, ha sido posible globalizar las operaciones comerciales, ahora, cualquier persona puede hacer negocios desde cualquier lugar, esto ha hecho posible que las empresas tengan un alcance más amplio en el mundo, el Internet es ahora una parte crucial de la campaña de marketing de cualquier empresa, ya que le permite atraer clientes en todo el mundo. Sin embargo, también existen amenazas para los negocios provocadas por la tecnología, estos incluyen actividades maliciosas como por ejemplo la piratería.
                 .col-lg-auto
                   figure
-                    img(src='@/assets/curso/tema1/img55.svg', style="width: 80px", alt='').m-auto
+                    img(src='@/assets/curso/tema1/img55.svg', style="width: 80px", alt='Imágen decorativa').m-auto
     .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-right")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema1/img32.png')})`}"
@@ -734,7 +734,7 @@
     .row.align-items-center.mb-5
       .col-auto(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/tema1/img1.svg', style="width: 30px", alt='').m-auto
+          img(src='@/assets/curso/tema1/img1.svg', style="width: 30px", alt='Imágen decorativa').m-auto
       .col(data-aos="fade-left")
         p.mb-0 La tecnología ha cambiado todos los aspectos de los negocios de manera acelerada y esto nunca había sucedido en la historia. Para ser más específicos, aquí hay algunas formas en que la tecnología de la información ha afectado a los negocios:
     .row.align-items-center.mb-5
@@ -743,48 +743,48 @@
           .row(titulo="El advenimiento de las soluciones móviles")
             .col-lg-5.mb-4.mb-lg-0
               figure
-                img(src='@/assets/curso/tema1/img57.svg', style="width: 230px", alt='').m-auto
+                img(src='@/assets/curso/tema1/img57.svg', style="width: 230px", alt='Imágen decorativa').m-auto
             .col-lg-7
               p.mb-0 La movilidad es fundamental para las empresas ahora los negocios pueden manejarse utilizando una tableta o un teléfono inteligente, desde allí pueden hacer marketing de contenido, establecer relaciones con los clientes, realizar ventas, manejar los aspectos administrativos etc., por su parte los consumidores usan sus teléfonos para comprar, vender y compartir experiencias.
           .row(titulo="El fenómeno de la computación en la nube")
             .col-lg-5.mb-4.mb-lg-0
               figure
-                img(src='@/assets/curso/tema1/img58.svg', style="width: 230px", alt='').m-auto
+                img(src='@/assets/curso/tema1/img58.svg', style="width: 230px", alt='Imágen decorativa').m-auto
             .col-lg-7
               p.mb-0 Ha hecho posible que las empresas subcontraten muchas de sus funciones a terceros a través de Internet, esto ha permitido que las empresas se expandan rápidamente y adopten la movilidad sin tener que preocuparse por cosas como bloqueos, tiempo de inactividad y pérdida de datos, la computación en la nube a permitido el manejo de información de forma eficiente y segura.
           .row(titulo="Mayor segmentación de clientes")
             .col-lg-5.mb-4.mb-lg-0
               figure
-                img(src='@/assets/curso/tema1/img59.svg', style="width: 230px", alt='').m-auto
+                img(src='@/assets/curso/tema1/img59.svg', style="width: 230px", alt='Imágen decorativa').m-auto
             .col-lg-7
               p.mb-0 Gracias al análisis de datos se puede obtener una visión más amplia de las necesidades de los clientes. Algo tan simple como tener una cuenta de Google permite a una empresa saber de dónde es un usuario, el tipo de navegador que está usando, qué hace en ese sitio web, sus requerimientos, etc.
           .row(titulo="Mayor conectividad")
             .col-lg-5.mb-4.mb-lg-0
               figure
-                img(src='@/assets/curso/tema1/img60.svg', style="width: 230px", alt='').m-auto
+                img(src='@/assets/curso/tema1/img60.svg', style="width: 230px", alt='Imágen decorativa').m-auto
             .col-lg-7
               p.mb-0 La tecnología ha facilitado que las personas se mantengan en contacto. Ya sea que esté buscando comunicarse con sus empleados y colegas a través de videochat o enviando correos electrónicos masivos a clientes potenciales, la tecnología móvil y la innovación constante que tiene lugar dentro del espacio han hecho posible que la comunicación adquiera un nuevo nivel de hiperrealismo.
           .row(titulo="Costos decrecientes y utilidad creciente")
             .col-lg-5.mb-4.mb-lg-0
               figure
-                img(src='@/assets/curso/tema1/img61.svg', style="width: 230px", alt='').m-auto
+                img(src='@/assets/curso/tema1/img61.svg', style="width: 230px", alt='Imágen decorativa').m-auto
             .col-lg-7
               p.mb-0 El "mercado de compradores" se ha hecho posible gracias a la asequibilidad del #[i hardware] y #[i software], y al aumento de empresarios expertos en tecnología. Las soluciones ofrecidas más fácilmente han facilitado el desarrollo del negocio sin grandes inversiones.
           .row(titulo="Mayor consideración por el impacto social de los negocios")
             .col-lg-5.mb-4.mb-lg-0
               figure
-                img(src='@/assets/curso/tema1/img62.svg', style="width: 230px", alt='').m-auto
+                img(src='@/assets/curso/tema1/img62.svg', style="width: 230px", alt='Imágen decorativa').m-auto
             .col-lg-7
               p.mb-0 Las redes sociales han hecho del mundo un lugar más pequeño donde los usuarios pueden conectarse sin importar quiénes son. Por ende, la empresa ahora debe hacer un esfuerzo adicional si no quiere calificaciones desfavorables en los sitios web. Por lo tanto, se debe tener cuidado con la reputación en línea y se debe trabajar en la huella digital.
           .row(titulo="El fin del tiempo de inactividad")
             .col-lg-5.mb-4.mb-lg-0
               figure
-                img(src='@/assets/curso/tema1/img63.svg', style="width: 230px", alt='').m-auto
+                img(src='@/assets/curso/tema1/img63.svg', style="width: 230px", alt='Imágen decorativa').m-auto
             .col-lg-7
               p.mb-0 Esto es en realidad un efecto negativo de la tecnología. Con una mayor conectividad, las personas tienen cada vez menos tiempo para sí mismas. Las vacaciones parecen haberse convertido en algo del pasado, Siempre se puede acceder a los correos electrónicos, mensajes de texto y redes sociales a través de los teléfonos y computadoras, cada vez es más difícil desconectarse.
       .col-lg-4(data-aos="fade-left")
         figure
-          img(src='@/assets/curso/tema1/img56.svg', style="width: 430px", alt='').m-auto
+          img(src='@/assets/curso/tema1/img56.svg', style="width: 430px", alt='Imágen decorativa').m-auto
     p.mb-5(data-aos="fade-right") Puede ser un poco difícil comprender la importancia de la tecnología de la información para una organización si no es un profesional de TI. Sin embargo, existen numerosas formas en las que la tecnología de la información es crucial para una organización, revíselas a continuación:
     .row.bg-c12.mb-5
       .col-12(data-aos="fade-right")
@@ -792,7 +792,7 @@
           ImagenInfografica.color-secundario
             template(v-slot:imagen)
               figure
-                img(src='@/assets/curso/tema1/img64.svg', alt='')
+                img(src='@/assets/curso/tema1/img64.svg', alt='Imágen decorativa')
             .tarjeta.color-acento-botones.p-3(x="60%" y="20%" numero="+")
               .row
                 .col-12
@@ -818,7 +818,7 @@
       .col-12(data-aos="fade-left")
         .p-5
           figure
-            img(src='@/assets/curso/tema1/img66.svg', alt='').m-auto
+            img(src='@/assets/curso/tema1/img66.svg', alt='Imágen decorativa').m-auto
 
     .row.mb-4(data-aos="fade-right")
       .col-auto.px-4.py-3.bg-c3
@@ -840,40 +840,40 @@
               p.mb-0 La tecnología nunca reemplazará el beneficio y el poder de la comunicación cara a cara. Cuando tenga dudas, o cuando una comunicación sea crítica y sea posible reunirse de manera presencial, hágalo. La conexión personal que se produce cuando dos o más personas pueden interactuar en tiempo real es significativa.
             .col-lg-5
               figure
-                img(src='@/assets/curso/tema1/img33.png', style="width: 430px", alt='').m-auto
+                img(src='@/assets/curso/tema1/img33.png', style="width: 430px", alt='Imágen decorativa').m-auto
           .row.align-items-center.justify-content-center
             .col-lg-6.mb-4.mb-lg-0
               p #[b Correo electrónico]
               p.mb-0 Este probablemente ha cambiado el entorno de comunicación organizacional de manera más significativa que cualquier otra introducción de tecnología en las últimas décadas, según Thinkquest. El correo electrónico es rápido, eficiente y permite un registro de la interacción. Pero, si bien el correo electrónico puede ser muy efectivo, los empresarios deben evitar usarlo en exceso. A veces, el diálogo directo con una persona es lo mejor.
             .col-lg-5
               figure
-                img(src='@/assets/curso/tema1/img34.png', style="width: 430px", alt='').m-auto
+                img(src='@/assets/curso/tema1/img34.png', style="width: 430px", alt='Imágen decorativa').m-auto
           .row.align-items-center.justify-content-center
             .col-lg-6.mb-4.mb-lg-0
               p #[b Teléfono]
               p.mb-0 Sigue siendo un pilar en cualquier entorno empresarial, aunque cada vez más de estos teléfonos se están convirtiendo en la variedad móvil. A veces, el correo electrónico funciona bien; a veces nada supera la conexión más personal que se puede lograr por teléfono, incluso con colegas a cientos o miles de millas de distancia.
             .col-lg-5
               figure
-                img(src='@/assets/curso/tema1/img35.png', style="width: 430px", alt='').m-auto
+                img(src='@/assets/curso/tema1/img35.png', style="width: 430px", alt='Imágen decorativa').m-auto
           .row.align-items-center.justify-content-center
             .col-lg-6.mb-4.mb-lg-0
               p #[b Reuniones del Ayuntamiento]
               p.mb-0 La oportunidad de reunir a un grupo de empleados en una sala para una reunión puede ser una forma muy efectiva de comunicación organizacional, según Lin Grensing-Pophal, autora de Employee Management for Small Business. Ofrece el poder de las conexiones interpersonales y brinda una oportunidad para que los empleados se escuchen y aprendan unos de otros.
             .col-lg-5
               figure
-                img(src='@/assets/curso/tema1/img36.png', style="width: 430px", alt='').m-auto
+                img(src='@/assets/curso/tema1/img36.png', style="width: 430px", alt='Imágen decorativa').m-auto
           .row.align-items-center.justify-content-center
             .col-lg-6.mb-4.mb-lg-0
               p #[b Video conferencia]
               p.mb-0 Puede ser una excelente manera de comunicarse con los empleados, especialmente cuando están separados por la distancia. El Internet ha facilitado las comunicaciones comerciales y la grabación y el acercamiento a través de video. Se espera que el iPad tenga un impacto aún mayor en la facilidad de uso y la prevalencia del video en el entorno empresarial, según Steve Vonder Haar, director de investigación y fundador de Interactive Media Strategies.
             .col-lg-5
               figure
-                img(src='@/assets/curso/tema1/img37.png', style="width: 430px", alt='').m-auto
+                img(src='@/assets/curso/tema1/img37.png', style="width: 430px", alt='Imágen decorativa').m-auto
     p.mb-5(data-aos="fade-right") La tecnología ha alterado la vida moderna de muchas maneras, especialmente en el lugar de trabajo. La invención de las computadoras, la miniaturización de la electrónica y el desarrollo de la comunicación inalámbrica han alterado el mundo de los negocios. La comunicación empresarial, en particular, ha experimentado algunos de los mayores avances debido a:
     .row.align-items-center.mb-5
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/tema1/img68.svg', style="width: 430px", alt='').m-auto
+          img(src='@/assets/curso/tema1/img68.svg', style="width: 430px", alt='Imágen decorativa').m-auto
       .col-lg-8(data-aos="fade-left")
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul1")
           .row(titulo="Desarrollo teléfono celular")

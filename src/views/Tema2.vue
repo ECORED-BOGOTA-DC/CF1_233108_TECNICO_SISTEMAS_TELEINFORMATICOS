@@ -28,21 +28,21 @@
               p.mb-0 Esta es la tecnología física que trabaja con la información. El #[i hardware] puede ser tan pequeño como un teléfono inteligente que cabe en un bolsillo o tan grande como una supercomputadora que llena un edificio. El #[i hardware] también incluye los dispositivos periféricos que funcionan con computadoras, como teclados, unidades de disco externas y enrutadores. Con el auge del Internet de las cosas, en el que cualquier cosa, desde electrodomésticos hasta automóviles y ropa, podrá recibir y transmitir datos, los sensores que interactúan con las computadoras están impregnando el entorno humano. Por tanto, es aquel equipo físico utilizado para la entrada, salida y procesamiento. La estructura del #[i hardware] depende del tipo y tamaño de la organización. Consiste en un dispositivo de entrada y salida, sistema operativo, procesador y dispositivos de medios. Esto también incluye dispositivos periféricos de computadora.
             .col-lg-5
               figure
-                img(src='@/assets/curso/tema2/img2.png', style="width: 470px", alt='').m-auto
+                img(src='@/assets/curso/tema2/img2.png', style="width: 470px", alt='Imágen decorativa').m-auto
           .row.align-items-center.justify-content-center
             .col-lg-6.mb-4.mb-lg-0
               p #[b #[i Software] de ordenador]
               p.mb-0 El #[i hardware] necesita saber qué hacer, y ese es el papel del #[i software]. El #[i software] se puede dividir en dos tipos: #[i software] de sistema y #[i software] de aplicación. La pieza principal del #[i software] del sistema es el sistema operativo, como Windows o iOS, que administra el funcionamiento del #[i hardware]. El #[i software] de aplicación está diseñado para tareas específicas, como manejar una hoja de cálculo, crear un documento o diseñar una página web. Los programas de aplicación utilizados para controlar y coordinar los componentes de #[i hardware]. Se utiliza para el análisis y procesamiento de los datos. Estos programas incluyen un conjunto de instrucciones utilizadas para procesar información.
             .col-lg-5
               figure
-                img(src='@/assets/curso/tema2/img3.png', style="width: 470px", alt='').m-auto
+                img(src='@/assets/curso/tema2/img3.png', style="width: 470px", alt='Imágen decorativa').m-auto
           .row.align-items-center.justify-content-center
             .col-lg-6.mb-4.mb-lg-0
               p #[b Telecomunicaciones]
               p.mb-0 Este componente conecta el #[i hardware] para formar una red. Las conexiones pueden ser a través de cables, como Ethernet o fibra óptica, o inalámbricas, como a través de Wi-Fi . Se puede diseñar una red para unir computadoras en un área específica, como una oficina o una escuela, a través de una red de área local (LAN). Si las computadoras están más dispersas, la red se denomina red de área amplia (WAN). Internet puede considerarse una red de redes.
             .col-lg-5
               figure
-                img(src='@/assets/curso/tema2/img4.png', style="width: 470px", alt='').m-auto
+                img(src='@/assets/curso/tema2/img4.png', style="width: 470px", alt='Imágen decorativa').m-auto
           .row.align-items-center.justify-content-center
             .col-lg-6.mb-4.mb-lg-0
               p #[b Bases de datos]
@@ -50,21 +50,21 @@
               p.mb-0 Una base de datos es un lugar donde se recopilan datos y desde el cual se pueden consultar utilizando algunos criterios específicos. Las bases de datos han adquirido una importancia en los sistemas de información con la aparición de "big data", un término que se refiere a las cantidades realmente masivas de datos que se pueden recopilar y analizar.
             .col-lg-5
               figure
-                img(src='@/assets/curso/tema2/img5.png', style="width: 470px", alt='').m-auto
+                img(src='@/assets/curso/tema2/img5.png', style="width: 470px", alt='Imágen decorativa').m-auto
           .row.align-items-center.justify-content-center
             .col-lg-6.mb-4.mb-lg-0
               p #[b La red]
               p.mb-0 Los recursos de redes se refieren a las redes de telecomunicaciones como la intranet, extranet e internet, estos recursos facilitan el flujo de información en la organización; las redes abarcan dispositivos físicos, como tarjetas de red, enrutadores, concentradores y cables, y #[i software], como sistemas operativos, servidores web, servidores de datos y servidores de aplicaciones. Las redes de telecomunicaciones están conformadas por computadoras, procesadores de comunicaciones y otros dispositivos interconectados por medios de comunicación y controlados por #[i software].
             .col-lg-5
               figure
-                img(src='@/assets/curso/tema2/img6.png', style="width: 470px", alt='').m-auto
+                img(src='@/assets/curso/tema2/img6.png', style="width: 470px", alt='Imágen decorativa').m-auto
           .row.align-items-center.justify-content-center
             .col-lg-6.mb-4.mb-lg-0
               p #[b Recursos humanos y procedimientos]
               p.mb-0 Está asociado con la mano de obra requerida para operar y administrar el sistema. Las personas son el usuario final del sistema de información, el usuario final utiliza la información producida para sus propios fines, el objetivo principal del sistema de información es beneficiar a las personas. los usuarios finales pueden ser contadores, ingenieros, vendedores, clientes, empleados o gerentes, etc. Las personas también son responsables de desarrollar y operar los sistemas de información. Incluyen analistas de sistemas, operadores de computadoras, programadores y otro personal administrativo de SÍ y técnicas gerenciales.
             .col-lg-5
               figure
-                img(src='@/assets/curso/tema2/img7.png', style="width: 470px", alt='').m-auto
+                img(src='@/assets/curso/tema2/img7.png', style="width: 470px", alt='Imágen decorativa').m-auto
     Separador
     #t_2_1
     .titulo-segundo.color-acento-botones
@@ -72,7 +72,7 @@
     .row.align-items-center.mb-5
       .col-lg-3.mb-4.mb-lg-0(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/tema2/img1.svg', style="width: 270px", alt='').m-auto
+          img(src='@/assets/curso/tema2/img1.svg', style="width: 270px", alt='Imágen decorativa').m-auto
       .col-lg-9(data-aos="fade-left")
         .cajon.color-acento-contenido.p-4
           p.mb-0 El #[i hardware] de la computadora es prácticamente inútil sin el #[i software]. Los #[i software] son los programas que se necesitan para realizar las actividades de entrada, procesamiento, salida, almacenamiento y control de los sistemas de información. El #[i software] generalmente se clasifica en dos tipos principales de programas: #[i software] de sistema y #[i software] de aplicación:
@@ -105,13 +105,13 @@
       .col-10.col-lg-6.bg-c23(data-aos="fade-right")
         .p-4.p-lg-5
           figure.mb-4
-            img(src='@/assets/curso/tema2/img3.svg', style="width: 170px", alt='').m-auto
+            img(src='@/assets/curso/tema2/img3.svg', style="width: 170px", alt='Imágen decorativa').m-auto
           p.text-center.text-white #[b Paquetes verticales]
           p.text-center.text-white Ayudan a los usuarios dentro de un segmento industrial específico. Los ejemplos incluyen paquetes que ayudan a administrar proyectos de construcción, realizar un seguimiento del inventario de hospitales o puntos de venta de comida rápida.
       .col-10.col-lg-6.bg-c24(data-aos="fade-left")
         .p-4.p-lg-5
           figure.mb-4
-            img(src='@/assets/curso/tema2/img4.svg', style="width: 170px", alt='').m-auto
+            img(src='@/assets/curso/tema2/img4.svg', style="width: 170px", alt='Imágen decorativa').m-auto
           p.text-center.text-white #[b Paquetes horizontales]
           p.text-center.text-white Pueden realizar una determinada función general, como contabilidad o automatización de oficinas, para una variedad de negocios.
     .row.mb-4(data-aos="fade-right")
@@ -120,7 +120,7 @@
     .row.align-items-center.mb-5
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/tema2/img5.svg', style="width: 350px", alt='').m-auto
+          img(src='@/assets/curso/tema2/img5.svg', style="width: 350px", alt='Imágen decorativa').m-auto
       .col-lg-8(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema2/img6.svg', style="width: 850px", alt='El paquete de software de sistema más importante para cualquier ordenador es su sistema operativo. Todo sistema informático se ejecuta bajo el control de un sistema operativo. Los sistemas operativos para computadoras compartidas por muchos usuarios son considerablemente más complejos que los sistemas operativos para computadoras personales. Para profundizar un poco más en la importancia del sistema operativo revise con atención el siguiente material:').m-auto
@@ -166,14 +166,14 @@
                           p.mb-0 Interactúa con los usuarios.
                     .col-lg-4
                       figure
-                        img(src='@/assets/curso/tema2/img10.png', style="width: 450px", alt='').m-auto
+                        img(src='@/assets/curso/tema2/img10.png', style="width: 450px", alt='Imágen decorativa').m-auto
                   .row.m-1
                     .col-lg-8.mb-4.mb-lg-0
                       p.txt-c1.fs-5 #[b ¿Qué es la multiprogramación?]
                       p Es la capacidad de una computadora para ejecutar varios programas simultáneamente en el mismo procesador al tener uno de los programas usando el procesador mientras otros realizan la entrada o salida. La multiprogramación requiere que las partes activas de los programas que compiten por el procesador estén disponibles en la memoria principal. La memoria virtual es la capacidad aparentemente expandida de la memoria principal de la computadora, y se logra al mantener en la memoria principal solo las partes de los programas que se necesitan de inmediato, con los programas completos guardados en el almacenamiento secundario.
                     .col-lg-4
                       figure
-                        img(src='@/assets/curso/tema2/img11.png', style="width: 450px", alt='').m-auto
+                        img(src='@/assets/curso/tema2/img11.png', style="width: 450px", alt='Imágen decorativa').m-auto
                   .row.m-1
                     .col-lg-8.mb-4.mb-lg-0
                       p.txt-c1.fs-5 #[b Modos de operación del sistema informático]
@@ -194,14 +194,14 @@
                       p.mb-0 Los sistemas operativos de multiprocesamiento se han diseñado para asignar el trabajo a los múltiples procesadores. Estos sistemas también admiten la multiprogramación, lo que permite que muchos programas compitan por los procesadores.
                     .col-lg-4
                       figure
-                        img(src='@/assets/curso/tema2/img12.png', style="width: 450px", alt='').m-auto
+                        img(src='@/assets/curso/tema2/img12.png', style="width: 450px", alt='Imágen decorativa').m-auto
                   .row.m-1
                     .col-lg-8.mb-4.mb-lg-0
                       p.txt-c1.fs-5 #[b Sistemas operativos computadoras personales]
                       p Los sistemas operativos de las computadoras personales que están dedicadas a un solo usuario son mucho más simples que los sistemas operativos que ejecutan máquinas más grandes, a las que cientos o miles de usuarios pueden tener acceso simultáneo. Una capacidad importante que puede ofrecer un sistema operativo en un entorno informático personal es la multitarea: la capacidad de ejecutar varias tareas a la vez en nombre de un usuario.
                     .col-lg-4
                       figure
-                        img(src='@/assets/curso/tema2/img13.png', style="width: 450px", alt='').m-auto
+                        img(src='@/assets/curso/tema2/img13.png', style="width: 450px", alt='Imágen decorativa').m-auto
                   .row.m-1
                     .col-lg-8.mb-4.mb-lg-0
                       p.txt-c1.fs-5 #[b Sistemas operativos de microcomputadoras]
@@ -235,7 +235,7 @@
                           p.mb-0 Capacidades de telecomunicaciones.
                     .col-lg-4
                       figure
-                        img(src='@/assets/curso/tema2/img14.png', style="width: 450px", alt='').m-auto
+                        img(src='@/assets/curso/tema2/img14.png', style="width: 450px", alt='Imágen decorativa').m-auto
                   .row.m-1
                     .col-lg-8.mb-4.mb-lg-0
                       p Windows NT: sistema operativo de red multitarea.
@@ -270,7 +270,7 @@
                           p.mb-0 Interfaz gráfica del usuario.
                     .col-lg-4
                       figure
-                        img(src='@/assets/curso/tema2/img15.png', style="width: 450px", alt='').m-auto
+                        img(src='@/assets/curso/tema2/img15.png', style="width: 450px", alt='Imágen decorativa').m-auto
     .row.mb-4(data-aos="fade-right")
       .col-auto.px-4.py-3.bg-c3
         h3.mb-0 Interfaz de usuario
@@ -278,7 +278,7 @@
       .col-12
         .px-5
           figure(data-aos="fade-right")
-            img(src='@/assets/curso/tema2/img16.png', style="width: 1200px", alt='').m-auto
+            img(src='@/assets/curso/tema2/img16.png', style="width: 1200px", alt='Imágen decorativa').m-auto
           .row.justify-content-center.mb-5(data-aos="fade-down")
             .col-lg-10.bg-c2.shadow-sm.p-4
               p.mb-0 Una interfaz de usuario es una combinación de medios por los cuales un usuario interactúa con el sistema informático. Permite que el usuario final se comunique con el sistema operativo para que pueda cargar programas, acceder a archivos y realizar otras tareas.
@@ -296,7 +296,7 @@
                 p.mb-0 La interfaz gráfica de usuario más popular es la proporcionada por Windows. El entorno de Windows se ha convertido en una plataforma estándar para las computadoras.
             .col-lg-3
               figure
-                img(src='@/assets/curso/tema2/img7.svg', style="width: 350px", alt='').m-auto
+                img(src='@/assets/curso/tema2/img7.svg', style="width: 350px", alt='Imágen decorativa').m-auto
           .row.mb-4(data-aos="fade-right")
             .col-auto.px-4.py-3.bg-c3
               h3.mb-0 El objetivo de los sistemas abiertos
@@ -315,7 +315,7 @@
           .titulo-sexto.color-acento-botones
             p.mb-0 #[b Figura 1]. Características del sistema abierto
           figure
-            img(src='@/assets/curso/tema2/img8.svg', style="width: 1150px", alt='').m-auto
+            img(src='@/assets/curso/tema2/img8.svg', style="width: 1150px", alt='La imagen muestra las características del sistema abierto, entre las que se encuentran:<br>Portabilidad<br>Interoperabilidad<br>Escalabilidad').m-auto
     .row.mb-4(data-aos="fade-right")
       .col-auto.px-4.py-3.bg-c3
         h3.mb-0 #[i Software] de productividad personal
@@ -331,7 +331,7 @@
           .row.align-items-center.justify-content-center
             .col-lg-3.mb-4.mb-lg-0
               figure
-                img(src='@/assets/curso/tema2/img19.png', style="width: 350px", alt='').m-auto
+                img(src='@/assets/curso/tema2/img19.png', style="width: 350px", alt='Imágen decorativa').m-auto
             .col-lg-6
               p #[b Gestión de base de datos]
               p Facilitan el almacenamiento, el mantenimiento y la utilización de datos en una base de datos compartida por muchos usuarios. Los DBM de microcomputadoras permiten a los usuarios:
@@ -352,35 +352,35 @@
           .row.align-items-center.justify-content-center
             .col-lg-3.mb-4.mb-lg-0
               figure
-                img(src='@/assets/curso/tema2/img20.png', style="width: 350px", alt='').m-auto
+                img(src='@/assets/curso/tema2/img20.png', style="width: 350px", alt='Imágen decorativa').m-auto
             .col-lg-6
               p #[b Procesamiento de textos]
               p Son programas que informatizan la creación, edición e impresión de documentos mediante el procesamiento electrónico de datos de texto. El procesamiento de textos es una aplicación importante de la automatización de oficinas. El procesamiento de textos es la actividad de creación y presentación más popular. De hecho, es la aplicación informática personal más común.
           .row.align-items-center.justify-content-center
             .col-lg-3.mb-4.mb-lg-0
               figure
-                img(src='@/assets/curso/tema2/img21.png', style="width: 350px", alt='').m-auto
+                img(src='@/assets/curso/tema2/img21.png', style="width: 350px", alt='Imágen decorativa').m-auto
             .col-lg-6
               p #[b Autoedición]
               p Las organizaciones utilizan #[i software] de autoedición para producir sus propios materiales impresos, como boletines, folletos, manuales y libros con varios estilos de letra, gráficos y colores en cada página. Los componentes necesarios para configurar un sistema de autoedición modesto incluyen: una pantalla de alta resolución, una impresora láser, #[i software] de autoedición y quizás un escáner.
           .row.align-items-center.justify-content-center
             .col-lg-3.mb-4.mb-lg-0
               figure
-                img(src='@/assets/curso/tema2/img22.png', style="width: 350px", alt='').m-auto
+                img(src='@/assets/curso/tema2/img22.png', style="width: 350px", alt='Imágen decorativa').m-auto
             .col-lg-6
               p #[b #[i Software] de presentación]
               p El objetivo de los gráficos de presentación es proporcionar información en forma gráfica que ayude a los usuarios finales y gerentes a comprender las propuestas comerciales y el rendimiento y tomar mejores decisiones al respecto. Es importante tener en cuenta que los gráficos de presentación no reemplazan los informes y las pantallas de números y material de texto.
           .row.align-items-center.justify-content-center
             .col-lg-3.mb-4.mb-lg-0
               figure
-                img(src='@/assets/curso/tema2/img23.png', style="width: 350px", alt='').m-auto
+                img(src='@/assets/curso/tema2/img23.png', style="width: 350px", alt='Imágen decorativa').m-auto
             .col-lg-6
               p #[b #[i Software] de autoría multimedia]
               p Permite a sus usuarios diseñar presentaciones multimedia. Con estos paquetes, puede desarrollar cursos atractivos de capacitación basada en computadora (CBT) o presentaciones para clientes. Este #[i software] tiene imágenes gráficas superiores, animación por computadora y video en movimiento que se pueden combinar con sonido de alta fidelidad en combinación con el texto.
           .row.align-items-center.justify-content-center
             .col-lg-3.mb-4.mb-lg-0
               figure
-                img(src='@/assets/curso/tema2/img24.png', style="width: 350px", alt='').m-auto
+                img(src='@/assets/curso/tema2/img24.png', style="width: 350px", alt='Imágen decorativa').m-auto
             .col-lg-6
               p #[b Los hipermedios]
               p Son documentos electrónicos que contienen múltiples formas de medios, incluidos texto, gráficos, video, mensajes de voz u otras unidades de información, como hojas de trabajo. En el método hipermedia de entrega de información, se pueden establecer vínculos entre varios elementos en un gran documento multimedia. Estos enlaces permiten al usuario pasar de un tema directamente a otro relacionado, en lugar de escanear la información de manera secuencial. El hipertexto es una metodología para la construcción y uso interactivo de bases de datos de texto. Por definición, el hipertexto contiene solo texto y una cantidad limitada de gráficos.
@@ -390,7 +390,7 @@
     .row.align-items-center.mb-5
       .col-auto(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/tema1/img1.svg', style="width: 30px", alt='').m-auto
+          img(src='@/assets/curso/tema1/img1.svg', style="width: 30px", alt='Imágen decorativa').m-auto
       .col(data-aos="fade-left")
         p.mb-0 Los paquetes de gestión de información personal (PIM) son herramientas que ayudan a los trabajadores del conocimiento a realizar un seguimiento de tareas, personas, proyectos, compromisos e ideas. Estos paquetes ayudan a los usuarios finales a almacenar, organizar y recuperar texto y datos numéricos en forma de notas, listas, recortes, tablas, memorandos, cartas, informes, etc.
     TabsB.color-acento-contenido(data-aos="fade-right")
@@ -418,7 +418,7 @@
             p.mb-0  Los navegadores web se están convirtiendo rápidamente en una de las categorías más populares de paquetes de #[i software].
           .col-lg-4
             figure
-              img(src='@/assets/curso/tema2/img9.svg', style="width: 280px", alt='').m-auto
+              img(src='@/assets/curso/tema2/img9.svg', style="width: 280px", alt='Imágen decorativa').m-auto
       .py-4.py-md-5(titulo="Lenguajes de programación y sus traductores" :icono="require('@/assets/curso/tema1/img20.svg')")
         .row.align-items-center
           .col-lg-8.mb-4.mb-lg-0
@@ -459,7 +459,7 @@
                         i.fas.fa-file-download(style="color:#000 !important")
           .col-lg-4
             figure
-              img(src='@/assets/curso/tema2/img10.svg', style="width: 280px", alt='').m-auto
+              img(src='@/assets/curso/tema2/img10.svg', style="width: 280px", alt='Imágen decorativa').m-auto
     Separador
     #t_2_2
     .titulo-segundo.color-acento-botones
@@ -467,7 +467,7 @@
     .row.justify-content-center.mb-5
       .col-lg-auto.px-0(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/tema2/img25.png', style="width: 485px", alt='').m-auto
+          img(src='@/assets/curso/tema2/img25.png', style="width: 485px", alt='Imágen decorativa').m-auto
       .col-md-9.col-lg.bg-c27(data-aos="fade-left")
         .p-3
           .row.mb-3
@@ -536,7 +536,7 @@
     .row.align-items-center.mb-5
       .col-lg-3.mb-4.mb-lg-0(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/tema2/img29.png', style="width: 350px", alt='').m-auto
+          img(src='@/assets/curso/tema2/img29.png', style="width: 350px", alt='Imágen decorativa').m-auto
       .col-lg-9(data-aos="fade-left")
         .cajon.color-primario.p-4
           p.mb-0 Por lo tanto, la información se recopila y almacena en archivos o en lo que se denomina una base de datos (o BDD). El archivo es una colección, un conjunto de datos reunidos bajo el mismo nombre. Técnicamente, es información digital compuesta por una secuencia de bytes, es decir, una secuencia de números. La base de datos (BDD) es una estructura de almacenamiento de información que toma la forma de grandes tablas, como una tabla de Excel. Cada columna se utiliza para ordenar un tipo de datos y cada fila representa un registro y, por ende, puede encontrar en la columna el número del contacto, su nombre, su nombre, su función y su número de teléfono. Cada línea representa un registro.
@@ -548,14 +548,14 @@
       .col-12
         .px-5.pb-5.pt-1
           figure
-            img(src='@/assets/curso/tema2/img11.svg', style="width: 1150px", alt='Zonas de almacenamiento de información, Directamente en los discos duros de los servidores SI de la organización. En este contexto, la información solo es accesible desde este servidor. En áreas de almacenamiento dentro del SI de la organización. Estos son discos duros muy grandes accesibles a través de la red corporativa. En este contexto, la información es accesible desde todos los componentes del SI, pero sólo dentro de la organización. En la Nube. En este contexto, la información es accesible desde cualquier parte del mundo.').m-auto
+            img(src='@/assets/curso/tema2/img11.svg', style="width: 1150px", alt='La imagen muestra las zonas de almacenamiento que están descritas debajo de esta.').m-auto
     .row.mb-4(data-aos="fade-right")
       .col-auto.px-4.py-3.bg-c3
         h3.mb-0 Para procesar información
     .row.align-items-center.mb-5
       .col-auto(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/tema1/img1.svg', style="width: 30px", alt='').m-auto
+          img(src='@/assets/curso/tema1/img1.svg', style="width: 30px", alt='Imágen decorativa').m-auto
       .col(data-aos="fade-left")
         p.mb-0 Una vez que la información ha sido recopilada y almacenada, está disponible para su procesamiento, este proceso consiste en producir nueva información a partir de la información existente a través de programas de computadora u operaciones manuales.
     .row.bg-c12.mb-5(data-aos="fade-left")
@@ -574,11 +574,11 @@
                     p Este es el procesamiento más sencillo ya que consiste en acceder a la información tal como fue registrada.
                   .col-lg-auto
                     figure
-                      img(src='@/assets/curso/tema2/img12.svg', style="width: 270px", alt='').m-auto
+                      img(src='@/assets/curso/tema2/img12.svg', style="width: 270px", alt='Imágen decorativa').m-auto
                 .row.align-items-center
                   .col-lg-auto.mb-4.mb-lg-0
                     figure
-                      img(src='@/assets/curso/tema2/img13.svg', style="width: 270px", alt='').m-auto
+                      img(src='@/assets/curso/tema2/img13.svg', style="width: 270px", alt='Imágen decorativa').m-auto
                   .col
                     p.txt-c2 #[b Organizar la información]
                     p.txt-c2 Este procesamiento consiste en estructurar la información según criterios específicos. Esta podrá, por ejemplo, agrupar información por cliente, por zona geográfica, por actividad y muchas más.
@@ -588,11 +588,11 @@
                     p Este tratamiento consistirá en tomar información previamente registrada y actualizarla, según los requerimientos o necesidades organizacionales.
                   .col-lg-auto
                     figure
-                      img(src='@/assets/curso/tema2/img14.svg', style="width: 270px", alt='').m-auto
+                      img(src='@/assets/curso/tema2/img14.svg', style="width: 270px", alt='Imágen decorativa').m-auto
                 .row.align-items-center
                   .col-lg-auto.mb-4.mb-lg-0
                     figure
-                      img(src='@/assets/curso/tema2/img15.svg', style="width: 270px", alt='').m-auto
+                      img(src='@/assets/curso/tema2/img15.svg', style="width: 270px", alt='Imágen decorativa').m-auto
                   .col
                     p.txt-c2 #[b Producir nueva información]
                     p.txt-c2 A partir de información(es) existente(s), este procesamiento permitirá la creación de nueva información, dicha información toma como base información ya analizada, pero se construye con el fin de suplir las necesidades organizacionales, se encamina hacia la búsqueda de diferentes soluciones, cuestionamientos, e intereses propios de la empresa.
@@ -642,10 +642,10 @@
                   |
                   p.mb-0 Implementar procesos para abordar problemas.
               figure.d-none.d-lg-block
-                img(src='@/assets/curso/tema2/img17.svg', style="width: 270px", alt='').m-auto
+                img(src='@/assets/curso/tema2/img17.svg', style="width: 270px", alt='Imágen decorativa').m-auto
             .col-lg-6(data-aos="fade-left")
               figure.mb-4
-                img(src='@/assets/curso/tema2/img18.svg', style="width: 270px", alt='').m-auto
+                img(src='@/assets/curso/tema2/img18.svg', style="width: 270px", alt='Imágen decorativa').m-auto
               ul.lista-ul--color.lista-ul--separador
                 li.d-flex
                   i.fas.fa-check-circle(style="color: #4ADBD1")
@@ -673,7 +673,7 @@
           p.mb-0 Los sistemas de TI deben operar a un cierto nivel de servicio para que el negocio tenga éxito. Una buena gestión de sistemas simplifica la prestación de servicios de TI, permite a los grupos de trabajo ser más eficientes, también contribuye a que las empresas sean más proactivas, dedicando menos tiempo a solucionar problemas y más tiempo a planificar para el futuro y realizar mejoras.
       .col-lg-5(data-aos="fade-left")
         figure
-          img(src='@/assets/curso/tema2/img31.png', style="width: 470px", alt='').m-auto
+          img(src='@/assets/curso/tema2/img31.png', style="width: 470px", alt='Imágen decorativa').m-auto
     .row.mb-4(data-aos="fade-right")
       .col-auto.px-4.py-3.bg-c3
         h3.mb-0 Subsistemas de gestión de sistemas de TI
@@ -682,13 +682,13 @@
       .col-10.col-lg-6.bg-c31(data-aos="fade-right")
         .p-4.p-lg-5
           figure.mb-4
-            img(src='@/assets/curso/tema2/img19.svg', style="width: 170px", alt='').m-auto
+            img(src='@/assets/curso/tema2/img19.svg', style="width: 170px", alt='Imágen decorativa').m-auto
           p.text-center.text-white #[b Gestión del ciclo de vida de las aplicaciones]
           p.text-center.text-white Esta es la supervisión de todas las etapas de la vida de una aplicación de #[i software], desde la planificación hasta el retiro. ALM implica la documentación y el seguimiento de los cambios en una aplicación, así como la mejora de la experiencia del usuario, la supervisión de la aplicación y la resolución de problemas.
       .col-10.col-lg-6.bg-c32(data-aos="fade-left")
         .p-4.p-lg-5
           figure.mb-4
-            img(src='@/assets/curso/tema2/img20.svg', style="width: 170px", alt='').m-auto
+            img(src='@/assets/curso/tema2/img20.svg', style="width: 170px", alt='Imágen decorativa').m-auto
           p.text-center #[b Gestión del ciclo de vida de los activos]
           p.text-center Esto implica todas las etapas de la vida del #[i hardware] y el #[i software], desde la planificación y la adquisición hasta el desmantelamiento y el retiro. El ciclo de vida de los activos de TI cubre las licencias de #[i software], desde los hipervisores hasta las aplicaciones comerciales, y el análisis del costo de los activos frente al valor o los ingresos generados.
     .row.mb-4(data-aos="fade-right")
@@ -701,7 +701,7 @@
           .row.align-items-center.justify-content-center
             .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
               figure
-                img(src='@/assets/curso/tema2/img32.png', style="width: 400px", alt='').m-auto
+                img(src='@/assets/curso/tema2/img32.png', style="width: 400px", alt='Imágen decorativa').m-auto
             .col-lg-6.bg-c19(data-aos="fade-left")
               .p-3
                 SlyderA(tipo="b")
@@ -798,49 +798,49 @@
                       p.mb-0 Entre ellos se encuentran problemas técnicos, de almacenamiento, de acceso, usuarios etc.
                     .col-lg-4
                       figure
-                        img(src='@/assets/curso/tema2/img33.png', style="width: 450px", alt='').m-auto
+                        img(src='@/assets/curso/tema2/img33.png', style="width: 450px", alt='Imágen decorativa').m-auto
                   .row.m-1
                     .col-lg-8.mb-4.mb-lg-0
                       p.txt-c1.fs-5 #[b Gestión de servicios de TI]
                       p.mb-0 Esta es la creación y gestión de un enfoque estratégico para diseñar, entregar, gestionar y mejorar la forma en que se utiliza la TI para que una organización pueda cumplir sus objetivos comerciales. ITSM permite a las empresas administrar los servicios de TI a lo largo de su ciclo de vida.
                     .col-lg-4
                       figure
-                        img(src='@/assets/curso/tema2/img34.png', style="width: 450px", alt='').m-auto
+                        img(src='@/assets/curso/tema2/img34.png', style="width: 450px", alt='Imágen decorativa').m-auto
                   .row.m-1
                     .col-lg-8.mb-4.mb-lg-0
                       p.txt-c1.fs-5 #[b Administración de redes]
                       p.mb-0 Esta es la administración de redes tanto cableadas como inalámbricas. El marco FCAPS (fallo, configuración, contabilidad, rendimiento y seguridad) para el monitoreo y la administración de la red y las mejores prácticas de ITIL son herramientas administrativas populares para este subsistema.
                     .col-lg-4
                       figure
-                        img(src='@/assets/curso/tema2/img35.png', style="width: 450px", alt='').m-auto
+                        img(src='@/assets/curso/tema2/img35.png', style="width: 450px", alt='Imágen decorativa').m-auto
                   .row.m-1
                     .col-lg-8.mb-4.mb-lg-0
                       p.txt-c1.fs-5 #[b Gestión del rendimiento]
                       p.mb-0 Esta es la supervisión de la infraestructura de TI de una organización para garantizar que los indicadores clave de rendimiento, los niveles de servicio y los presupuestos cumplan con los objetivos comerciales de la organización.
                     .col-lg-4
                       figure
-                        img(src='@/assets/curso/tema2/img36.png', style="width: 450px", alt='').m-auto
+                        img(src='@/assets/curso/tema2/img36.png', style="width: 450px", alt='Imágen decorativa').m-auto
                   .row.m-1
                     .col-lg-8.mb-4.mb-lg-0
                       p.txt-c1.fs-5 #[b Información de seguridad y gestión de eventos]
                       p.mb-0 Esta es una visión holística de la seguridad de TI de una organización. SIEM combina las funciones de gestión de información de seguridad y gestión de eventos de seguridad (SEM) en un solo sistema de gestión de seguridad.
                     .col-lg-4
                       figure
-                        img(src='@/assets/curso/tema2/img37.png', style="width: 450px", alt='').m-auto
+                        img(src='@/assets/curso/tema2/img37.png', style="width: 450px", alt='Imágen decorativa').m-auto
                   .row.m-1
                     .col-lg-8.mb-4.mb-lg-0
                       p.txt-c1.fs-5 #[b Gestión de servidores]
                       p.mb-0 Es la consolidación y gestión de servidores en un entorno homogéneo o heterogéneo. Implica la supervisión de la gestión de parches, la eficiencia, el uso y el rendimiento de la energía, así como el mantenimiento predictivo.
                     .col-lg-4
                       figure
-                        img(src='@/assets/curso/tema2/img38.png', style="width: 450px", alt='').m-auto
+                        img(src='@/assets/curso/tema2/img38.png', style="width: 450px", alt='Imágen decorativa').m-auto
                   .row.m-1
                     .col-lg-8.mb-4.mb-lg-0
                       p.txt-c1.fs-5 #[b Administración de almacenamiento]
                       p.mb-0 Es el establecimiento y gestión de procedimientos, servicios y estándares para la gestión de la infraestructura de almacenamiento y los servicios de almacenamiento en la nube de terceros.
                     .col-lg-4
                       figure
-                        img(src='@/assets/curso/tema2/img39.png', style="width: 450px", alt='').m-auto
+                        img(src='@/assets/curso/tema2/img39.png', style="width: 450px", alt='Imágen decorativa').m-auto
     .row.mb-4(data-aos="fade-right")
       .col-auto.px-4.py-3.bg-c3
         h3.mb-0 Retos de la gestión de sistemas
@@ -850,7 +850,7 @@
         ImagenInfografica.color-secundario
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/tema2/img40.png', alt='')
+              img(src='@/assets/curso/tema2/img40.png', alt='Imágen decorativa')
           .tarjeta.color-secundario.p-3(x="5%" y="14%" numero="+")
             p.mb-0 La administración de sistemas cuesta dinero, se debe invertir en el personal de TI, las herramientas de administración de sistemas y la capacitación necesaria para usar dichas herramientas.
           .tarjeta.color-secundario.p-3(x="5%" y="33%" numero="+")

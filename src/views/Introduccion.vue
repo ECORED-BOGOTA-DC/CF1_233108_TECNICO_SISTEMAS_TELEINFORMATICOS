@@ -11,7 +11,7 @@
       .col-12
         .px-5
           figure(data-aos="fade-right")
-            img(src='@/assets/curso/intro/img1.png', style="width: 1200px", alt='').m-auto
+            img(src='@/assets/curso/intro/img1.png', style="width: 1200px", alt='Imágen decorativa').m-auto
           .row.justify-content-center.mb-5(data-aos="fade-down")
             .col-lg-10.bg-c2.shadow-sm.p-4
               p.mb-0 Bienvenido a este componente formativo denominado “Herramientas informáticas para las organizaciones” para comenzar el recorrido por el mismo, revise la información que se presenta a continuación:
