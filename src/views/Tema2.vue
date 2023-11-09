@@ -39,14 +39,14 @@
           .row.align-items-center.justify-content-center
             .col-lg-6.mb-4.mb-lg-0
               p #[b Telecomunicaciones]
-              p.mb-0 Este componente conecta el #[i hardware] para formar una red. Las conexiones pueden ser a través de cables, como Ethernet o fibra óptica, o inalámbricas, como a través de Wi-Fi . Se puede diseñar una red para unir computadoras en un área específica, como una oficina o una escuela, a través de una red de área local (LAN). Si las computadoras están más dispersas, la red se denomina red de área amplia (WAN). Internet puede considerarse una red de redes.
+              p.mb-0 Este componente conecta el #[i hardware] para formar una red. Las conexiones pueden ser a través de cables, como Ethernet o fibra óptica, o inalámbricas, como a través de Wi-Fi. Se puede diseñar una red para unir computadoras en un área específica, como una oficina o una escuela, a través de una red de área local (LAN). Si las computadoras están más dispersas, la red se denomina red de área amplia (WAN). Internet puede considerarse una red de redes.
             .col-lg-5
               figure
                 img(src='@/assets/curso/tema2/img4.png', style="width: 470px", alt='Imágen decorativa').m-auto
           .row.align-items-center.justify-content-center
             .col-lg-6.mb-4.mb-lg-0
               p #[b Bases de datos]
-              p Los datos son los hechos y cifras sin procesar que no están organizados y que luego se procesan para generar información. Los #[i software]s se utilizan para organizar y entregar datos al usuario, administrar el almacenamiento físico de medios y recursos virtuales. Como el #[i hardware] no puede funcionar sin el #[i software], al igual que el #[i software] necesita datos para su procesamiento. Los datos se gestionan mediante el sistema de gestión de base de datos.
+              p Los datos son los hechos y cifras sin procesar que no están organizados y que luego se procesan para generar información. Los #[i software] se utilizan para organizar y entregar datos al usuario, administrar el almacenamiento físico de medios y recursos virtuales. Como el #[i hardware] no puede funcionar sin el #[i software], al igual que el #[i software] necesita datos para su procesamiento. Los datos se gestionan mediante el sistema de gestión de base de datos.
               p.mb-0 Una base de datos es un lugar donde se recopilan datos y desde el cual se pueden consultar utilizando algunos criterios específicos. Las bases de datos han adquirido una importancia en los sistemas de información con la aparición de "big data", un término que se refiere a las cantidades realmente masivas de datos que se pueden recopilar y analizar.
             .col-lg-5
               figure
@@ -61,7 +61,7 @@
           .row.align-items-center.justify-content-center
             .col-lg-6.mb-4.mb-lg-0
               p #[b Recursos humanos y procedimientos]
-              p.mb-0 Está asociado con la mano de obra requerida para operar y administrar el sistema. Las personas son el usuario final del sistema de información, el usuario final utiliza la información producida para sus propios fines, el objetivo principal del sistema de información es beneficiar a las personas. los usuarios finales pueden ser contadores, ingenieros, vendedores, clientes, empleados o gerentes, etc. Las personas también son responsables de desarrollar y operar los sistemas de información. Incluyen analistas de sistemas, operadores de computadoras, programadores y otro personal administrativo de SÍ y técnicas gerenciales.
+              p.mb-0 Está asociado con la mano de obra requerida para operar y administrar el sistema. Las personas son el usuario final del sistema de información, el usuario final utiliza la información producida para sus propios fines, el objetivo principal del sistema de información es beneficiar a las personas. Los usuarios finales pueden ser contadores, ingenieros, vendedores, clientes, empleados o gerentes, etc. Las personas también son responsables de desarrollar y operar los sistemas de información. Incluyen analistas de sistemas, operadores de computadoras, programadores y otro personal administrativo de SÍ y técnicas gerenciales.
             .col-lg-5
               figure
                 img(src='@/assets/curso/tema2/img7.png', style="width: 470px", alt='Imágen decorativa').m-auto
@@ -315,7 +315,7 @@
           .titulo-sexto.color-acento-botones
             p.mb-0 #[b Figura 1]. Características del sistema abierto
           figure
-            img(src='@/assets/curso/tema2/img8.svg', style="width: 1150px", alt='La imagen muestra las características del sistema abierto, entre las que se encuentran:<br>Portabilidad<br>Interoperabilidad<br>Escalabilidad').m-auto
+            img(src='@/assets/curso/tema2/img8.svg', style="width: 1150px", alt='La imagen muestra las características del sistema abierto, entre las que se encuentran: Portabilidad: se puede mover de un sistema informático a otro. Interoperabilidad: significa que las máquinas de varios proveedores y capacidades pueden trabajar juntas para producir la información necesaria. Escalabilidad: es aquella que se puede mover sin una repr5ogramación significativa').m-auto
     .row.mb-4(data-aos="fade-right")
       .col-auto.px-4.py-3.bg-c3
         h3.mb-0 #[i Software] de productividad personal
@@ -520,7 +520,7 @@
                     img(src="@/assets/curso/tema2/img27.png", alt="alt")
                 .crd_hover_txt--body1
                   p.text-center.text-white #[b Fuente externa]
-                  p.text-center.text-white.mb-0 Este es el flujo de información generado por partes interesadas externas a la empresa (clientes, proveedores, Estado, etc.) y que son esenciales para anticipar cambios y adaptar los SI para servir a la 'organización. Al establecer un monitoreo (tecnológico, social, legal, comercial, etc.), la empresa se da cuenta de que es fundamental para ella estar particularmente atenta a la información de fuentes externas.
+                  p.text-center.text-white.mb-0 Este es el flujo de información generado por partes interesadas externas a la empresa (clientes, proveedores, Estado, etc.) y que son esenciales para anticipar cambios y adaptar los SI para servir a la organización. Al establecer un monitoreo (tecnológico, social, legal, comercial, etc.), la empresa se da cuenta de que es fundamental para ella estar particularmente atenta a la información de fuentes externas.
     .row.mb-4(data-aos="fade-right")
       .col-auto.px-4.py-3.bg-c3
         h3.mb-0 Memorización de la información
@@ -548,7 +548,8 @@
       .col-12
         .px-5.pb-5.pt-1
           figure
-            img(src='@/assets/curso/tema2/img11.svg', style="width: 1150px", alt='La imagen muestra las zonas de almacenamiento que están descritas debajo de esta.').m-auto
+            img(src='@/assets/curso/tema2/img11.svg', style="width: 1150px", alt='Directamente en los discos duros de los servidores SI de la organización. En este contexto, la información solo es accesible desde este servidor. En la Nube. En este contexto, la información es accesible desde cualquier parte del mundo.	En áreas de almacenamiento dentro del SI de la organización. Estos son discos duros muy grandes accesibles a través de la red corporativa. En este contexto, la información es accesible desde todos los componentes del SI, pero sólo dentro de la organización.').m-auto
+
     .row.mb-4(data-aos="fade-right")
       .col-auto.px-4.py-3.bg-c3
         h3.mb-0 Para procesar información
@@ -794,8 +795,8 @@
                   .row.m-1
                     .col-lg-8.mb-4.mb-lg-0
                       p.txt-c1.fs-5 #[b Gestión de la mesa de ayuda]
-                      p Esto implica informar y realizar un seguimiento a los problemas que han sido informado a mesa de ayuda, así como gestionar las resoluciones de esos problemas.
-                      p.mb-0 Entre ellos se encuentran problemas técnicos, de almacenamiento, de acceso, usuarios etc.
+                      p Esto implica informar y realizar un seguimiento a los problemas que han sido informados a mesa de ayuda, así como gestionar las resoluciones de esos problemas.
+                      p.mb-0 Entre ellos se encuentran problemas técnicos, de almacenamiento, de acceso, usuarios, etc.
                     .col-lg-4
                       figure
                         img(src='@/assets/curso/tema2/img33.png', style="width: 450px", alt='Imágen decorativa').m-auto
@@ -856,7 +857,7 @@
           .tarjeta.color-secundario.p-3(x="5%" y="33%" numero="+")
             p.mb-0 La administración de sistemas es una parte clave de cualquier plan de recuperación ante desastres. Cuando ocurren desastres, los datos y los sistemas deben volver a estar en línea lo más rápido posible.
           .tarjeta.color-secundario.p-3(x="5%" y="52%" numero="+")
-            p.mb-0 Proteger los sistemas de TI se vuelve más desafiante a medida que la infraestructura se vuelve más compleja. Mantener la seguridad del #[i software] de administración de sistemas es particularmente importante. #[i software] afecta sistemas TI, riesgo para seguridad de red.
+            p.mb-0 Proteger los sistemas de TI se vuelve más desafiante a medida que la infraestructura se vuelve más compleja. Mantener la seguridad del #[i software] de administración de sistemas es particularmente importante. #[i Software] afecta sistemas TI, riesgo para seguridad de red.
           .tarjeta.color-secundario.p-3(x="95%" y="14%" numero="+")
             p.mb-0 Uno de los mayores desafíos es lograr que todos los subsistemas trabajen juntos en un entorno de TI que cambia constantemente. Puede ser difícil integrar el #[i software] de administración de sistemas con varios #[i hardware] y otro #[i software].
           .tarjeta.color-secundario.p-3(x="95%" y="33%" numero="+")

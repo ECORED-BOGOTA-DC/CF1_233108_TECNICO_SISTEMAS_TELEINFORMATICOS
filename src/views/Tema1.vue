@@ -90,7 +90,7 @@
                   img(src='@/assets/curso/tema1/img6.png', style="width: 300px", alt='Imágen decorativa').m-auto
               .col-lg-6
                 p #[b.txt-c1 Sistema de Información Geográfica (SIG)]
-                p.mb-0 También  citado como GIS por sus siglas en inglés Geographical Information System, es un conjunto de herramientas que integra y relaciona diversos componentes que permiten la organización, almacenamiento, manipulación, análisis y modelización de grandes cantidades de datos procedentes del entorno que están vinculados a una referencia espacial, facilitando la incorporación de aspectos sociales-culturales, económicos y ambientales que permiten la  toma de decisiones de una manera más eficaz.
+                p.mb-0 También  citado como GIS por sus siglas en inglés <i>Geographical Information System</i>, es un conjunto de herramientas que integra y relaciona diversos componentes que permiten la organización, almacenamiento, manipulación, análisis y modelización de grandes cantidades de datos procedentes del entorno que están vinculados a una referencia espacial, facilitando la incorporación de aspectos sociales-culturales, económicos y ambientales que permiten la  toma de decisiones de una manera más eficaz.
         .row.justify-content-center.m-1
           .col-11.bg-c4.p-4
             .row.align-items-center.justify-content-center
@@ -220,7 +220,7 @@
         p.mb-0 A medida que la computadora personal en red comenzó a reemplazar a la computadora central como la forma principal de computación dentro de las empresas, se volvió esencial para Microsoft brindarles a las empresas la capacidad de administrar y proteger sus redes. Microsoft desarrolló productos de servidor de nivel comercial para acompañar sus productos de computadora personal, proporcionando así una solución comercial completa. Y ahora, dice el dicho: “Nadie fue despedido por comprar Microsoft”.
     .row.mb-4(data-aos="fade-right")
       .col-auto.px-4.py-3.bg-c3
-        h3.mb-0 #[i software] de la aplicación
+        h3.mb-0 #[i Software] de la aplicación
     .row.justify-content-end.bg-c9.mb-5
       .col-lg-6.bg-c10.shadow-sm.p-5.my-4(data-aos="fade-right")
         p.mb-0 Este #[i software] permite al usuario lograr algún objetivo o propósito. Por ejemplo, si tiene que escribir un artículo, puede usar el programa de #[i software] de aplicación Microsoft Word. Si quieres escuchar música, puedes usar iTunes. Para navegar por la web, puedes usar Internet Explorer o Firefox. Incluso un juego de computadora podría considerarse #[i software] de aplicación.
@@ -237,7 +237,7 @@
               img(src='@/assets/curso/tema1/img16.svg', style="width: 380px", alt='Imágen decorativa').m-auto
     .row.mb-4(data-aos="fade-right")
       .col-auto.px-4.py-3.bg-c3
-        h3.mb-0 #[i software] de productividad
+        h3.mb-0 #[i Software] de productividad
     p.mb-5(data-aos="fade-right") Junto con la hoja de cálculo, varias otras aplicaciones de #[i software] se han convertido en herramientas estándar para el lugar de trabajo. Estas aplicaciones, denominadas #[i software] de productividad, permiten a los empleados de oficina completar su trabajo diario. Muchas veces, estas aplicaciones vienen empaquetadas juntas, como en el paquete Office de Microsoft. Aquí hay una lista de estas aplicaciones y sus funciones básicas:
     TabsB.color-acento-contenido.mb-5(data-aos="fade-left")
       .py-4.py-md-5(titulo="Procesamiento de textos" :icono="require('@/assets/curso/tema1/img18.svg')")
@@ -279,7 +279,7 @@
           p.mb-0 Similar a Google Drive, esta suite permite a los usuarios editar y compartir documentos en línea utilizando tecnología de computación en la nube.
     .row.mb-4(data-aos="fade-right")
       .col-auto.px-4.py-3.bg-c3
-        h3.mb-0 #[i software] de utilidad y #[i software] de programación
+        h3.mb-0 #[i Software] de utilidad y #[i software] de programación
     .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-left")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema1/img13.png')})`}"
@@ -354,7 +354,7 @@
               PasosA.color-acento-contenido.mb-5(tipo="n")
                 .row.align-items-center
                   .col.mb-4.mb-lg-0
-                    p Un ERP es una aplicación que utilizan muchos de los empleados de una organización. “utilizando una base de datos central”: Todos los usuarios del ERP editan y guardan su información de la fuente de datos. Lo que esto significa en la práctica es que solo hay una base de datos de clientes, solo hay un cálculo de ingresos, etc.
+                    p Un ERP es una aplicación que utilizan muchos de los empleados de una organización. “Utilizando una base de datos central”: Todos los usuarios del ERP editan y guardan su información de la fuente de datos. Lo que esto significa en la práctica es que solo hay una base de datos de clientes, solo hay un cálculo de ingresos, etc.
                   .col-lg-auto
                     figure
                       img(src='@/assets/curso/tema1/img28.svg', style="width: 170px", alt='Imágen decorativa').m-auto
@@ -393,13 +393,13 @@
               img(src='@/assets/curso/tema1/img34.svg', style="width: 550px", alt='Imágen decorativa').m-auto
       .col-lg-8.bg-c15(data-aos="fade-down")
         .p-4
-          p.mb-0.mt-4 Un sistema de gestión de relaciones con los clientes (CRM) es una aplicación de software diseñada para gestionar los clientes de una organización. En el entorno actual, es importante desarrollar relaciones con sus clientes, y el uso de un CRM bien diseñado puede permitir que una empresa personalice su relación con cada uno de sus clientes. Algunos sistemas de software ERP incluyen módulos CRM. Un ejemplo de un paquete de CRM muy conocido es <i>Salesforce</i>.
+          p.mb-0.mt-4 Un sistema de gestión de relaciones con los clientes (CRM) es una aplicación de #[i software] diseñada para gestionar los clientes de una organización. En el entorno actual, es importante desarrollar relaciones con sus clientes, y el uso de un CRM bien diseñado puede permitir que una empresa personalice su relación con cada uno de sus clientes. Algunos sistemas de #[i software]  ERP incluyen módulos CRM. Un ejemplo de un paquete de CRM muy conocido es <i>Salesforce</i>.
 
     .row.mb-4(data-aos="fade-right")
       .col-auto.px-4.py-3.bg-c3
         h3.mb-0 Gestión de la cadena de suministro
 
-    p.mb-5 Muchas organizaciones deben afrontar la compleja tarea de gestionar sus cadenas de suministro, aclaremos un poco dicho termino:
+    p.mb-5 Muchas organizaciones deben afrontar la compleja tarea de gestionar sus cadenas de suministro, aclaremos un poco dicho término:
 
     .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-lg-10
@@ -443,8 +443,10 @@
       .col-lg-8(data-aos="fade-left")
         p.mb-0 Si se accede al correo electrónico a través de un navegador web, se está utilizando una forma de computación en la nube. Si se utilizan las aplicaciones de Google Drive, se está utilizando la computación en la nube. Si bien estas son versiones gratuitas de computación en la nube, existe un gran negocio al proporcionar aplicaciones y almacenamiento de datos a través de la web.
     p.text-center.mb-5(data-aos="fade-right") #[b A continuación, se describen algunas ventajas y desventajas de la computación en la nube:]
+
     figure.mb-5(data-aos="fade-left")
-      img(src='@/assets/curso/tema1/img37.svg', style="width: 1150px", alt='Imágen decorativa').m-auto
+      img(src='@/assets/curso/tema1/img37.svg', style="width: 1150px", alt='Ventajas a. No hay “software” para instalar o actualizaciones para mantener. b. Disponible desde cualquier computadora que tenga acceso a Internet. c. Puede escalar a una gran cantidad de usuarios fácilmente. d. Las nuevas aplicaciones pueden estar listas y funcionando muy rápidamente. e. Los servicios se pueden arrendar por un tiempo limitado según sea necesario. f. Su información no se pierde si su disco duro falla o si le roban su computadora portátil. g. No está limitado por la memoria disponible o el espacio en disco de su computadora. Desventajas a. Su información se almacena en la computadora de otra persona, ¿qué tan segura es? b. Se debe tener acceso a Internet para usarlo. Si no se tienes acceso, es imposible acceder a la información. c. Está confiando en un tercero para proporcionar estos servicios, en muchos casos se requiere de un proveedor para solucionar los problemas que pueden presentarse.').m-auto
+    
     .row.align-items-center.mb-5
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
@@ -483,7 +485,7 @@
             p.text-white.mb-0 La programación de #[i software] era originalmente un proceso individual, con cada programador trabajando en un programa completo, o varios programadores trabajando cada uno en una parte de un programa más grande. Sin embargo, los métodos más nuevos de desarrollo de #[i software] incluyen un enfoque más colaborativo, con equipos de programadores que trabajan juntos en el código.
     .row.mb-4(data-aos="fade-right")
       .col-auto.px-4.py-3.bg-c3
-        h3.mb-0 #[i software] de código abierto
+        h3.mb-0 #[i Software] de código abierto
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-left")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema1/img23.png')})`}"
@@ -586,7 +588,7 @@
                     .col-lg-8.mb-4.mb-lg-0
                       p.txt-c1.fs-5 #[b Para la comercialización]
                       p Las computadoras permiten que una empresa pueda posicionarse, el equipo de desarrolladores de TI de una empresa puede crear un sitio web profesional completo con gráficos atractivos y contenido como texto, imágenes y videos. Pueden hacer optimización de motor de búsqueda (SEO) que le permita ser reconocida por el público objetivo.
-                      p.mb-0 Con una computadora, una empresa puede crear, ejecutar o adquirir campañas de marketing completas que abarcan todas las plataformas de redes sociales en Internet, ¡La computadora es probablemente el mejor dispositivo de marketing jamás construido!
+                      p.mb-0 Con una computadora, una empresa puede crear, ejecutar o adquirir campañas de #[i marketing] completas que abarcan todas las plataformas de redes sociales en Internet, ¡La computadora es probablemente el mejor dispositivo de #[i marketing] jamás construido!
                     .col-lg-4
                       figure
                         img(src='@/assets/curso/tema1/img41.svg', style="width: 450px", alt='Imágen decorativa').m-auto
@@ -630,14 +632,14 @@
                   .row
                     .col-lg-8.mb-4.mb-lg-0
                       p.txt-c1.fs-5 #[b Para hacer negocios]
-                      p.mb-0 La tecnología cambia la definición de la frase "hacer negocios". Con las computadoras, puede producir más documentos de los que una máquina de escribir y un mimeógrafo podrían producir. Las computadoras simplifican las transacciones comerciales y permiten que los productos y servicios se vendan en todo el mundo En una oficina totalmente equipada con una red informática, tiene la capacidad de comunicarse a través de la intranet de la empresa, así como a través de Internet. Una intranet es extremadamente valiosa; puede manejar información delicada o confidencial dentro de los límites de la red de su empresa sin preocuparse de que usuarios no autorizados accedan a la red privada de su organización. Las computadoras también son necesarias para las organizaciones con empleados que trabajan a distancia o están ubicados de forma remota.
+                      p.mb-0 La tecnología cambia la definición de la frase "hacer negocios". Con las computadoras, puede producir más documentos de los que una máquina de escribir y un mimeógrafo podrían producir. Las computadoras simplifican las transacciones comerciales y permiten que los productos y servicios se vendan en todo el mundo. En una oficina totalmente equipada con una red informática, tiene la capacidad de comunicarse a través de la intranet de la empresa, así como a través de Internet. Una intranet es extremadamente valiosa; puede manejar información delicada o confidencial dentro de los límites de la red de su empresa sin preocuparse de que usuarios no autorizados accedan a la red privada de su organización. Las computadoras también son necesarias para las organizaciones con empleados que trabajan a distancia o están ubicados de forma remota.
                     .col-lg-4
                       figure
                         img(src='@/assets/curso/tema1/img47.svg', style="width: 450px", alt='Imágen decorativa').m-auto
                   .row
                     .col-lg-8.mb-4.mb-lg-0
                       p.txt-c1.fs-5 #[b Para Recursos Humanos]
-                      p Los sistemas de información de recursos humanos, llamados HRIS, son extremadamente populares, permiten un procesamiento eficiente de solicitudes. En su serie de libros blancos E-HR: La revolución tecnológica en recursos humanos: definición y beneficios, Right Team Inc. señala: "Un sistema de recursos humanos de última generación proporciona los datos, las herramientas y la tecnología subyacentes para administrar y ejecutar actividades de recursos humanos en un entorno integrado”.
+                      p Los sistemas de información de recursos humanos, llamados HRIS, son extremadamente populares, permiten un procesamiento eficiente de solicitudes. En su serie de libros blancos E-HR: La revolución tecnológica en recursos humanos: definición y beneficios, <i>Right Team</i> Inc. señala: “Un sistema de recursos humanos de última generación proporciona los datos, las herramientas y la tecnología subyacentes para administrar y ejecutar actividades de recursos humanos en un entorno integrado”.
                       p.mb-0 Los sistemas HRIS recopilan datos para informes, directos, oficiales, federales, estatales y locales, como formularios de igualdad de oportunidades de empleo que algunas empresas deben enviar a las agencias gubernamentales. Los sistemas HRIS también clasifican los datos de empleo, procesan nómina, calculan beneficios de los empleados, realizan auditorías de recursos humanos, analizan tasas de rotación y recopilan las respuestas de los empleados a las encuestas de opinión y las entrevistas de salida.
                     .col-lg-4
                       figure
@@ -721,7 +723,7 @@
             .tarjeta.color-acento-contenido.p-3(x="60%" y="40%" numero="+")
               .row.align-items-center
                 .col-lg.mb-4.mb-lg-0
-                  p.mb-0 Con la tecnología, ha sido posible globalizar las operaciones comerciales, ahora, cualquier persona puede hacer negocios desde cualquier lugar, esto ha hecho posible que las empresas tengan un alcance más amplio en el mundo, el Internet es ahora una parte crucial de la campaña de marketing de cualquier empresa, ya que le permite atraer clientes en todo el mundo. Sin embargo, también existen amenazas para los negocios provocadas por la tecnología, estos incluyen actividades maliciosas como por ejemplo la piratería.
+                  p.mb-0 Con la tecnología, ha sido posible globalizar las operaciones comerciales, ahora, cualquier persona puede hacer negocios desde cualquier lugar, esto ha hecho posible que las empresas tengan un alcance más amplio en el mundo, el Internet es ahora una parte crucial de la campaña de #[i marketing] de cualquier empresa, ya que le permite atraer clientes en todo el mundo. Sin embargo, también existen amenazas para los negocios provocadas por la tecnología, estos incluyen actividades maliciosas como por ejemplo la piratería.
                 .col-lg-auto
                   figure
                     img(src='@/assets/curso/tema1/img55.svg', style="width: 80px", alt='Imágen decorativa').m-auto
@@ -745,13 +747,13 @@
               figure
                 img(src='@/assets/curso/tema1/img57.svg', style="width: 230px", alt='Imágen decorativa').m-auto
             .col-lg-7
-              p.mb-0 La movilidad es fundamental para las empresas ahora los negocios pueden manejarse utilizando una tableta o un teléfono inteligente, desde allí pueden hacer marketing de contenido, establecer relaciones con los clientes, realizar ventas, manejar los aspectos administrativos etc., por su parte los consumidores usan sus teléfonos para comprar, vender y compartir experiencias.
+              p.mb-0 La movilidad es fundamental para las empresas, ahora los negocios pueden manejarse utilizando una tableta o un teléfono inteligente, desde allí pueden hacer #[i marketing] de contenido, establecer relaciones con los clientes, realizar ventas, manejar los aspectos administrativos, etc., por su parte los consumidores usan sus teléfonos para comprar, vender y compartir experiencias.
           .row(titulo="El fenómeno de la computación en la nube")
             .col-lg-5.mb-4.mb-lg-0
               figure
                 img(src='@/assets/curso/tema1/img58.svg', style="width: 230px", alt='Imágen decorativa').m-auto
             .col-lg-7
-              p.mb-0 Ha hecho posible que las empresas subcontraten muchas de sus funciones a terceros a través de Internet, esto ha permitido que las empresas se expandan rápidamente y adopten la movilidad sin tener que preocuparse por cosas como bloqueos, tiempo de inactividad y pérdida de datos, la computación en la nube a permitido el manejo de información de forma eficiente y segura.
+              p.mb-0 Ha hecho posible que las empresas subcontraten muchas de sus funciones a terceros a través de Internet, esto ha permitido que las empresas se expandan rápidamente y adopten la movilidad sin tener que preocuparse por cosas como bloqueos, tiempo de inactividad y pérdida de datos, la computación en la nube ha permitido el manejo de información de forma eficiente y segura.
           .row(titulo="Mayor segmentación de clientes")
             .col-lg-5.mb-4.mb-lg-0
               figure
@@ -804,7 +806,7 @@
             .tarjeta.color-acento-botones.p-3(x="79%" y="73%" numero="+")
               .row
                 .col-12
-                  p.mb-0 Con un número cada vez mayor de transacciones que se realizan en línea, existe una necesidad cada vez mayor de seguridad. La tecnología de la información es lo que hace posible mantener los datos e información seguros y solo accesibles para el usuario Mediante el uso de encriptación y contraseñas, los datos digitales se ocultan de forma segura y solo aquellos que tienen permiso pueden acceder a ellos.
+                  p.mb-0 Con un número cada vez mayor de transacciones que se realizan en línea, existe una necesidad cada vez mayor de seguridad. La tecnología de la información es lo que hace posible mantener los datos e información seguros y solo accesibles para el usuario. Mediante el uso de encriptación y contraseñas, los datos digitales se ocultan de forma segura y solo aquellos que tienen permiso pueden acceder a ellos.
             .tarjeta.color-acento-botones.p-3(x="19%" y="73%" numero="+")
               .row
                 .col-12
@@ -818,7 +820,7 @@
       .col-12(data-aos="fade-left")
         .p-5
           figure
-            img(src='@/assets/curso/tema1/img66.svg', alt='Imágen decorativa').m-auto
+            img(src='@/assets/curso/tema1/img66.svg', alt='1)	Comunicación: use la tecnología para integrar la comunicación dentro de su organización. 2)	Uso de plataformas: deje que sus empleados estén en sintonía entre sí, utilizando cosas como plataformas de colaboración y redes sociales para mantener a todos informados sobre lo que sucede en el negocio y hacia dónde se dirige. De esa manera, estarán sincronizados con los objetivos del negocio y su productividad mejorará significativamente. 3)	Servicio al cliente: utilice la tecnología para mejorar el servicio que brinda a sus clientes, permitiéndoles brindarle comentarios sobre sus productos y servicios, así como sugerencias sobre lo que puede mejorar. 4)	Seguridad: con la mejora de los estándares de seguridad, también puede eliminar las contraseñas por completo y probar los sistemas de seguridad biométricos, que no requieren que recuerde una docena de contraseñas a la vez.').m-auto
 
     .row.mb-4(data-aos="fade-right")
       .col-auto.px-4.py-3.bg-c3
@@ -844,7 +846,7 @@
           .row.align-items-center.justify-content-center
             .col-lg-6.mb-4.mb-lg-0
               p #[b Correo electrónico]
-              p.mb-0 Este probablemente ha cambiado el entorno de comunicación organizacional de manera más significativa que cualquier otra introducción de tecnología en las últimas décadas, según Thinkquest. El correo electrónico es rápido, eficiente y permite un registro de la interacción. Pero, si bien el correo electrónico puede ser muy efectivo, los empresarios deben evitar usarlo en exceso. A veces, el diálogo directo con una persona es lo mejor.
+              p.mb-0 Este probablemente ha cambiado el entorno de comunicación organizacional de manera más significativa que cualquier otra introducción de tecnología en las últimas décadas, según <i>Thinkquest</i>. El correo electrónico es rápido, eficiente y permite un registro de la interacción. Pero, si bien el correo electrónico puede ser muy efectivo, los empresarios deben evitar usarlo en exceso. A veces, el diálogo directo con una persona es lo mejor.
             .col-lg-5
               figure
                 img(src='@/assets/curso/tema1/img34.png', style="width: 430px", alt='Imágen decorativa').m-auto
@@ -858,14 +860,14 @@
           .row.align-items-center.justify-content-center
             .col-lg-6.mb-4.mb-lg-0
               p #[b Reuniones del Ayuntamiento]
-              p.mb-0 La oportunidad de reunir a un grupo de empleados en una sala para una reunión puede ser una forma muy efectiva de comunicación organizacional, según Lin Grensing-Pophal, autora de Employee Management for Small Business. Ofrece el poder de las conexiones interpersonales y brinda una oportunidad para que los empleados se escuchen y aprendan unos de otros.
+              p.mb-0 La oportunidad de reunir a un grupo de empleados en una sala para una reunión puede ser una forma muy efectiva de comunicación organizacional, según Lin Grensing-Pophal, autora de <i>Employee Management for Small Business</i>. Ofrece el poder de las conexiones interpersonales y brinda una oportunidad para que los empleados se escuchen y aprendan unos de otros.
             .col-lg-5
               figure
                 img(src='@/assets/curso/tema1/img36.png', style="width: 430px", alt='Imágen decorativa').m-auto
           .row.align-items-center.justify-content-center
             .col-lg-6.mb-4.mb-lg-0
               p #[b Video conferencia]
-              p.mb-0 Puede ser una excelente manera de comunicarse con los empleados, especialmente cuando están separados por la distancia. El Internet ha facilitado las comunicaciones comerciales y la grabación y el acercamiento a través de video. Se espera que el iPad tenga un impacto aún mayor en la facilidad de uso y la prevalencia del video en el entorno empresarial, según Steve Vonder Haar, director de investigación y fundador de Interactive Media Strategies.
+              p.mb-0 Puede ser una excelente manera de comunicarse con los empleados, especialmente cuando están separados por la distancia. El Internet ha facilitado las comunicaciones comerciales y la grabación y el acercamiento a través de video. Se espera que el iPad tenga un impacto aún mayor en la facilidad de uso y la prevalencia del video en el entorno empresarial, según Steve Vonder Haar, director de investigación y fundador de <i>Interactive Media Strategies</i>.
             .col-lg-5
               figure
                 img(src='@/assets/curso/tema1/img37.png', style="width: 430px", alt='Imágen decorativa').m-auto
@@ -890,10 +892,10 @@
               p.mb-0 Permiten a los trabajadores convertir documentos, planos, diagramas y fotografías en archivos electrónicos rápidamente para su almacenamiento y transmisión. En lugar de depender de la entrega en mano de documentos importantes en toda la ciudad o en todo el país, los empleados pueden escanear y enviar estos archivos en cuestión de segundos a través de Internet. Un estudio de arquitectura podría, por ejemplo, escanear actualizaciones de un plano, transmitirlo al cliente, recibir cambios y realizar modificaciones, todo antes de que un mensajero hubiera podido cruzar la ciudad por primera vez.
           .row(titulo="Etiquetas por radiofrecuencia")
             .col-12
-              p.mb-0 El desarrollo de la identificación por radiofrecuencia (RFID) ha cambiado sustancialmente el campo de la logística comercial y, junto con otros avances en comunicación comercial, tiene el potencial de aumentar significativamente la eficiencia de una empresa. Las etiquetas RFID son pequeños chips que responden a las ondas de radio con información codificada, lo que permite a las empresas etiquetar y rastrear artículos y materiales. Cuando un empleado activa un dispositivo de escaneo, todas las etiquetas RFID dentro del alcance responderán con su información codificada, lo que permite actualizaciones rápidas de los inventarios del almacén y seguimiento en tiempo real de los envíos a medida que pasan por la cadena de suministro. Poder acceder al inventario a pedido permite a las empresas aprovechar el envío "justo a tiempo".
+              p.mb-0 El desarrollo de la identificación por radiofrecuencia (RFID) ha cambiado sustancialmente el campo de la logística comercial y, junto con otros avances en comunicación comercial, tiene el potencial de aumentar significativamente la eficiencia de una empresa. Las etiquetas RFID son pequeños chips que responden a las ondas de radio con información codificada, lo que permite a las empresas etiquetar y rastrear artículos y materiales. Cuando un empleado activa un dispositivo de escaneo, todas las etiquetas RFID dentro del alcance responderán con su información codificada, lo que permite actualizaciones rápidas de los inventarios del almacén y seguimiento en tiempo real de los envíos a medida que pasan por la cadena de suministro. Poder acceder al inventario ha pedido permite a las empresas aprovechar el envío "justo a tiempo".
     .row.mb-4(data-aos="fade-right")
       .col-auto.px-4.py-3.bg-c3
-        h3.mb-0 ¿cómo usar las herramientas informáticas de manera adecuada?
+        h3.mb-0 ¿Cómo usar las herramientas informáticas de manera adecuada?
     p.mb-5(data-aos="fade-right") Usar correctamente, las herramientas informáticas pueden ayudar a la empresa a ser más organizada y mucho más eficiente, a continuación, algunas estrategias:
     .row.justify-content-center
       .col-lg-8(data-aos="fade-left")
