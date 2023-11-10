@@ -165,7 +165,7 @@ export default {
         'trabajo sistemático fundamentado en los conocimientos obtenidos por la investigación o la experiencia práctica, que se dirige a la fabricación de nuevos materiales, productos o dispositivos; a establecer nuevos procedimientos, sistemas y servicios, o a mejorar considerablemente los ya existentes.',
     },
     {
-      termino: 'Equipos de Computo',
+      termino: 'Equipos de cómputo',
       significado:
         'dispositivo electrónico que almacena y procesa información para después mostrarla en una interfaz a la disposición del usuario, permite una interacción del <i>hardware</i> (parte tangible) con el software (parte intangible).',
     },

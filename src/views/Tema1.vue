@@ -293,7 +293,7 @@
             figure
               img(src="@/assets/curso/tema1/img14.png", alt="alt")
           .crd_hover_txt--body
-            p.text-center #[b #[i software] de Utilidad]
+            p.text-center #[b #[i Software] de Utilidad]
             p.text-center.mb-0 Permite reparar o modificar una computadora, por ejemplo, los #[i software] antivirus y #[i software] de desfragmentación de disco. Permiten llenar las deficiencias de los sistemas operativos
       .col-xl.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt
@@ -301,7 +301,7 @@
             figure
               img(src="@/assets/curso/tema1/img15.png", alt="alt")
           .crd_hover_txt--body1
-            p.text-center.text-white #[b #[i software] de programación]
+            p.text-center.text-white #[b #[i Software] de programación]
             p.text-center.text-white.mb-0 Su propósito es hacer más #[i software]. La mayoría de estos programas brindan a los programadores un entorno en el que pueden escribir el código, probarlo y convertirlo al formato que luego se puede ejecutar en una computadora.
     .row.mb-4(data-aos="fade-right")
       .col-auto.px-4.py-3.bg-c3
